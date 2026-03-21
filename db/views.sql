@@ -8,7 +8,6 @@
 -- ------------------------------------------------------------
 -- 1. Service mix
 -- Q: Which services are most requested and most profitable?
--- Kept simple — filter by city/zip/date at query time.
 -- ------------------------------------------------------------
 CREATE OR REPLACE VIEW v_service_mix AS
 SELECT
@@ -53,23 +52,52 @@ ORDER BY month;
 -- ------------------------------------------------------------
 -- 3. Employee performance
 -- Q: Which employee completed the most jobs / highest revenue?
+-- Owners always show 0 commission regardless of job amount.
+-- Hourly/salary employees show NULL commission (not calculable
+-- from job data alone — hours not tracked in CRM).
 -- ------------------------------------------------------------
 CREATE OR REPLACE VIEW v_employee_performance AS
 SELECT
-    e.name                                      AS employee,
-    COUNT(j.id)                                 AS job_count,
-    ROUND(SUM(j.job_amount), 2)                 AS total_revenue,
-    ROUND(AVG(j.job_amount), 2)                 AS avg_job_value,
-    ROUND(SUM(j.subtotal), 2)                   AS total_catalog_value,
-    ROUND(SUM(j.discount_amount), 2)            AS total_discounts,
+    e.name                                          AS employee,
+    e.role,
+    e.pay_type,
+    COUNT(j.id)                                     AS job_count,
+    ROUND(SUM(j.job_amount), 2)                     AS total_revenue,
+    ROUND(AVG(j.job_amount), 2)                     AS avg_job_value,
+    ROUND(SUM(j.subtotal), 2)                       AS total_catalog_value,
+    ROUND(SUM(j.discount_amount), 2)                AS total_discounts,
     ROUND(
         SUM(j.discount_amount) * 100.0 /
         NULLIF(SUM(j.subtotal), 0)
-    , 1)                                        AS discount_rate_pct
+    , 1)                                            AS discount_rate_pct,
+    ROUND(
+        CASE e.role
+            WHEN 'owner' THEN 0
+            ELSE
+                CASE e.pay_type
+                    WHEN 'commission' THEN
+                        SUM(j.job_amount) * COALESCE(e.commission_rate, 0)
+                    WHEN 'tiered' THEN
+                        SUM(
+                            CASE
+                                WHEN j.job_amount >= e.commission_tier2_threshold
+                                    THEN j.job_amount * e.commission_tier2_rate
+                                WHEN j.job_amount >= e.commission_tier1_threshold
+                                    THEN j.job_amount * e.commission_tier1_rate
+                                ELSE
+                                    j.job_amount * COALESCE(e.commission_rate, 0)
+                            END
+                        )
+                    ELSE NULL
+                END
+        END
+    , 2)                                            AS estimated_commission
 FROM employees e
 JOIN jobs j ON j.employee_id = e.id
 WHERE j.status = 'Completed'
-GROUP BY e.name
+GROUP BY e.name, e.role, e.pay_type, e.commission_rate,
+         e.commission_tier1_rate, e.commission_tier1_threshold,
+         e.commission_tier2_rate, e.commission_tier2_threshold
 ORDER BY total_revenue DESC;
 
 
@@ -113,7 +141,6 @@ ORDER BY total_revenue DESC NULLS LAST;
 -- ------------------------------------------------------------
 -- 6. Lead source ROI
 -- Q: Which lead source brings the most valuable customers?
--- Critical: the business pays per lead on Thumbtack/Google.
 -- ------------------------------------------------------------
 CREATE OR REPLACE VIEW v_lead_source_roi AS
 SELECT
@@ -140,7 +167,6 @@ ORDER BY total_revenue DESC NULLS LAST;
 -- ------------------------------------------------------------
 -- 7. Estimate pipeline
 -- Q: What is the open revenue pipeline and conversion rate?
--- $1.18M in open estimates at 37% historical conversion rate.
 -- ------------------------------------------------------------
 CREATE OR REPLACE VIEW v_estimate_pipeline AS
 SELECT
@@ -161,7 +187,6 @@ FROM estimates;
 -- ------------------------------------------------------------
 -- 8. Customer retention segments
 -- Q: What share of revenue comes from repeat customers?
--- 84% of customers are one-time — retention is a key lever.
 -- ------------------------------------------------------------
 CREATE OR REPLACE VIEW v_customer_retention AS
 SELECT
@@ -192,7 +217,6 @@ ORDER BY customer_count DESC;
 -- ------------------------------------------------------------
 -- 9. Service co-occurrence (ML foundation)
 -- Q: Which services are purchased together in the same job?
--- Directly feeds the upsell model in Phase 1.
 -- ------------------------------------------------------------
 CREATE OR REPLACE VIEW v_service_cooccurrence AS
 SELECT

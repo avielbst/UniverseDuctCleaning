@@ -3,6 +3,7 @@ import os
 import logging
 from dotenv import load_dotenv
 import psycopg2
+import re
 
 load_dotenv()
 
@@ -41,34 +42,116 @@ def clean_money(value):
     return float(value)
 
 def normalize_service_name(name: str | None) -> str | None:
-    """Normalize service name to canonical lowercase form.
-    
-    Examples:
-        "Dryer Vent Cleaning "        -> "dryer vent cleaning"
-        "AIR DUCT DEEP CLEANING"      -> "air duct deep cleaning"
-        "dryer vent routine cleaning" -> "dryer vent cleaning"
-    """
     if not name:
         return None
-    
-    s = name.strip().lower()
-    
-    # Canonical mappings for known variants found in audit
-    mappings = {
-        "dryer vent routine cleaning":          "dryer vent cleaning",
-        "air duct maintenance cleaning":        "maintenance air duct cleaning",
-        "maintenance cleaning":                 "maintenance air duct cleaning",
-        "maintenance duct cleaning":            "maintenance air duct cleaning",
-        "air duct cleaning":                    "air duct deep cleaning",
-        "duct and vent cleaning":               "air duct deep cleaning",
-        "supply vent deep cleaning":            "air duct deep cleaning",
-        "blower deep cleaning + coil maintenance": "blower deep cleaning and coil maintenance",
-        "blower deep cleaning & disinfectant":  "blower deep cleaning and disinfectant",
-    }
-    
-    return mappings.get(s, s)  # If not found in mappings, return the cleaned string as is
 
-import re
+    s = name.strip().lower()
+
+    mappings = {
+        # --- Dryer vent ---
+        "dryer vent routine cleaning":              "dryer vent cleaning",
+        "dryer vent deep cleaning":                 "dryer vent cleaning",
+        "dryer cleaning":                           "dryer vent cleaning",
+        "dryer vent cleaning + roof unclog":        "dryer vent cleaning roof unclog",
+        "dryer vent cleaning - roof unclog":        "dryer vent cleaning roof unclog",
+        "dryer vent roof unclog":                   "dryer vent cleaning roof unclog",
+        "dryer vent cleaning - attic unclog":       "dryer vent cleaning attic unclog",
+        "dryer vent cleaning additional length":    "dryer vent additional length",
+
+        # --- Air duct cleaning ---
+        "air duct maintenance cleaning":            "maintenance air duct cleaning",
+        "maintenance cleaning":                     "maintenance air duct cleaning",
+        "maintenance duct cleaning":                "maintenance air duct cleaning",
+        "vacuum maintenance air duct cleaning":     "maintenance air duct cleaning",
+        "air duct cleaning":                        "air duct deep cleaning",
+        "duct and vent cleaning":                   "air duct deep cleaning",
+        "supply vent deep cleaning":                "air duct deep cleaning",
+        "return duct deep cleaning":                "air duct deep cleaning",
+        "return deep cleaning":                     "air duct deep cleaning",
+        "air duct return deep cleaning":            "air duct deep cleaning",
+
+        # --- Blower cleaning ---
+        "blower deep cleaning + coil maintenance":  "blower deep cleaning and coil maintenance",
+        "blower deep cleaning & coil maintenance":  "blower deep cleaning and coil maintenance",
+        "blower deep cleaning":                     "blower cleaning",
+        "blower fan cleaning":                      "blower cleaning",
+        "blower cleaning & disinfectant":           "blower cleaning",
+
+        # --- UV light ---
+        "uv light system + install":                "uv light system and installation",
+        "uv light system & installation":           "uv light system and installation",
+        "uv light system & installation - plenum":  "uv light system and installation",
+
+        # --- Duct encapsulation ---
+        "duct encapsulation - fiberglass":          "duct encapsulation",
+        "air duct encapsulation":                   "duct encapsulation",
+        "plenum box encapsulation":                 "plenum encapsulation",
+
+        # --- Coil cleaning ---
+        "evaporator coil cleaning":                 "coil cleaning",
+        "coil drip pan cleaning":                   "coil cleaning",
+        "ac unit cleaning":                         "coil cleaning",
+
+        # Dryer vent unclog variants
+        "dryer vent cleaning + roof unclogg":       "dryer vent cleaning roof unclog",
+        "dryer vent roof unclogg":                  "dryer vent cleaning roof unclog",
+        "dryer vent attic unclogg":                 "dryer vent cleaning attic unclog",
+        "dryer vent attic unclog":                  "dryer vent cleaning attic unclog",
+        "dryer vent unclog from roof":              "dryer vent cleaning roof unclog",
+        "dryer vent unclog from wall":              "dryer vent cleaning wall unclog",
+        "dryer vent wall unclog":                   "dryer vent cleaning wall unclog",
+        "dryer vent - wall unclog":                 "dryer vent cleaning wall unclog",
+        "dryer vent - unclog from wall":            "dryer vent cleaning wall unclog",
+        "dryer vent cleaning & wall unclog":        "dryer vent cleaning wall unclog",
+        "dryer vent cleaning + wall unclog":        "dryer vent cleaning wall unclog",
+        "dryer vent cleaning -wall unclog":         "dryer vent cleaning wall unclog",
+        "dryer additional length":                  "dryer vent additional length",
+        "dryer vent cleaning & additional length":  "dryer vent additional length",
+
+        # Blower variants
+        "blower fan deep cleaning":                 "blower cleaning",
+        "blower cleaning (in place)":               "blower cleaning",
+        "blower fan cleaning - in place":           "blower cleaning",
+        "blower fan cleaning in-place":             "blower cleaning",
+        "blower fan in-place cleaning":             "blower cleaning",
+        "blower deep cleaning & disinfectant":      "blower cleaning",
+        "blower cleaning + disinfectant":           "blower cleaning",
+        "blower cleaning & disinfect":              "blower cleaning",
+        "blower cleaning & disinfection":           "blower cleaning",
+        "blower cleaning + disinfecting":           "blower cleaning",
+        "blower cleaning (in-place) & disinfectant":"blower cleaning",
+        "blower deep cleaning + coil cleaning":     "blower deep cleaning and coil maintenance",
+        "blower fan cleaning and coil maintenance": "blower deep cleaning and coil maintenance",
+        "blower cleaning + coil maintenance":       "blower deep cleaning and coil maintenance",
+        "blower cleaning (in-place) + coil maintenance": "blower deep cleaning and coil maintenance",
+        "blower fan & coil cleaning":               "blower deep cleaning and coil maintenance",
+
+        # UV light variants
+        "uv light system & installation + 2 y warranty":    "uv light system and installation",
+        "uv light system & installation + 1 yw":            "uv light system and installation",
+        "uv light system & installation + 1 y warranty":    "uv light system and installation",
+        "uv light system & installation + 1 year warranty": "uv light system and installation",
+        "uv light system & installation (price match)":     "uv light system and installation",
+        "uv light system & installation -plenum":           "uv light system and installation",
+        "uv light system & installation - plenum box":      "uv light system and installation",
+        "uv light system & installation - plenum (price match)": "uv light system and installation",
+        "plenum uv light system & installation":            "uv light system and installation",
+        "uv light system for plenum & installation":        "uv light system and installation",
+        "uv light system & installation plenum":            "uv light system and installation",
+        "hvac  - uv light system & installation":           "uv light system and installation",
+
+        # Duct encapsulation variants
+        "duct encapsulation - fibreglass":          "duct encapsulation",
+        "return duct encapsulation":                "duct encapsulation",
+        "intake duct encapsulation":                "duct encapsulation",
+        "planum duct encapsulation":                "plenum encapsulation",
+        "duct cleaning":                            "air duct deep cleaning",
+        "vacuum air duct cleaning":                 "maintenance air duct cleaning",
+        "maintenance vacuum air duct cleaning":     "maintenance air duct cleaning",
+    }
+
+    return mappings.get(s, s)
+
 
 def normalize_employee_name(tag: str | None) -> str | None:
     """Extract and normalize technician name from a job tag string.
@@ -81,7 +164,7 @@ def normalize_employee_name(tag: str | None) -> str | None:
         "Free Estimate"                 -> None
         None                            -> None
     """
-    if not tag:
+    if not tag or not isinstance(tag, str):
         return None
     
     match = re.search(r'[Tt]echnician\s*:\s*([A-Z][A-Z &]+)', tag)

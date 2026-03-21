@@ -12,3 +12,42 @@
 2026-03-21 17:34:05,317 - INFO - Read 2971 rows
 2026-03-21 17:34:05,317 - INFO - After dropping null names: 2970 rows
 2026-03-21 17:34:05,733 - INFO - Inserted 470 / 2970 rows into customers
+2026-03-22 00:40:30,865 - INFO - Read 9 employees from data/employees.csv
+2026-03-22 00:40:30,912 - INFO - Inserted 9 / 9 rows into employees
+2026-03-22 00:40:39,285 - INFO - Loading customers from: data/raw\customers.csv
+2026-03-22 00:40:39,298 - INFO - Read 2971 rows
+2026-03-22 00:40:39,305 - INFO - After dropping null names: 2970 rows
+2026-03-22 00:40:39,643 - INFO - Inserted 470 / 2970 rows into customers
+2026-03-22 00:59:21,874 - INFO - Read 2770 jobs, 1775 service requests
+2026-03-22 00:59:21,943 - INFO - Merged into 2770 rows
+2026-03-22 01:01:06,708 - INFO - Read 2770 jobs, 1775 service requests
+2026-03-22 01:01:06,746 - INFO - Merged into 2770 rows
+2026-03-22 01:01:07,229 - INFO - Inserted 270 / 2770 rows into jobs
+2026-03-22 01:01:07,229 - WARNING - 120 jobs had unresolved employee tags — employee_id set to NULL
+2026-03-22 01:05:21,632 - INFO - Read 2770 jobs, 1775 service requests
+2026-03-22 01:05:21,683 - INFO - Merged into 2770 rows
+2026-03-22 01:05:22,254 - INFO - Inserted 270 / 2770 rows into jobs
+2026-03-22 01:05:22,254 - WARNING - 120 jobs with unresolved employee tags — employee_id set to NULL (employee may have been removed from employees.csv)
+2026-03-22 01:15:07,435 - INFO - Read 1775 service request rows from data/raw\service_requests.csv
+2026-03-22 01:15:07,440 - INFO - 1026 / 1775 rows have line items
+2026-03-22 01:15:07,468 - INFO - Parsed 3018 line item rows from 1026 jobs (0 jobs had no parseable items)
+2026-03-22 01:18:14,401 - INFO - Read 1775 service request rows from data/raw\service_requests.csv
+2026-03-22 01:18:14,406 - INFO - 1026 / 1775 rows have line items
+2026-03-22 01:18:14,444 - INFO - Parsed 3018 line item rows from 1026 jobs (0 jobs had no parseable items)
+2026-03-22 01:18:14,467 - WARNING - Dropped 12 line items referencing 0 job IDs not in jobs table (likely timing gap between exports)
+2026-03-22 01:18:14,689 - INFO - Inserted 3006 rows into line_items
+2026-03-22 01:21:34,972 - INFO - Read 1775 service request rows from data/raw\service_requests.csv
+2026-03-22 01:21:34,972 - INFO - 1026 / 1775 rows have line items
+2026-03-22 01:21:35,023 - INFO - Parsed 3018 line item rows from 1026 jobs (0 jobs had no parseable items)
+2026-03-22 01:21:35,046 - WARNING - Dropped 12 line items referencing 0 job IDs not in jobs table (likely timing gap between exports)
+2026-03-22 01:21:35,268 - INFO - Inserted 3006 rows into line_items
+2026-03-22 01:22:17,099 - INFO - Read 1775 service request rows from data/raw\service_requests.csv
+2026-03-22 01:22:17,112 - INFO - 1026 / 1775 rows have line items
+2026-03-22 01:22:17,161 - INFO - Parsed 3018 line item rows from 1026 jobs (0 jobs had no parseable items)
+2026-03-22 01:22:17,183 - WARNING - Dropped 12 line items referencing 0 job IDs not in jobs table (likely timing gap between exports)
+2026-03-22 01:22:17,405 - INFO - Inserted 3006 rows into line_items
+2026-03-22 01:25:58,723 - INFO - Read 1775 service request rows from data/raw\service_requests.csv
+2026-03-22 01:25:58,728 - INFO - 1026 / 1775 rows have line items
+2026-03-22 01:25:58,771 - INFO - Parsed 3018 line item rows from 1026 jobs (0 jobs had no parseable items)
+2026-03-22 01:25:58,805 - WARNING - Dropped 12 line items referencing 0 job IDs not in jobs table (likely timing gap between exports)
+2026-03-22 01:25:59,023 - INFO - Inserted 3006 rows into line_items
