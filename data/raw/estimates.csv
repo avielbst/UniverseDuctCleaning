@@ -1,0 +1,1133 @@
+Estimate #,Options count,Customer name,Employees,Estimate status,Created date,Scheduled date,Outcome,Open value,Won value,Lost value,Estimate lead source,Estimate tags,Location name
+4,1,Jorge Sanchez,David Best,Pro approved,2023-05-21T20:32:26-04:00,2023-05-22T15:00:00-04:00,won,,$1241.00,,,"",Universe Duct Cleaning
+9,2,Omer best,David Best,Declined,2023-07-10T22:18:51-04:00,,won,,$0.03,,,"",Universe Duct Cleaning
+14,1,Chris,David Best,Approved,2023-09-11T10:24:43-04:00,2023-09-11T11:00:00-04:00,won,,$887.00,,,"",Universe Duct Cleaning
+685,1,Chris Rodriguez,David Best,Approved,2023-09-16T22:55:25-04:00,2023-09-19T12:00:00-04:00,won,,$1450.00,,,"",Universe Duct Cleaning
+686,1,Candace McKee,David Best,Pro approved,2023-09-18T16:14:07-04:00,2023-09-21T13:00:00-04:00,won,,$2626.00,,,"",Universe Duct Cleaning
+687,1,Ragu Bala,David Best,Pro approved,2023-10-02T11:42:43-04:00,2023-10-06T09:00:00-04:00,won,,$1663.20,,,"",Universe Duct Cleaning
+692,1,Lisa Kruger,David Best,Pro approved,2023-11-16T17:15:06-05:00,2023-11-19T09:00:00-05:00,won,,$500.00,,,"",Universe Duct Cleaning
+693,1,Judy,David Best,Pro approved,2023-11-20T12:22:25-05:00,,won,,$2242.00,,,"",Universe Duct Cleaning
+697,1,Eric Naples,David Best,Approved,2024-01-04T11:25:02-05:00,2024-01-05T14:00:00-05:00,won,,$2001.00,,,"",Universe Duct Cleaning
+698,1,Colleen Schreiber,David Best,Approved,2024-01-15T12:05:09-05:00,2024-01-15T13:00:00-05:00,won,,$648.00,,,"",Universe Duct Cleaning
+699,1,Sandy Jean Baptiste,David Best,Pro approved,2024-01-22T16:19:17-05:00,2024-01-22T17:00:00-05:00,won,,$763.20,,,"",Universe Duct Cleaning
+700,1,David Fesmire,David Best,Approved,2024-01-23T17:38:20-05:00,,won,,$1181.70,,,"",Universe Duct Cleaning
+702,1,Michael knuere,David Best,Pro approved,2024-01-24T16:55:27-05:00,2024-01-25T11:00:00-05:00,won,,$1050.00,,,"",Universe Duct Cleaning
+706,1,Vladimir Piere lois,David Best,Pro approved,2024-02-25T21:18:35-05:00,2024-02-27T13:00:00-05:00,won,,$1876.80,,,"",Universe Duct Cleaning
+708,1,Matthew Friedman,David Best,Awaiting approval,2024-02-29T19:55:21-05:00,2024-03-01T14:00:00-05:00,open,$948.00,,,,"",Universe Duct Cleaning
+710,1,Elena labbissiere,David Best,Awaiting approval,2024-03-24T17:54:33-04:00,2024-03-31T09:00:00-04:00,open,$4248.00,,,,"",Universe Duct Cleaning
+711,1,Kathy Beebe,David Best,Pro approved,2024-03-12T09:17:43-04:00,2024-04-01T09:00:00-04:00,won,,$1481.00,,,"",Universe Duct Cleaning
+712,1,Jannette La Sota,David Best,Pro approved,2024-04-02T12:03:28-04:00,2024-04-03T14:00:00-04:00,won,,$0.00,,,"",Universe Duct Cleaning
+713,1,Todd  Johnson,David Best,Awaiting approval,2024-04-16T12:42:58-04:00,,open,$849.00,,,,"",Universe Duct Cleaning
+715,1,Brett Carmichael,David Best,Pro approved,2024-04-15T09:57:31-04:00,2024-04-19T09:00:00-04:00,won,,$900.00,,,"",Universe Duct Cleaning
+716,1,Kyogi Horiguchi,David Best,Pro approved,2024-04-29T16:03:40-04:00,2024-04-30T13:00:00-04:00,won,,$499.00,,,"",Universe Duct Cleaning
+717,1,Nadina Tackore,David Best,Pro approved,2024-04-23T07:02:24-04:00,2024-05-05T09:00:00-04:00,won,,$1313.00,,,"",Universe Duct Cleaning
+720,1,Vijay Behl,David Best,Pro approved,2024-05-06T07:51:31-04:00,2024-05-06T14:00:00-04:00,won,,$1777.50,,,"",Universe Duct Cleaning
+721,1,Hubert Lajeule,David Best,Pro approved,2024-05-15T16:00:47-04:00,2024-05-15T17:00:00-04:00,won,,$1699.20,,,"",Universe Duct Cleaning
+723,1,Delkys Vega,David Best,Pro approved,2024-06-04T16:27:23-04:00,2024-06-04T17:00:00-04:00,won,,$1763.00,,,"",Universe Duct Cleaning
+724,1,Javier Garcia,David Best,Awaiting approval,2024-06-05T16:26:03-04:00,,open,$3811.00,,,,"",Universe Duct Cleaning
+726,1,Bryan C,David Best,Awaiting approval,2024-06-09T22:12:15-04:00,2024-06-10T09:00:00-04:00,open,$1088.00,,,,"",Universe Duct Cleaning
+727,1,Richard altimore,David Best,Awaiting approval,2024-06-10T16:39:35-04:00,2024-06-11T10:00:00-04:00,open,$789.00,,,,"",Universe Duct Cleaning
+728,1,Carolyn Muse,David Best,Awaiting approval,2024-06-13T13:01:28-04:00,2024-06-14T11:00:00-04:00,open,$1250.00,,,,"",Universe Duct Cleaning
+729,1,Anup Naik,David Best,Awaiting approval,2024-06-12T21:23:41-04:00,2024-06-14T11:00:00-04:00,open,$349.00,,,,"",Universe Duct Cleaning
+733,1,Paula Nelkin,David Best,Approved,2024-06-05T11:56:20-04:00,2024-06-16T09:00:00-04:00,won,,$3364.00,,,"",Universe Duct Cleaning
+734,1,Jeffery Alfonso,David Best,Awaiting approval,2024-06-10T09:36:22-04:00,2024-06-16T10:00:00-04:00,open,$989.00,,,,"",Universe Duct Cleaning
+736,1,Beverley Dallis,David Best,Awaiting approval,2024-06-20T09:40:18-04:00,2024-06-20T10:00:00-04:00,open,$1000.00,,,,"",Universe Duct Cleaning
+737,1,Mike Davis,David Best,Awaiting approval,2024-06-17T18:24:31-04:00,2024-06-20T14:00:00-04:00,open,$1289.00,,,,"",Universe Duct Cleaning
+738,1,Sadid Momen,David Best,Awaiting approval,2024-06-19T20:38:47-04:00,2024-06-20T11:00:00-04:00,open,$2960.55,,,,"",Universe Duct Cleaning
+740,1,Robert Weber,David Best,Approved,2024-06-25T08:44:51-04:00,,won,,$1759.00,,,"",Universe Duct Cleaning
+741,1,Chet Greco,David Best,Awaiting approval,2024-06-27T10:34:36-04:00,2024-06-28T14:00:00-04:00,open,$914.00,,,,"",Universe Duct Cleaning
+742,1,Nikita B.,David Best,Approved,2024-06-27T10:19:24-04:00,2024-06-28T15:00:00-04:00,won,,$6800.00,,,"",Universe Duct Cleaning
+743,1,Victor Troung,David Best,Awaiting approval,2024-07-01T10:16:46-04:00,2024-07-01T15:00:00-04:00,open,$1189.00,,,,"",Universe Duct Cleaning
+744,1,Keith Caballer,David Best,Awaiting approval,2024-07-01T20:48:30-04:00,2024-07-08T21:00:00-04:00,open,$3775.00,,,,"",Universe Duct Cleaning
+745,1,Alejandra Matauten,David Best,Pro approved,2024-07-02T19:42:12-04:00,2024-07-03T09:00:00-04:00,won,,$1697.00,,,"",Universe Duct Cleaning
+746,1,Ashleigh Michelle,David Best,Pro approved,2024-07-02T14:32:12-04:00,2024-07-03T11:00:00-04:00,won,,$940.00,,,"",Universe Duct Cleaning
+747,1,Bill Buie,David Best,Approved,2024-07-06T15:13:03-04:00,2024-07-08T13:00:00-04:00,won,,$1000.00,,,"",Universe Duct Cleaning
+748,1,Gary Vayianos,David Best,Awaiting approval,2024-06-20T10:57:31-04:00,2024-07-10T13:00:00-04:00,open,$3254.00,,,,"",Universe Duct Cleaning
+750,1,Alexa Macmullen,David Best,Pro approved,2024-07-12T11:11:18-04:00,,won,,$699.00,,,"",Universe Duct Cleaning
+751,1,Amber Lopes,David Best,Awaiting approval,2024-07-09T23:02:33-04:00,2024-07-12T09:00:00-04:00,open,$900.00,,,,"",Universe Duct Cleaning
+752,1,Bob MCMahon,David Best,Pro approved,2024-07-11T16:43:04-04:00,2024-07-14T14:00:00-04:00,won,,$1100.00,,,"",Universe Duct Cleaning
+753,1,Ryan Alford,David Best,Awaiting approval,2024-07-11T20:47:37-04:00,2024-07-14T11:00:00-04:00,open,$1072.70,,,,"",Universe Duct Cleaning
+754,1,Guilherme,David Best,Awaiting approval,2024-07-14T10:52:40-04:00,2024-07-14T08:00:00-04:00,open,$3788.00,,,,"",Universe Duct Cleaning
+756,1,Christine Morgan,David Best,Pro approved,2024-07-17T13:12:10-04:00,2024-07-19T12:00:00-04:00,won,,$1271.00,,,"",Universe Duct Cleaning
+757,1,Martin Lagertin,David Best,Awaiting approval,2024-07-19T14:40:41-04:00,,open,$1298.00,,,,"",Universe Duct Cleaning
+758,1,Martin Lagertin,David Best,Awaiting approval,2024-07-19T14:43:00-04:00,,open,$749.00,,,,"",Universe Duct Cleaning
+759,1,Julia Smith,David Best,Declined,2024-07-20T18:46:11-04:00,2024-07-21T11:00:00-04:00,lost,,,$904.00,,"",Universe Duct Cleaning
+760,1,Et Stritaklamd,David Best,Approved,2024-07-19T16:32:54-04:00,2024-07-26T08:00:00-04:00,won,,$4684.00,,,"",Universe Duct Cleaning
+761,1,Joe Palermo,David Best,Pro approved,2024-07-23T13:28:03-04:00,2024-07-30T11:00:00-04:00,won,,$649.00,,,"",Universe Duct Cleaning
+762,1,Beatriz Layton,David Best,Awaiting approval,2024-07-24T08:30:37-04:00,,open,$200.00,,,,"",Universe Duct Cleaning
+763,1,Sara Benari,David Best,Awaiting approval,2024-07-24T16:38:55-04:00,,open,$1603.00,,,,"",Universe Duct Cleaning
+764,1,Casey Colp ,David Best,Approved,2024-07-28T11:35:49-04:00,2024-07-28T12:00:00-04:00,won,,$1489.00,,,"",Universe Duct Cleaning
+765,1,Diana Rivera,David Best,Approved,2024-07-29T08:21:20-04:00,2024-07-30T08:00:00-04:00,won,,$1059.00,,,"",Universe Duct Cleaning
+766,1,Jesse Lewis,David Best,Awaiting approval,2024-07-28T15:26:11-04:00,2024-07-29T13:00:00-04:00,open,$3405.00,,,,"",Universe Duct Cleaning
+768,1,Cody Corley,David Best,Pro approved,2024-07-30T16:02:15-04:00,2024-08-07T10:00:00-04:00,won,,$1662.00,,,"",Universe Duct Cleaning
+770,1,Daun Lisec,David Best,Awaiting approval,2024-08-01T12:03:41-04:00,2024-08-01T13:00:00-04:00,open,$1818.90,,,,"",Universe Duct Cleaning
+771,1,Calvin Powell,David Best,Pro approved,2024-08-05T11:29:31-04:00,,won,,$499.00,,,"",Universe Duct Cleaning
+772,1,Lisa Harriott Fraser,David Best,Approved,2024-08-04T10:57:54-04:00,2024-08-05T09:00:00-04:00,won,,$1793.00,,,"",Universe Duct Cleaning
+773,1,Mario,David Best,Awaiting approval,2024-08-06T13:38:08-04:00,,open,$1200.00,,,,"",Universe Duct Cleaning
+774,1,Saphya Barclay,David Best,Awaiting approval,2024-08-06T14:56:18-04:00,,open,$1038.00,,,,"",Universe Duct Cleaning
+775,1,Andrew Slatkow,David Best,Declined,2024-08-07T14:19:21-04:00,,lost,,,$599.00,,"",Universe Duct Cleaning
+776,1,Natacha Errea,David Best,Approved,2024-08-08T10:18:11-04:00,,won,,$749.00,,,"",Universe Duct Cleaning
+777,1,Nick Cristantiello,David Best,Approved,2024-08-08T11:08:21-04:00,,won,,$1114.00,,,"",Universe Duct Cleaning
+778,1,Nadia McManus,David Best,Pro approved,2024-08-08T13:28:44-04:00,,won,,$2296.00,,,"",Universe Duct Cleaning
+780,1,Laura Sobel,David Best,Awaiting approval,2024-08-08T13:37:02-04:00,,open,$2544.00,,,,"",Universe Duct Cleaning
+781,1,Edward Harris,David Best,Awaiting approval,2024-08-08T16:13:01-04:00,,open,$1513.00,,,,"",Universe Duct Cleaning
+782,1,John Keehner,David Best,Awaiting approval,2024-08-08T17:33:54-04:00,,open,$2300.00,,,,"",Universe Duct Cleaning
+783,1,Artravia J,David Best,Awaiting approval,2024-08-12T13:08:15-04:00,,open,$4550.00,,,,"",Universe Duct Cleaning
+784,1,Sania Budhrani,David Best,Awaiting approval,2024-08-13T13:07:23-04:00,,open,$1499.00,,,,"",Universe Duct Cleaning
+785,1,Allison Hift,David Best,Awaiting approval,2024-08-14T11:33:42-04:00,,open,$4347.00,,,,"",Universe Duct Cleaning
+786,1,John Occi,David Best,Pro approved,2024-08-15T13:09:51-04:00,,won,,$1100.00,,,"",Universe Duct Cleaning
+787,1,Parnav LLC,David Best,Pro approved,2024-08-15T17:33:19-04:00,,won,,$1100.00,,,"",Universe Duct Cleaning
+788,1,Parnav LLC,David Best,Created on job,2024-08-15T17:33:25-04:00,,open,$0.00,,,,"",Universe Duct Cleaning
+789,1,Angelica Shetrompf,David Best,Pro approved,2024-08-16T17:11:44-04:00,,won,,$500.00,,,"",Universe Duct Cleaning
+790,1,Chris Shean,David Best,Pro approved,2024-08-19T14:18:32-04:00,,won,,$1000.00,,,"",Universe Duct Cleaning
+791,1,Will Patino,David Best,Awaiting approval,2024-08-21T14:23:08-04:00,,open,$3105.00,,,,"",Universe Duct Cleaning
+792,1,Will Patino,David Best,Awaiting approval,2024-08-21T14:24:50-04:00,,open,$1947.00,,,,"",Universe Duct Cleaning
+793,1,Kathy Doyle,David Best,Pro approved,2024-08-22T10:56:52-04:00,,won,,$750.00,,,"",Universe Duct Cleaning
+794,1,Mishel Mako,David Best,Awaiting approval,2024-08-22T12:30:50-04:00,,open,$1700.00,,,,"",Universe Duct Cleaning
+795,1,Dione Del,David Best,Awaiting approval,2024-08-25T10:59:25-04:00,,open,$4301.00,,,,"",Universe Duct Cleaning
+796,1,Debbie Emnauele,David Best,Awaiting approval,2024-08-26T12:39:01-04:00,,open,$2833.20,,,,"",Universe Duct Cleaning
+797,1,Mary Alcime,David Best,Awaiting approval,2024-08-26T16:59:15-04:00,,open,$1076.00,,,,"",Universe Duct Cleaning
+798,1,Vijay Behl,David Best,Awaiting approval,2024-08-27T15:34:17-04:00,,open,$3583.00,,,,"",Universe Duct Cleaning
+799,1,Matt Ferrer,David Best,Awaiting approval,2024-08-28T15:24:26-04:00,,open,$900.00,,,,"",Universe Duct Cleaning
+800,1,Sean Johnson,David Best,Approved,2024-09-01T14:50:26-04:00,,won,,$4150.00,,,"",Universe Duct Cleaning
+801,1,Gerard Arsenaut,David Best,Awaiting approval,2024-09-04T11:04:48-04:00,,open,$7907.00,,,,"",Universe Duct Cleaning
+802,1,Parvin Basnyet,David Best,Awaiting approval,2024-09-04T12:29:20-04:00,,open,$1800.00,,,,"",Universe Duct Cleaning
+803,1,Pooya Jafari,David Best,Awaiting approval,2024-09-05T11:12:07-04:00,,open,$828.00,,,,"",Universe Duct Cleaning
+804,1,Raul Rolden,David Best,Pro approved,2024-09-05T12:21:35-04:00,,won,,$1669.00,,,"",Universe Duct Cleaning
+805,1,Erin C,David Best,Created on job,2024-09-05T20:52:42-04:00,,open,$799.00,,,,"",Universe Duct Cleaning
+806,1,Sarah Miller,David Best,Approved,2024-09-08T12:28:36-04:00,,won,,$800.00,,,"",Universe Duct Cleaning
+807,1,Fredric Nyugen,David Best,Awaiting approval,2024-09-08T16:33:47-04:00,,open,$1229.00,,,,"",Universe Duct Cleaning
+808,1,Robert Lauden,David Best,Pro approved,2024-09-09T15:56:12-04:00,,won,,$2075.00,,,"",Universe Duct Cleaning
+809,1,Diane Rodriguez,David Best,Awaiting approval,2024-09-11T09:52:19-04:00,,open,$1100.00,,,,"",Universe Duct Cleaning
+810,1,Eliana LaBanca,David Best,Awaiting approval,2024-09-11T12:25:41-04:00,,open,$1000.00,,,,"",Universe Duct Cleaning
+811,1,David Brenkus,David Best,Awaiting approval,2024-09-12T09:30:06-04:00,,open,$4000.00,,,,"",Universe Duct Cleaning
+812,1,Katrina Gunova,David Best,Pro approved,2024-09-12T15:39:54-04:00,2024-09-19T14:00:00-04:00,won,,$897.00,,,"",Universe Duct Cleaning
+813,1,Anthony Fichera,David Best,Awaiting approval,2024-09-13T12:52:55-04:00,,open,$2575.00,,,,"",Universe Duct Cleaning
+814,1,Dennis Kanai,David Best,Awaiting approval,2024-09-14T09:45:44-04:00,2024-09-16T11:00:00-04:00,open,$2385.00,,,,"",Universe Duct Cleaning
+815,1,Malek,David Best,Pro approved,2024-09-16T13:23:50-04:00,,won,,$1550.00,,,"",Universe Duct Cleaning
+816,1,Suki ren,David Best,Awaiting approval,2024-09-17T09:44:42-04:00,,open,$1690.00,,,,"",Universe Duct Cleaning
+817,1,Lisa Zhen,David Best,Awaiting approval,2024-09-17T12:20:54-04:00,,open,$948.00,,,,"",Universe Duct Cleaning
+818,1,John Wagner,David Best,Awaiting approval,2024-09-17T12:42:31-04:00,,open,$1646.00,,,,"",Universe Duct Cleaning
+819,1,Patrick Flynn,David Best,Pro approved,2024-09-18T11:18:08-04:00,,won,,$2207.00,,,"",Universe Duct Cleaning
+820,1,Diana Baker,David Best,Approved,2024-09-18T13:35:50-04:00,,won,,$1105.00,,,"",Universe Duct Cleaning
+821,1,Hadas M,David Best,Pro approved,2024-09-18T13:57:57-04:00,,won,,$750.00,,,"",Universe Duct Cleaning
+822,1,Joycelin,David Best,Awaiting approval,2024-09-18T14:08:57-04:00,,open,$199.00,,,,"",Universe Duct Cleaning
+823,1,Jo Trang,David Best,Approved,2024-09-19T15:46:03-04:00,,won,,$1599.00,,,"",Universe Duct Cleaning
+824,1,Luke Tsarnas,David Best,Pro approved,2024-09-23T10:12:17-04:00,,won,,$600.00,,,"",Universe Duct Cleaning
+825,1,Vincent Viiotti,David Best,Awaiting approval,2024-09-23T12:27:38-04:00,,open,$2800.00,,,,"",Universe Duct Cleaning
+826,1,Rosalle Swasey Marsden,David Best,Awaiting approval,2024-09-23T12:59:20-04:00,,open,$3290.00,,,,"",Universe Duct Cleaning
+827,1,Rich Gerepka,David Best,Created on job,2024-09-23T16:24:40-04:00,,open,$1879.00,,,,"",Universe Duct Cleaning
+828,1,Kathleen Singh,David Best,Awaiting approval,2024-09-24T10:45:48-04:00,,open,$1583.00,,,,"",Universe Duct Cleaning
+829,1,Christi Coachman,David Best,Awaiting approval,2024-09-24T11:01:09-04:00,,open,$2843.00,,,,"",Universe Duct Cleaning
+830,1,Guy Corsia,David Best,Declined,2024-09-24T12:53:52-04:00,,lost,,,$1744.40,,"",Universe Duct Cleaning
+831,1,Valentina Esteban,David Best,Awaiting approval,2024-09-24T13:35:28-04:00,,open,$1549.00,,,,"",Universe Duct Cleaning
+832,1,Valentina Esteban,David Best,Awaiting approval,2024-09-24T13:39:36-04:00,,open,$4200.00,,,,"",Universe Duct Cleaning
+833,1,Shmuel Baum,David Best,Awaiting approval,2024-09-25T18:46:27-04:00,,open,$700.00,,,,"",Universe Duct Cleaning
+834,1,Tim Quinn,David Best,Approved,2024-09-26T09:04:19-04:00,,won,,$1899.00,,,"",Universe Duct Cleaning
+835,1,Kristina Plisko,David Best,Approved,2024-09-26T14:44:29-04:00,,won,,$649.00,,,"",Universe Duct Cleaning
+836,1,Linnea Delia,David Best,Awaiting approval,2024-09-27T13:57:47-04:00,,open,$1149.00,,,,"",Universe Duct Cleaning
+837,1,Melissa Patrick,David Best,Awaiting approval,2024-09-27T17:05:22-04:00,,open,$4500.00,,,,"",Universe Duct Cleaning
+838,1,Robert bornschen,David Best,Awaiting approval,2024-09-29T10:35:49-04:00,,open,$5174.00,,,,"",Universe Duct Cleaning
+839,1,Robert bornschen,David Best,Awaiting approval,2024-09-29T10:36:12-04:00,,open,$449.00,,,,"",Universe Duct Cleaning
+840,1,Tia Francillon,David Best,Awaiting approval,2024-09-29T15:15:33-04:00,,open,$2136.00,,,,"",Universe Duct Cleaning
+841,1,Naseer Robinson,David Best,Scheduled,2024-10-03T10:14:44-04:00,2024-10-04T12:30:00-04:00,open,$199.00,,,,"",Universe Duct Cleaning
+842,1,Jim Rosen,David Best,Awaiting approval,2024-10-04T10:45:34-04:00,,open,$1255.00,,,,"",Universe Duct Cleaning
+843,1,Sondra Jackson Goldberg,David Best,Awaiting approval,2024-10-06T17:44:39-04:00,,open,$2597.00,,,,"",Universe Duct Cleaning
+844,1,Anthony Martinez,David Best,Pro approved,2024-10-07T10:22:36-04:00,,won,,$1845.00,,,"",Universe Duct Cleaning
+845,1,"Alison Dannenberg,Mike",David Best,Awaiting approval,2024-10-07T12:02:21-04:00,,open,$2009.00,,,,"",Universe Duct Cleaning
+846,1,Jeannine Russo,David Best,Scheduled,2024-10-08T16:23:28-04:00,2024-10-11T11:00:00-04:00,open,$199.00,,,,"",Universe Duct Cleaning
+847,1,Adam Falk,David Best,Pro approved,2024-10-09T11:48:43-04:00,,won,,$2233.00,,,"",Universe Duct Cleaning
+848,1,Justin Huang,David Best,Awaiting approval,2024-10-09T16:02:02-04:00,,open,$3000.00,,,,"",Universe Duct Cleaning
+849,1,Moses Feris,David Best,Approved,2024-10-11T12:08:42-04:00,,won,,$1689.00,,,"",Universe Duct Cleaning
+850,1,Patrick Flynn,David Best,Approved,2024-10-13T14:51:04-04:00,,won,,$898.00,,,"",Universe Duct Cleaning
+851,1,Willis Bullock,David Best,Awaiting approval,2024-10-13T15:35:13-04:00,,open,$1248.00,,,,"",Universe Duct Cleaning
+852,1,Devin Coose,David Best,Awaiting approval,2024-10-13T16:20:26-04:00,,open,$1228.00,,,,"",Universe Duct Cleaning
+853,1,Fernanda Sosa,David Best,Pro approved,2024-10-14T10:47:27-04:00,,won,,$1399.00,,,"",Universe Duct Cleaning
+854,1,John F,David Best,Awaiting approval,2024-10-14T11:47:13-04:00,,open,$2100.00,,,,"",Universe Duct Cleaning
+856,1,Robert Bogen,David Best,Awaiting approval,2024-10-20T13:38:09-04:00,,open,$2424.00,,,,"",Universe Duct Cleaning
+857,1,Daniel Reiter,David Best,Pro approved,2024-10-20T13:40:58-04:00,,won,,$1870.00,,,"",Universe Duct Cleaning
+858,1,Kathie Lee Laidley,David Best,Awaiting approval,2024-10-20T14:05:37-04:00,,open,$1410.00,,,,"",Universe Duct Cleaning
+859,1,Kerylne M,David Best,Declined,2024-10-20T17:54:37-04:00,,lost,,,$1594.00,,"",Universe Duct Cleaning
+860,1,Max,David Best,Awaiting approval,2024-10-21T10:52:54-04:00,,open,$920.00,,,,"",Universe Duct Cleaning
+861,1,Kyle Mannheimer,David Best,Approved,2024-10-22T15:49:59-04:00,,won,,$2660.00,,,"",Universe Duct Cleaning
+862,1,Marie Braverman,David Best,Pro approved,2024-10-22T17:38:13-04:00,,won,,$676.00,,,"",Universe Duct Cleaning
+863,1,Rachel Delevie Orey,David Best,Pro approved,2024-10-25T11:49:23-04:00,,won,,$1140.00,,,"",Universe Duct Cleaning
+864,1,Godse Family,David Best,Awaiting approval,2024-10-25T11:53:27-04:00,,open,$2100.00,,,,"",Universe Duct Cleaning
+865,1,Joel Beach,David Best,Pro approved,2024-10-25T13:38:32-04:00,,won,,$1350.00,,,"",Universe Duct Cleaning
+866,1,Cris Tache,David Best,Awaiting approval,2024-10-30T11:23:45-04:00,,open,$1143.00,,,,"",Universe Duct Cleaning
+868,1,Vanny Nadal,David Best,Awaiting approval,2024-10-31T11:58:26-04:00,,open,$2549.00,,,,"",Universe Duct Cleaning
+869,1,Molly,David Best,Awaiting approval,2024-10-31T16:54:10-04:00,,open,$1580.00,,,,"",Universe Duct Cleaning
+870,1,Lynett Huber,David Best,Pro approved,2024-11-01T12:01:29-04:00,,won,,$2440.00,,,"",Universe Duct Cleaning
+871,1,Laurie,David Best,Approved,2024-11-01T12:52:10-04:00,,won,,$1760.00,,,"",Universe Duct Cleaning
+872,1,Lea D,David Best,Awaiting approval,2024-11-01T13:14:21-04:00,,open,$847.00,,,,"",Universe Duct Cleaning
+873,1,Alvin D,David Best,Awaiting approval,2024-11-01T15:05:34-04:00,,open,$1905.00,,,,"",Universe Duct Cleaning
+874,1,Ellen Picker,David Best,Approved,2024-11-03T11:00:29-05:00,,won,,$1000.00,,,"",Universe Duct Cleaning
+875,1,Ruth Belin,David Best,Awaiting approval,2024-11-03T12:45:52-05:00,,open,$1000.00,,,,"",Universe Duct Cleaning
+876,1,"Twelve Oaks Condominium Association, Inc.",David Best,Pro approved,2024-11-05T10:56:31-05:00,2024-11-06T08:00:00-05:00,won,,$1457.00,,,"",Universe Duct Cleaning
+877,1,Renee Pollack,David Best,Awaiting approval,2024-11-05T18:19:20-05:00,,open,$2000.00,,,,"",Universe Duct Cleaning
+878,1,Diana Rivera,David Best,Approved,2024-11-06T11:13:16-05:00,2024-11-13T08:00:00-05:00,won,,$1359.00,,,"",Universe Duct Cleaning
+879,1,Alexander Kolt,David Best,Awaiting approval,2024-11-07T10:24:25-05:00,,open,$1333.80,,,,"",Universe Duct Cleaning
+880,1,Joanna Carpenter,David Best,Awaiting approval,2024-11-07T15:04:36-05:00,,open,$1607.00,,,,"",Universe Duct Cleaning
+881,1,Domenica Flora,David Best,Approved,2024-11-07T17:27:22-05:00,,won,,$2166.00,,,"",Universe Duct Cleaning
+882,1,Nadia Nocera,David Best,Awaiting approval,2024-11-09T04:50:43-05:00,,open,$1923.00,,,,"",Universe Duct Cleaning
+883,1,Mac Micllaen,David Best,Approved,2024-11-10T18:01:06-05:00,,won,,$1313.60,,,"",Universe Duct Cleaning
+884,1,Thelma Beli,David Best,Awaiting approval,2024-11-12T14:26:54-05:00,,open,$1500.00,,,,"",Universe Duct Cleaning
+885,1,Stephanie Williams,David Best,Awaiting approval,2024-11-12T14:32:41-05:00,,open,$2692.00,,,,"",Universe Duct Cleaning
+886,1,Michelle Munoz,David Best,Pro approved,2024-11-14T10:51:22-05:00,2024-11-18T08:00:00-05:00,won,,$129.00,,,"",Universe Duct Cleaning
+887,1,Jackie Accetta,David Best,Awaiting approval,2024-11-14T13:59:03-05:00,,open,$11295.20,,,,"",Universe Duct Cleaning
+888,1,Shaz \ Miro,David Best,Awaiting approval,2024-11-15T13:26:16-05:00,,open,$1468.00,,,,"",Universe Duct Cleaning
+889,1,Rachel Stanley,David Best,Awaiting approval,2024-11-18T13:44:05-05:00,,open,$2763.90,,,,"",Universe Duct Cleaning
+890,1,Andrew Wilson,David Best,Awaiting approval,2024-11-18T19:16:44-05:00,,open,$1402.70,,,,"",Universe Duct Cleaning
+891,1,Micheal D,David Best,Awaiting approval,2024-11-19T14:43:27-05:00,,open,$4782.95,,,,"",Universe Duct Cleaning
+893,1,Matthew Gossett,David Best,Awaiting approval,2024-11-24T18:45:40-05:00,,open,$648.00,,,,"",Universe Duct Cleaning
+894,1,Molly Lazo,David Best,Awaiting approval,2024-11-25T11:27:24-05:00,,open,$975.00,,,,"",Universe Duct Cleaning
+895,1,Dennis Lampert,David Best,Pro approved,2024-11-26T13:40:56-05:00,,won,,$838.00,,,"",Universe Duct Cleaning
+896,1,Franklin Woscoso,David Best,Pro approved,2024-11-27T12:56:33-05:00,,won,,$930.00,,,"",Universe Duct Cleaning
+897,1,Salma Sinno,David Best,Pro approved,2024-12-01T13:07:08-05:00,,won,,$750.00,,,"",Universe Duct Cleaning
+899,1,Syd Rein,"",Unscheduled,2024-12-02T13:17:25-05:00,,open,$199.00,,,,"",Universe Duct Cleaning
+900,1,Tayo McLean,David Best,Approved,2024-12-02T13:42:35-05:00,,won,,$1927.00,,,"",Universe Duct Cleaning
+901,1,Beyon Bassier,David Best,Pro approved,2024-12-02T16:14:45-05:00,,won,,$1250.00,,,"",Universe Duct Cleaning
+902,1,Julie Croteau,David Best,Approved,2024-12-04T10:30:52-05:00,,won,,$2196.00,,,"",Universe Duct Cleaning
+903,1,Beyon Bassier,David Best,Awaiting approval,2024-12-04T13:41:07-05:00,,open,$500.00,,,,"",Universe Duct Cleaning
+904,1,Julie Croteau,David Best,Approved,2024-12-04T14:02:57-05:00,,won,,$2720.00,,,"",Universe Duct Cleaning
+905,1,Gerardo,David Best,Awaiting approval,2024-12-04T16:21:01-05:00,,open,$858.00,,,,"",Universe Duct Cleaning
+906,1,Michael Andreyko,David Best,Awaiting approval,2024-12-08T11:58:15-05:00,,open,$1048.00,,,,"",Universe Duct Cleaning
+907,1,Cemhan Birick,David Best,Approved,2024-12-10T12:20:02-05:00,,won,,$2200.00,,,"",Universe Duct Cleaning
+909,1,David Hincle,David Best,Awaiting approval,2024-12-10T15:15:56-05:00,,open,$298.00,,,,"",Universe Duct Cleaning
+910,1,Tiffany Taylor,David Best,Pro approved,2024-12-10T19:44:42-05:00,,won,,$2542.00,,,"",Universe Duct Cleaning
+911,1,Tiffany Taylor,David Best,Pro approved,2024-12-10T19:47:46-05:00,,won,,$1958.00,,,"",Universe Duct Cleaning
+912,1,Metro mobile,David Best,Awaiting approval,2024-12-11T12:15:49-05:00,,open,$4670.00,,,,"",Universe Duct Cleaning
+913,1,Claire Lichter,David Best,Awaiting approval,2024-12-11T13:47:38-05:00,,open,$1848.00,,,,"",Universe Duct Cleaning
+914,1,Claire Lichter,David Best,Awaiting approval,2024-12-11T13:54:26-05:00,,open,$1350.00,,,,"",Universe Duct Cleaning
+915,1,Anna Gahramanov,David Best,Awaiting approval,2024-12-11T15:09:01-05:00,,open,$2200.00,,,,"",Universe Duct Cleaning
+916,1,Carolyne Ele,David Best,Approved,2024-12-12T11:31:33-05:00,,won,,$1916.00,,,"",Universe Duct Cleaning
+917,1,Chris Castellon,David Best,Approved,2024-12-12T12:29:40-05:00,,won,,$350.00,,,"",Universe Duct Cleaning
+918,1,J Wi,David Best,Pro approved,2024-12-12T17:40:29-05:00,,won,,$1235.00,,,"",Universe Duct Cleaning
+920,1,Cristina,David Best,Awaiting approval,2024-12-14T16:59:22-05:00,,open,$199.00,,,,"",Universe Duct Cleaning
+921,1,Karis Whillians,David Best,Approved,2024-12-15T14:43:45-05:00,,won,,$1496.00,,,"",Universe Duct Cleaning
+922,1,Deana Cousin,David Best,Approved,2024-12-16T14:07:52-05:00,,won,,$1602.00,,,"",Universe Duct Cleaning
+924,1,Esteban Principe,David Best,Awaiting approval,2024-12-18T17:42:28-05:00,,open,$1297.80,,,,"",Universe Duct Cleaning
+925,1,Maria Amighi,David Best,Awaiting approval,2024-12-19T12:22:10-05:00,,open,$1426.00,,,,"",Universe Duct Cleaning
+926,1,Lance Lee,David Best,Awaiting approval,2024-12-19T12:46:30-05:00,,open,$8500.00,,,,"",Universe Duct Cleaning
+927,1,Lance Lee,David Best,Awaiting approval,2024-12-19T12:48:05-05:00,,open,$1898.00,,,,"",Universe Duct Cleaning
+928,1,Sergei Naomik,David Best,Pro approved,2024-12-20T13:36:26-05:00,,won,,$647.00,,,"",Universe Duct Cleaning
+929,1,Twan Chanel,David Best,Awaiting approval,2024-12-23T16:27:32-05:00,,open,$698.00,,,,"",Universe Duct Cleaning
+930,1,Shneor Minsky,David Best,Approved,2024-12-24T12:10:48-05:00,,won,,$1591.00,,,"",Universe Duct Cleaning
+931,1,Shneor Minsky,David Best,Awaiting approval,2024-12-24T12:13:01-05:00,,open,$3791.00,,,,"",Universe Duct Cleaning
+932,1,Frank Ryan,David Best,Awaiting approval,2024-12-24T12:58:31-05:00,,open,$2000.00,,,,"",Universe Duct Cleaning
+933,1,Frank Ryan,David Best,Created on job,2024-12-24T17:08:17-05:00,,open,$0.00,,,,"",Universe Duct Cleaning
+934,1,Tyler Lieberman,David Best,Awaiting approval,2024-12-29T15:11:41-05:00,,open,$1723.00,,,,"",Universe Duct Cleaning
+935,1,Chris Hudson,David Best,Approved,2024-12-29T15:44:14-05:00,,won,,$1500.00,,,"",Universe Duct Cleaning
+936,1,Elizabeth Martin,David Best,Approved,2024-12-29T16:23:14-05:00,,won,,$1350.00,,,"",Universe Duct Cleaning
+939,1,Joseph Tin,David Best,Awaiting approval,2025-01-02T09:35:34-05:00,,open,$1580.00,,,,"",Universe Duct Cleaning
+940,1,Rico Luis,David Best,Pro approved,2025-01-03T10:11:58-05:00,,won,,$950.00,,,"",Universe Duct Cleaning
+941,1,Adam Blum,David Best,Approved,2025-01-03T15:07:46-05:00,,won,,$799.00,,,"",Universe Duct Cleaning
+942,1,Carlos Flores,David Best,Awaiting approval,2025-01-06T11:37:26-05:00,,open,$1299.00,,,,"",Universe Duct Cleaning
+943,1,Kerri Vittimberga/ Ryan,David Best,Awaiting approval,2025-01-06T15:56:35-05:00,,open,$2127.00,,,,"",Universe Duct Cleaning
+945,1,Diane Green,David Best,Pro declined,2025-01-06T16:27:31-05:00,,lost,,,$2000.00,,Pipeline Automation,Universe Duct Cleaning
+946,1,Zach Diedrick,David Best,Awaiting approval,2025-01-07T10:37:23-05:00,,open,$1648.00,,,,"",Universe Duct Cleaning
+947,1,Abraham  Ninan ,David Best,Pro declined,2025-01-07T15:19:41-05:00,,lost,,,$1000.00,,Pipeline Automation,Universe Duct Cleaning
+948,1,Cierra Thomason,David Best,Pro approved,2025-01-08T13:25:17-05:00,,won,,$1104.00,,,"",Universe Duct Cleaning
+949,1,Lauren Whelan,David Best,Pro declined,2025-01-09T14:55:06-05:00,,lost,,,$1620.90,,Pipeline Automation,Universe Duct Cleaning
+950,1,Gino Sabo,David Best,Pro approved,2025-01-20T11:47:37-05:00,,won,,$2400.00,,,"",Universe Duct Cleaning
+951,1,Meryl Steklof,David Best,Awaiting approval,2025-01-20T19:52:17-05:00,,open,$489.00,,,,"",Universe Duct Cleaning
+952,1,Marsha,David Best,Pro declined,2025-01-21T12:14:47-05:00,,lost,,,$0.00,,Pipeline Automation,Universe Duct Cleaning
+953,1,Marsha,David Best,Awaiting approval,2025-01-21T12:48:42-05:00,,open,$1107.00,,,,"",Universe Duct Cleaning
+954,1,Rodigo Zawadzki,David Best,Pro approved,2025-01-22T15:53:47-05:00,,won,,$1499.00,,,"",Universe Duct Cleaning
+955,1,Cece Dormeus,David Best,Awaiting approval,2025-01-22T15:56:58-05:00,,open,$1200.00,,,,"",Universe Duct Cleaning
+956,1,Rodigo Zawadzki,David Best,Awaiting approval,2025-01-22T18:34:56-05:00,,open,$1243.00,,,,"",Universe Duct Cleaning
+957,1,Victor Beonilla,David Best,Pro approved,2025-01-24T11:12:08-05:00,,won,,$800.00,,,"",Universe Duct Cleaning
+958,1,Eileen Stegensky,David Best,Pro approved,2025-01-24T12:13:13-05:00,,won,,$1600.00,,,"",Universe Duct Cleaning
+959,1,Stewart Dailey,David Best,Awaiting approval,2025-01-24T15:25:28-05:00,,open,$3052.00,,,,"",Universe Duct Cleaning
+960,1,Dustin Balmuth,David Best,Awaiting approval,2025-01-28T14:14:02-05:00,,open,$1435.00,,,,"",Universe Duct Cleaning
+961,1,Jonathan Kahan,David Best,Awaiting approval,2025-01-28T15:56:08-05:00,,open,$1757.25,,,,"",Universe Duct Cleaning
+962,1,Jennifer Dicarlo,David Best,Pro approved,2025-01-30T10:44:08-05:00,,won,,$1433.70,,,"",Universe Duct Cleaning
+963,1,Rich Taff,David Best,Pro declined,2025-01-30T15:13:19-05:00,,lost,,,$2280.60,,Pipeline Automation,Universe Duct Cleaning
+964,1,Irving Klumpp,David Best,Awaiting approval,2025-01-31T12:23:11-05:00,,open,$1000.00,,,,"",Universe Duct Cleaning
+965,1,Marcos Tribbel,David Best,Pro approved,2025-01-31T13:28:19-05:00,,won,,$1304.10,,,"",Universe Duct Cleaning
+966,1,Jeremy Warden,David Best,Pro declined,2025-02-02T12:16:16-05:00,,lost,,,$950.00,,Pipeline Automation,Universe Duct Cleaning
+967,1,Demi Hopper,David Best,Approved,2025-02-03T10:10:56-05:00,,won,,$1370.00,,,"",Universe Duct Cleaning
+968,1,Jason Anderson,David Best,Approved,2025-02-04T10:28:07-05:00,,won,,$1420.00,,,"",Universe Duct Cleaning
+969,1,Staffon McCullough,David Best,Pro approved,2025-02-05T10:51:47-05:00,,won,,$550.00,,,"",Universe Duct Cleaning
+970,1,Vlad Karasik,David Best,Approved,2025-02-06T12:38:23-05:00,,won,,$857.00,,,"",Universe Duct Cleaning
+972,1,Andrew Hamstreet,David Best,Awaiting approval,2025-02-06T17:34:08-05:00,,open,$1497.00,,,,"",Universe Duct Cleaning
+973,1,Tasha Ford,David Best,Approved,2025-02-07T13:33:16-05:00,,won,,$1400.00,,,"",Universe Duct Cleaning
+974,1,Mitchell,David Best,Pro approved,2025-02-10T13:48:54-05:00,,won,,$889.00,,,"",Universe Duct Cleaning
+975,1,James Muscarnera,David Best,Pro approved,2025-02-10T16:58:41-05:00,,won,,$2900.00,,,"",Universe Duct Cleaning
+976,1,Sanika Edwards,David Best,Awaiting approval,2025-02-11T09:46:05-05:00,,open,$798.00,,,,"",Universe Duct Cleaning
+978,1,Karla Sequira,David Best,Awaiting approval,2025-02-11T16:52:48-05:00,,open,$1326.00,,,,"",Universe Duct Cleaning
+979,1,Iliet López,David Best,Awaiting approval,2025-02-12T18:08:40-05:00,,open,$1485.00,,,,"",Universe Duct Cleaning
+980,1,Farenah Braan,David Best,Awaiting approval,2025-02-13T10:51:28-05:00,,open,$498.00,,,,"",Universe Duct Cleaning
+981,1,Carlos Garrafa( tenant steven),David Best,Awaiting approval,2025-02-13T12:32:59-05:00,,open,$1339.00,,,,"",Universe Duct Cleaning
+982,1,Eliecer Viamontes,David Best,Pro approved,2025-02-15T10:20:46-05:00,2025-02-16T08:00:00-05:00,won,,$1700.00,,,"",Universe Duct Cleaning
+983,1,Hector Rodriguez,David Best,Pro approved,2025-02-16T11:27:33-05:00,,won,,$2327.00,,,"",Universe Duct Cleaning
+984,1,Rachel Diaz,David Best,Pro approved,2025-02-16T14:37:17-05:00,,won,,$750.00,,,"",Universe Duct Cleaning
+986,1,Elisha McSweeny,David Best,Awaiting approval,2025-02-16T17:38:55-05:00,,open,$3238.00,,,,"",Universe Duct Cleaning
+988,1,Patrick Rooney,David Best,Awaiting approval,2025-02-18T13:24:28-05:00,,open,$650.00,,,,"",Universe Duct Cleaning
+989,1,Brett Berger,David Best,Awaiting approval,2025-02-19T10:09:48-05:00,,open,$1199.00,,,,"",Universe Duct Cleaning
+990,1,Brett Berger,David Best,Awaiting approval,2025-02-19T10:11:47-05:00,,open,$1199.00,,,,"",Universe Duct Cleaning
+992,1,Esther Desir,David Best,Awaiting approval,2025-02-20T16:22:26-05:00,,open,$896.00,,,,"",Universe Duct Cleaning
+993,1,Angelica Munguia,David Best,Awaiting approval,2025-02-23T10:50:37-05:00,,open,$868.00,,,,"",Universe Duct Cleaning
+994,1,Angelica Munguia,David Best,Awaiting approval,2025-02-23T10:54:45-05:00,,open,$1167.00,,,,"",Universe Duct Cleaning
+995,1,Nanette Diperna,David Best,Approved,2025-02-23T13:06:38-05:00,,won,,$1200.00,,,"",Universe Duct Cleaning
+996,1,Steve Durkee,David Best,Awaiting approval,2025-02-23T15:33:08-05:00,,open,$3951.00,,,,"",Universe Duct Cleaning
+997,2,Juan Ghirlanda,David Best,Awaiting approval,2025-02-24T13:13:10-05:00,2025-03-04T15:00:00-05:00,open,$1899.00,,,,"",Universe Duct Cleaning
+998,1,Rachael Gaer ,David Best,Awaiting approval,2025-02-24T16:50:16-05:00,,open,$700.00,,,,"",Universe Duct Cleaning
+999,1,Pham Nguyen,David Best,Approved,2025-02-25T14:08:40-05:00,,won,,$1150.00,,,"",Universe Duct Cleaning
+1000,1,Deborah Craig,David Best,Approved,2025-02-26T12:03:09-05:00,,won,,$1114.00,,,"",Universe Duct Cleaning
+1001,1,Lea D,David Best,Approved,2025-02-26T13:31:57-05:00,,won,,$848.00,,,"",Universe Duct Cleaning
+1002,1,Michael Gyamgi,David Best,Awaiting approval,2025-02-26T14:22:03-05:00,,open,$999.00,,,,"",Universe Duct Cleaning
+1003,1,Bridgid Whitehead,David Best,Awaiting approval,2025-02-27T10:24:06-05:00,,open,$996.00,,,,"",Universe Duct Cleaning
+1004,1,Chad Summers,David Best,Approved,2025-02-27T12:40:09-05:00,,won,,$2971.00,,,"",Universe Duct Cleaning
+1005,1,Roselio Brunet,David Best,Awaiting approval,2025-02-27T15:42:24-05:00,2025-03-02T13:00:00-05:00,open,$998.00,,,,"",Universe Duct Cleaning
+1006,1,Kris Rao,David Best,Awaiting approval,2025-02-27T17:50:02-05:00,,open,$8670.00,,,,"",Universe Duct Cleaning
+1007,1,Kris Rao,David Best,Awaiting approval,2025-02-27T17:54:00-05:00,,open,$11826.00,,,,"",Universe Duct Cleaning
+1008,1,Paola Hector,David Best,Awaiting approval,2025-02-28T12:15:09-05:00,,open,$2677.00,,,,"",Universe Duct Cleaning
+1009,1,Ruben Perez,David Best,Approved,2025-02-28T12:39:50-05:00,,won,,$2094.00,,,"",Universe Duct Cleaning
+1010,1,Julie Bergeron,David Best,Approved,2025-02-28T12:58:59-05:00,,won,,$2000.00,,,"",Universe Duct Cleaning
+1011,1,Bahiah Khamsi,David Best,Awaiting approval,2025-02-28T15:58:56-05:00,,open,$3096.00,,,,"",Universe Duct Cleaning
+1012,1,Bahiah Khamsi,David Best,Awaiting approval,2025-02-28T16:02:36-05:00,,open,$4494.00,,,,"",Universe Duct Cleaning
+1013,1,Anthony Andres,David Best,Awaiting approval,2025-03-02T16:34:05-05:00,,open,$1740.00,,,,"",Universe Duct Cleaning
+1014,1,Rolanda Brantley,David Best,Awaiting approval,2025-03-03T11:32:57-05:00,,open,$699.00,,,,"",Universe Duct Cleaning
+1015,1,Adam Aref,David Best,Awaiting approval,2025-03-03T14:16:18-05:00,,open,$1999.00,,,,"",Universe Duct Cleaning
+1016,1,Wesley Saint Fleur,David Best,Awaiting approval,2025-03-04T14:32:33-05:00,,open,$1400.00,,,,"",Universe Duct Cleaning
+1017,1,Keris Duperly,David Best,Approved,2025-03-04T16:46:18-05:00,,won,,$1360.80,,,"",Universe Duct Cleaning
+1018,1,Aleine Williamson,David Best,Awaiting approval,2025-03-05T10:33:17-05:00,,open,$398.00,,,,"",Universe Duct Cleaning
+1019,1,Frank LoVerso,David Best,Awaiting approval,2025-03-05T11:40:04-05:00,,open,$800.00,,,,"",Universe Duct Cleaning
+1020,1,Panajut Dhima,David Best,Awaiting approval,2025-03-05T12:51:44-05:00,,open,$2490.00,,,,"",Universe Duct Cleaning
+1021,1,Megan,David Best,Awaiting approval,2025-03-05T13:42:50-05:00,,open,$6820.00,,,,"",Universe Duct Cleaning
+1022,2,Dana Rood,David Best,Awaiting approval,2025-03-05T18:31:30-05:00,,open,$2999.00,,,,"",Universe Duct Cleaning
+1023,1,Justin ERG & Associates,David Best,Pro approved,2025-03-06T10:31:11-05:00,,won,,$2736.00,,,"",Universe Duct Cleaning
+1024,1,Kevin,David Best,Awaiting approval,2025-03-06T11:48:22-05:00,,open,$1549.00,,,,"",Universe Duct Cleaning
+1025,1,Elizabeth Pasquale,David Best,Approved,2025-03-07T11:02:34-05:00,,won,,$2501.00,,,"",Universe Duct Cleaning
+1026,1,Jadeen Notice,David Best,Awaiting approval,2025-03-07T12:40:26-05:00,,open,$2974.00,,,,"",Universe Duct Cleaning
+1027,1,Ivanco Mijovski,David Best,Awaiting approval,2025-03-07T13:28:03-05:00,,open,$4409.80,,,,"",Universe Duct Cleaning
+1028,1,Wendy Vi,David Best,Approved,2025-03-09T13:02:20-04:00,,won,,$1333.00,,,"",Universe Duct Cleaning
+1029,1,Jared Seligman,David Best,Pro approved,2025-03-10T17:10:59-04:00,,won,,$4197.00,,,"",Universe Duct Cleaning
+1030,1,Daniela,David Best,Awaiting approval,2025-03-11T11:22:53-04:00,,open,$650.00,,,,"",Universe Duct Cleaning
+1031,1,Daniela,David Best,Awaiting approval,2025-03-11T11:23:34-04:00,,open,$949.00,,,,"",Universe Duct Cleaning
+1032,1,Abdur,David Best,Pro approved,2025-03-11T13:36:46-04:00,,won,,$1500.00,,,"",Universe Duct Cleaning
+1033,1,Jason Smith,David Best,Awaiting approval,2025-03-11T17:45:45-04:00,,open,$1687.00,,,,"",Universe Duct Cleaning
+1034,1,Daniela,David Best,Approved,2025-03-12T08:54:28-04:00,2025-03-24T17:00:28-04:00,won,,$900.00,,,"",Universe Duct Cleaning
+1035,1,Veronica Adorisio,David Best,Pro approved,2025-03-12T14:16:41-04:00,,won,,$1300.00,,,"",Universe Duct Cleaning
+1036,1,Joseph Depalo,David Best,Awaiting approval,2025-03-13T12:01:06-04:00,,open,$999.00,,,,"",Universe Duct Cleaning
+1037,1,Kevin Lukasicwicz,David Best,Approved,2025-03-13T14:00:12-04:00,,won,,$3600.00,,,"",Universe Duct Cleaning
+1038,1,Regina Whitcomb,David Best,Pro approved,2025-03-13T14:15:30-04:00,,won,,$475.00,,,"",Universe Duct Cleaning
+1039,1,Moises Ferris,David Best,Awaiting approval,2025-03-13T15:32:46-04:00,,open,$997.00,,,,"",Universe Duct Cleaning
+1040,1,Tomasz Jamroz,David Best,Approved,2025-03-13T17:16:13-04:00,,won,,$3098.00,,,"",Universe Duct Cleaning
+1041,1,Natasha Bresilier,David Best,Awaiting approval,2025-03-16T13:30:56-04:00,,open,$1449.00,,,,"",Universe Duct Cleaning
+1042,1,Vittoria Mischiati,David Best,Approved,2025-03-16T13:52:50-04:00,,won,,$800.00,,,"",Universe Duct Cleaning
+1043,1,Matias Donoso,David Best,Awaiting approval,2025-03-20T11:46:23-04:00,,open,$2253.00,,,,"",Universe Duct Cleaning
+1044,1,Barbara Pecce,David Best,Awaiting approval,2025-03-20T13:46:32-04:00,,open,$4080.60,,,,"",Universe Duct Cleaning
+1045,1,Rosalind Robinson,David Best,Approved,2025-03-20T16:06:35-04:00,,won,,$995.00,,,"",Universe Duct Cleaning
+1046,1,Lisa Neuman,David Best,Awaiting approval,2025-03-21T10:57:02-04:00,,open,$646.00,,,,"",Universe Duct Cleaning
+1047,1,Sandesh Malekar,David Best,Awaiting approval,2025-03-21T15:51:43-04:00,,open,$1919.00,,,,"",Universe Duct Cleaning
+1048,1,"Hillary Hass, Mitra ",David Best,Pro approved,2025-03-25T13:42:42-04:00,,won,,$1275.00,,,"",Universe Duct Cleaning
+1049,1,Jamie Torres,David Best,Awaiting approval,2025-03-26T11:46:33-04:00,,open,$447.00,,,,"",Universe Duct Cleaning
+1050,1,Oaksana R,David Best,Approved,2025-03-27T13:23:04-04:00,,won,,$700.00,,,"",Universe Duct Cleaning
+1051,1,Karen Roggiero,David Best,Awaiting approval,2025-03-27T15:23:31-04:00,,open,$2490.00,,,,"",Universe Duct Cleaning
+1052,1,Daniel Kandler,David Best,Awaiting approval,2025-03-27T16:14:16-04:00,,open,$2493.00,,,,"",Universe Duct Cleaning
+1053,1,Josh,David Best,Awaiting approval,2025-03-30T16:02:21-04:00,,open,$650.00,,,,"",Universe Duct Cleaning
+1054,1,Viviana Longueira,David Best,Awaiting approval,2025-03-31T14:00:02-04:00,,open,$2404.00,,,,"",Universe Duct Cleaning
+1055,1,David Korth,David Best,Awaiting approval,2025-04-02T09:07:58-04:00,,open,$499.00,,,,"",Universe Duct Cleaning
+1056,1,Samantha Passley,David Best,Awaiting approval,2025-04-02T10:38:42-04:00,,open,$1698.00,,,,"",Universe Duct Cleaning
+1057,1,James Whelan,David Best,Awaiting approval,2025-04-02T13:22:38-04:00,,open,$5593.00,,,,"",Universe Duct Cleaning
+1058,1,James Whelan,David Best,Awaiting approval,2025-04-02T13:24:19-04:00,,open,$483.00,,,,"",Universe Duct Cleaning
+1059,1,Kara Harrison,David Best,Awaiting approval,2025-04-02T16:26:13-04:00,,open,$1657.00,,,,"",Universe Duct Cleaning
+1060,1,Rafael,David Best,Awaiting approval,2025-04-03T10:52:23-04:00,,open,$1597.00,,,,"",Universe Duct Cleaning
+1061,1,Nicky W,David Best,Pro approved,2025-04-03T12:51:51-04:00,,won,,$250.00,,,"",Universe Duct Cleaning
+1062,1,Nicky W,David Best,Awaiting approval,2025-04-04T10:55:32-04:00,,open,$566.00,,,,"",Universe Duct Cleaning
+1063,1,Ted Rankin,David Best,Approved,2025-04-04T11:02:03-04:00,,won,,$1646.00,,,"",Universe Duct Cleaning
+1064,1,Bruce Marks,David Best,Pro approved,2025-04-04T13:01:47-04:00,,won,,$800.00,,,"",Universe Duct Cleaning
+1065,1,Tony Karl,David Best,Awaiting approval,2025-04-04T16:09:46-04:00,,open,$800.00,,,,"",Universe Duct Cleaning
+1066,1,Julio Moure,David Best,Awaiting approval,2025-04-06T10:41:20-04:00,,open,$5205.60,,,,"",Universe Duct Cleaning
+1067,1,Julio Moure,David Best,Awaiting approval,2025-04-06T10:42:44-04:00,,open,$1398.00,,,,"",Universe Duct Cleaning
+1068,1,Manny Juan,David Best,Awaiting approval,2025-04-06T13:35:21-04:00,,open,$2897.00,,,,"",Universe Duct Cleaning
+1069,1,John Roush,David Best,Approved,2025-04-07T10:33:33-04:00,,won,,$5000.00,,,"",Universe Duct Cleaning
+1070,1,James Cabral,David Best,Awaiting approval,2025-04-07T11:58:55-04:00,,open,$1627.00,,,,"",Universe Duct Cleaning
+1071,1,Steve Morris,David Best,Created on job,2025-04-07T13:00:46-04:00,,open,$1316.70,,,,"",Universe Duct Cleaning
+1072,1,Guimarais lauro,David Best,Awaiting approval,2025-04-07T14:56:02-04:00,,open,$1200.00,,,,"",Universe Duct Cleaning
+1073,1,Guimarais lauro,David Best,Awaiting approval,2025-04-07T14:57:36-04:00,,open,$4050.00,,,,"",Universe Duct Cleaning
+1074,1,Mohammed Hussain,David Best,Awaiting approval,2025-04-09T12:45:10-04:00,,open,$1708.00,,,,"",Universe Duct Cleaning
+1075,1,Brian Olsen,David Best,Awaiting approval,2025-04-09T16:41:09-04:00,,open,$1847.00,,,,"",Universe Duct Cleaning
+1076,1,Jenn Farmer,David Best,Awaiting approval,2025-04-09T17:40:33-04:00,,open,$1557.00,,,,"",Universe Duct Cleaning
+1077,1,Lisa Zhen,David Best,Awaiting approval,2025-04-10T10:13:12-04:00,,open,$1354.00,,,,"",Universe Duct Cleaning
+1079,1,Maite,David Best,Pro approved,2025-04-10T11:05:12-04:00,,won,,$4964.00,,,"",Universe Duct Cleaning
+1080,1,Stephanie Boodram,David Best,Awaiting approval,2025-04-10T12:57:13-04:00,,open,$1300.00,,,,"",Universe Duct Cleaning
+1081,1,Rafael Delgado,David Best,Approved,2025-04-10T13:56:01-04:00,,won,,$1500.00,,,"",Universe Duct Cleaning
+1082,1,Carlos Rivera,David Best,Awaiting approval,2025-04-10T16:21:19-04:00,,open,$2162.00,,,,"",Universe Duct Cleaning
+1083,1,Chris Mitton,David Best,Awaiting approval,2025-04-11T12:45:19-04:00,,open,$1196.00,,,,"",Universe Duct Cleaning
+1084,1,Tatiana Sam,David Best,Pro approved,2025-04-11T14:17:16-04:00,,won,,$1713.00,,,"",Universe Duct Cleaning
+1085,1,Katrina Joseph,David Best,Awaiting approval,2025-04-11T15:38:54-04:00,,open,$2873.00,,,,"",Universe Duct Cleaning
+1086,1,Darius Coello,David Best,Awaiting approval,2025-04-13T16:27:37-04:00,2025-04-14T13:00:00-04:00,open,$400.00,,,,"",Universe Duct Cleaning
+1087,1,Sam Lamachia,David Best,Pro approved,2025-04-14T13:53:33-04:00,,won,,$1157.00,,,"",Universe Duct Cleaning
+1088,1,Amanda Gittens,David Best,Pro approved,2025-04-15T15:17:14-04:00,,won,,$499.00,,,"",Universe Duct Cleaning
+1089,1,Paula Kimble,David Best,Approved,2025-04-16T12:36:34-04:00,,won,,$1077.30,,,"",Universe Duct Cleaning
+1090,1,Arbens Bernard,David Best,Awaiting approval,2025-04-17T17:41:00-04:00,,open,$2413.00,,,,"",Universe Duct Cleaning
+1091,1,Kenny Smith,David Best,Pro approved,2025-04-18T15:25:45-04:00,,won,,$850.00,,,"",Universe Duct Cleaning
+1092,1,Kristy Plaut,David Best,Awaiting approval,2025-04-18T15:26:55-04:00,,open,$1332.00,,,,"",Universe Duct Cleaning
+1093,1,Paul Labrecque,David Best,Pro approved,2025-04-19T09:46:18-04:00,2025-04-21T11:00:00-04:00,won,,$405.90,,,"",Universe Duct Cleaning
+1094,1,Noorali Wah,David Best,Awaiting approval,2025-04-21T11:45:32-04:00,,open,$1913.00,,,,"",Universe Duct Cleaning
+1095,1,Ramon Gonzales Tavera,David Best,Awaiting approval,2025-04-21T18:59:51-04:00,,open,$2635.20,,,,"",Universe Duct Cleaning
+1096,1,Vikas Gurjar,David Best,Awaiting approval,2025-04-22T14:36:56-04:00,,open,$1569.00,,,,"",Universe Duct Cleaning
+1097,1,Damian Blanco,David Best,Awaiting approval,2025-04-22T15:03:49-04:00,,open,$1937.00,,,,Pipeline Automation,Universe Duct Cleaning
+1098,1,Louis Torres,David Best,Pro approved,2025-04-23T13:24:02-04:00,,won,,$750.00,,,"",Universe Duct Cleaning
+1099,1,Martin Gainsbrugh,David Best,Awaiting approval,2025-04-23T15:43:54-04:00,,open,$765.00,,,,"",Universe Duct Cleaning
+1100,1,Kelsey Duffy,David Best,Pro approved,2025-04-23T18:09:27-04:00,,won,,$2000.00,,,"",Universe Duct Cleaning
+1101,1,Mohammed Ali,David Best,Approved,2025-04-24T10:54:10-04:00,,won,,$977.00,,,"",Universe Duct Cleaning
+1102,1,Bradley Maged,David Best,Awaiting approval,2025-04-27T13:01:50-04:00,,open,$1414.00,,,,"",Universe Duct Cleaning
+1104,1,Chris Kinaia,David Best,Awaiting approval,2025-04-28T09:26:55-04:00,,open,$1409.00,,,,"",Universe Duct Cleaning
+1105,1,Alex Boro,David Best,Approved,2025-04-28T16:11:30-04:00,,won,,$6854.00,,,"",Universe Duct Cleaning
+1106,1,David Myer,David Best,Pro approved,2025-04-28T16:59:17-04:00,,won,,$2250.00,,,"",Universe Duct Cleaning
+1107,1,David Myer,David Best,Awaiting approval,2025-04-28T17:03:20-04:00,,open,$8560.00,,,,"",Universe Duct Cleaning
+1108,1,Barry Burgess,David Best,Approved,2025-04-29T10:04:36-04:00,,won,,$2613.00,,,"",Universe Duct Cleaning
+1110,1,Robin,David Best,Awaiting approval,2025-05-01T13:07:26-04:00,,open,$1500.00,,,,"",Universe Duct Cleaning
+1111,1,Terry Mcdowell,David Best,Approved,2025-05-01T14:51:40-04:00,,won,,$2591.00,,,"",Universe Duct Cleaning
+1112,1,James Wayman,David Best,Pro approved,2025-05-02T09:12:41-04:00,,won,,$997.00,,,"",Universe Duct Cleaning
+1113,1,Neil Miritello,David Best,Awaiting approval,2025-05-02T11:33:51-04:00,,open,$1400.00,,,,"",Universe Duct Cleaning
+1114,1,Terry Jonethis,David Best,Pro approved,2025-05-02T12:41:36-04:00,,won,,$1227.00,,,"",Universe Duct Cleaning
+1115,1,Ruthie Martin,David Best,Awaiting approval,2025-05-04T10:51:29-04:00,,open,$8043.00,,,,Pipeline Automation,Universe Duct Cleaning
+1116,1,Danielle Daidone,David Best,Awaiting approval,2025-05-04T14:13:44-04:00,,open,$700.00,,,,"",Universe Duct Cleaning
+1117,1,Tyler,David Best,Awaiting approval,2025-05-05T10:20:23-04:00,,open,$5749.20,,,,Pipeline Automation,Universe Duct Cleaning
+1118,1,Alistair Macleod,David Best,Awaiting approval,2025-05-05T12:55:13-04:00,,open,$1542.00,,,,Pipeline Automation,Universe Duct Cleaning
+1119,1,Rose Pierre Charles,David Best,Pro approved,2025-05-05T14:57:56-04:00,,won,,$1100.00,,,"",Universe Duct Cleaning
+1120,1,Taniko Williamson,David Best,Awaiting approval,2025-05-05T19:18:49-04:00,,open,$1226.00,,,,Pipeline Automation,Universe Duct Cleaning
+1121,1,Jeff Tiballi,David Best,Awaiting approval,2025-05-06T09:35:43-04:00,,open,$1429.00,,,,"",Universe Duct Cleaning
+1122,1,Jeff Tiballi,David Best,Awaiting approval,2025-05-06T09:41:22-04:00,,open,$700.00,,,,"",Universe Duct Cleaning
+1123,1,Sue Skelton,David Best,Pro approved,2025-05-06T11:23:35-04:00,,won,,$1000.00,,,"",Universe Duct Cleaning
+1125,1,Vince & Debbie,David Best,Pro approved,2025-05-08T09:58:21-04:00,,won,,$300.00,,,"",Universe Duct Cleaning
+1126,1,"Sharfi Holdings, Inc.",David Best,Pro approved,2025-05-08T11:19:38-04:00,,won,,$2500.00,,,"",Universe Duct Cleaning
+1127,1,Mitchell Kelman,David Best,Awaiting approval,2025-05-09T10:08:39-04:00,,open,$349.00,,,,"",Universe Duct Cleaning
+1128,1,Armando Perez,David Best,Awaiting approval,2025-05-09T14:01:59-04:00,,open,$950.00,,,,"",Universe Duct Cleaning
+1129,1,Armando Perez,David Best,Awaiting approval,2025-05-09T14:04:15-04:00,,open,$2750.00,,,,Pipeline Automation,Universe Duct Cleaning
+1130,1,Jonathan Aguirre,David Best,Pro approved,2025-05-09T15:47:28-04:00,,won,,$359.00,,,"",Universe Duct Cleaning
+1131,1,Devesh Nakra ,David Best,Pro approved,2025-05-09T17:01:53-04:00,,won,,$600.00,,,"",Universe Duct Cleaning
+1133,1,Junior Jean,David Best,Pro approved,2025-05-11T11:31:34-04:00,,won,,$298.00,,,"",Universe Duct Cleaning
+1135,1,Alex Bengfield,David Best,Awaiting approval,2025-05-12T12:33:23-04:00,,open,$1597.00,,,,Pipeline Automation,Universe Duct Cleaning
+1136,1,Michael Weitz,David Best,Awaiting approval,2025-05-12T17:18:18-04:00,,open,$2280.00,,,,Pipeline Automation,Universe Duct Cleaning
+1137,1,Kelly Bovino,David Best,Approved,2025-05-13T09:18:46-04:00,,won,,$99.00,,,"",Universe Duct Cleaning
+1138,2,Louis Abramson,David Best,Awaiting approval,2025-05-13T13:15:16-04:00,,open,$5733.90,,,,Pipeline Automation,Universe Duct Cleaning
+1139,1,Jaclyn Cassagio,David Best,Approved,2025-05-13T14:16:30-04:00,,won,,$426.00,,,"",Universe Duct Cleaning
+1140,1,Naomi Mathias,David Best,Awaiting approval,2025-05-13T14:33:24-04:00,,open,$275.00,,,,Pipeline Automation,Universe Duct Cleaning
+1141,2,Ketler Macome,David Best,Awaiting approval,2025-05-13T18:16:02-04:00,,open,$1550.00,,,,Pipeline Automation,Universe Duct Cleaning
+1142,1,Karan Ross,David Best,Approved,2025-05-14T11:20:50-04:00,,won,,$4070.00,,,"",Universe Duct Cleaning
+1143,1,Karen Roggiero,David Best,Pro approved,2025-05-14T16:42:55-04:00,2025-05-16T10:00:00-04:00,won,,$918.00,,,"",Universe Duct Cleaning
+1144,1,Alain Gonzalez,David Best,Awaiting approval,2025-05-16T11:23:59-04:00,,open,$699.00,,,,Pipeline Automation,Universe Duct Cleaning
+1145,1,Karan Ross,David Best,Pro approved,2025-05-16T12:55:07-04:00,,won,,$887.00,,,"",Universe Duct Cleaning
+1146,1,Katie Foley,David Best,Approved,2025-05-16T13:55:47-04:00,,won,,$750.00,,,"",Universe Duct Cleaning
+1147,1,Judy Meredith,David Best,Awaiting approval,2025-05-16T17:38:34-04:00,,open,$1143.00,,,,Pipeline Automation,Universe Duct Cleaning
+1148,1,JC Borja,David Best,Awaiting approval,2025-05-18T10:22:18-04:00,,open,$2282.40,,,,Pipeline Automation,Universe Duct Cleaning
+1149,1,Brian Day,David Best,Pro approved,2025-05-18T10:37:42-04:00,,won,,$2920.60,,,"",Universe Duct Cleaning
+1150,1,Venkit,David Best,Awaiting approval,2025-05-18T11:51:45-04:00,,open,$1200.00,,,,Pipeline Automation,Universe Duct Cleaning
+1151,1,Venkit,David Best,Awaiting approval,2025-05-18T11:53:03-04:00,,open,$650.00,,,,Pipeline Automation,Universe Duct Cleaning
+1153,1,Linda Heath,David Best,Awaiting approval,2025-05-20T11:19:12-04:00,,open,$978.00,,,,Pipeline Automation,Universe Duct Cleaning
+1154,1,Pedro Guarrero,David Best,Awaiting approval,2025-05-20T17:24:17-04:00,,open,$1327.00,,,,Pipeline Automation,Universe Duct Cleaning
+1155,1,Robert Lachaussee,David Best,Awaiting approval,2025-05-20T17:57:19-04:00,,open,$800.00,,,,Pipeline Automation,Universe Duct Cleaning
+1156,1,Rachel Sakosky,David Best,Awaiting approval,2025-05-20T19:15:23-04:00,,open,$1340.00,,,,Pipeline Automation,Universe Duct Cleaning
+1157,1,Aimee Kaufman,David Best,Approved,2025-05-21T12:08:20-04:00,,won,,$0.00,,,"",Universe Duct Cleaning
+1158,1,Bruce Dalrymple,David Best,Approved,2025-05-21T12:40:55-04:00,,won,,$496.00,,,"",Universe Duct Cleaning
+1159,1,Edna Floren,David Best,Awaiting approval,2025-05-21T14:32:02-04:00,,open,$474.00,,,,Pipeline Automation,Universe Duct Cleaning
+1160,1,Troy Bonghi,David Best,Pro approved,2025-05-22T11:02:26-04:00,,won,,$1137.00,,,"",Universe Duct Cleaning
+1161,1,Graham Cason,David Best,Pro approved,2025-05-22T11:41:57-04:00,,won,,$800.00,,,"",Universe Duct Cleaning
+1162,1,Kim Doll,David Best,Awaiting approval,2025-05-22T14:29:18-04:00,,open,$1970.00,,,,Pipeline Automation,Universe Duct Cleaning
+1163,1,Rita Wallach,David Best,Pro approved,2025-05-22T16:25:37-04:00,,won,,$1164.00,,,"",Universe Duct Cleaning
+1164,1,Abul Khan,David Best,Approved,2025-05-23T10:38:57-04:00,,won,,$837.00,,,"",Universe Duct Cleaning
+1165,1,Joan Poorly,David Best,Done,2025-05-23T12:54:10-04:00,,open,$0.00,,,,"",Universe Duct Cleaning
+1166,1,Joan Poorly,David Best,Approved,2025-05-23T12:58:03-04:00,,won,,$1500.00,,,"",Universe Duct Cleaning
+1167,1,Umair Jawaid,David Best,Awaiting approval,2025-05-25T11:06:38-04:00,,open,$749.00,,,,"",Universe Duct Cleaning
+1168,1,Elda Oully,David Best,Awaiting approval,2025-05-25T13:26:14-04:00,,open,$1526.60,,,,"",Universe Duct Cleaning
+1169,1,Matt Mulcan,David Best,Approved,2025-05-27T11:52:07-04:00,,won,,$2500.00,,,"",Universe Duct Cleaning
+1170,1,Donald Quesenberry,David Best,Approved,2025-05-27T18:24:05-04:00,,won,,$600.00,,,"",Universe Duct Cleaning
+1171,1,Kewal Arjoon,David Best,Approved,2025-05-27T18:42:07-04:00,,won,,$800.00,,,Pipeline Automation,Universe Duct Cleaning
+1172,1,Michael Vitetta,David Best,Awaiting approval,2025-05-27T20:16:49-04:00,,open,$1735.00,,,,Pipeline Automation,Universe Duct Cleaning
+1173,1,Saritha Kumari,David Best,Awaiting approval,2025-05-28T11:04:11-04:00,,open,$856.80,,,,"",Universe Duct Cleaning
+1174,1,Otto Darias,David Best,Awaiting approval,2025-05-28T11:35:01-04:00,,open,$1903.15,,,,Pipeline Automation,Universe Duct Cleaning
+1175,1,Trent Mayer,David Best,Awaiting approval,2025-05-28T15:28:44-04:00,,open,$643.50,,,,"",Universe Duct Cleaning
+1176,1,Jules Scoast,David Best,Awaiting approval,2025-05-29T13:30:12-04:00,,open,$949.00,,,,"",Universe Duct Cleaning
+1177,1,Sonia Kelly,David Best,Pro approved,2025-05-29T16:37:38-04:00,,won,,$375.00,,,"",Universe Duct Cleaning
+1178,1,Leslie Johnson,David Best,Pro declined,2025-05-30T11:16:24-04:00,,lost,,,$2138.60,,Pipeline Automation,Universe Duct Cleaning
+1179,1,Lee Goldstein,David Best,Awaiting approval,2025-05-30T12:07:46-04:00,,open,$1440.00,,,,Pipeline Automation,Universe Duct Cleaning
+1180,1,Fredy Hidalgo,David Best,Awaiting approval,2025-06-01T09:40:18-04:00,,open,$2880.00,,,,Pipeline Automation,Universe Duct Cleaning
+1181,1,Lorence Lewis,David Best,Awaiting approval,2025-06-03T08:44:27-04:00,,open,$1386.00,,,,Pipeline Automation,Universe Duct Cleaning
+1182,1,Theo Vaca,David Best,Pro approved,2025-06-05T11:06:03-04:00,,won,,$1299.00,,,"",Universe Duct Cleaning
+1183,1,Sayli B,David Best,Awaiting approval,2025-06-06T11:46:04-04:00,,open,$1678.00,,,,Pipeline Automation,Universe Duct Cleaning
+1184,1,Gloria Londono,David Best,Approved,2025-06-06T13:57:00-04:00,,won,,$1661.55,,,"",Universe Duct Cleaning
+1185,1,James Woods,David Best,Awaiting approval,2025-06-06T18:27:38-04:00,,open,$13000.00,,,,Pipeline Automation,Universe Duct Cleaning
+1186,1,Daniel Sojo,David Best,Pro approved,2025-06-07T14:32:44-04:00,2025-06-08T10:00:00-04:00,won,,$900.00,,,"",Universe Duct Cleaning
+1187,1,Dan,David Best,Awaiting approval,2025-06-08T15:56:49-04:00,,open,$1180.00,,,,Pipeline Automation,Universe Duct Cleaning
+1188,1,Maryanne Needham,David Best,Awaiting approval,2025-06-09T13:52:09-04:00,,open,$1700.00,,,,Pipeline Automation,Universe Duct Cleaning
+1189,1,Barbara Kuncman,David Best,Awaiting approval,2025-06-10T13:56:58-04:00,,open,$1314.00,,,,Pipeline Automation,Universe Duct Cleaning
+1190,1,Teresa Mckee,David Best,Awaiting approval,2025-06-10T15:34:15-04:00,,open,$498.00,,,,Pipeline Automation,Universe Duct Cleaning
+1191,1,Mackenzie Hogan,David Best,Pro approved,2025-06-11T10:43:01-04:00,,won,,$3505.00,,,Pipeline Automation,Universe Duct Cleaning
+1192,2,Mackenzie Hogan,David Best,Pro approved,2025-06-11T10:46:35-04:00,,won,,$2690.00,,,"",Universe Duct Cleaning
+1193,1,Elva Sorongan,David Best,Awaiting approval,2025-06-11T11:41:07-04:00,,open,$1391.00,,,,Pipeline Automation,Universe Duct Cleaning
+1194,1,Rivkah Gruttenberg,David Best,Awaiting approval,2025-06-11T12:39:54-04:00,,open,$1801.80,,,,Pipeline Automation,Universe Duct Cleaning
+1195,1,Steven Callaghan,David Best,Pro approved,2025-06-11T17:59:23-04:00,,won,,$990.00,,,"",Universe Duct Cleaning
+1196,1,Toni Marsh,David Best,Awaiting approval,2025-06-12T15:13:14-04:00,,open,$1502.00,,,,Pipeline Automation,Universe Duct Cleaning
+1197,1,Ketler Macome,David Best,Approved,2025-06-12T15:26:43-04:00,,won,,$850.00,,,"",Universe Duct Cleaning
+1198,1,Andre Andraos,David Best,Awaiting approval,2025-06-13T10:30:37-04:00,,open,$1179.00,,,,Pipeline Automation,Universe Duct Cleaning
+1199,1,Juan Quiroz,David Best,Pro approved,2025-06-13T16:36:31-04:00,2025-06-15T11:00:00-04:00,won,,$1500.00,,,"",Universe Duct Cleaning
+1200,1,Adrian Santana,David Best,Awaiting approval,2025-06-15T10:18:03-04:00,,open,$1368.95,,,,Pipeline Automation,Universe Duct Cleaning
+1202,1,Shibi George,David Best,Awaiting approval,2025-06-16T17:47:07-04:00,,open,$1500.00,,,,Pipeline Automation,Universe Duct Cleaning
+1203,1,Katie Foley,David Best,Pro approved,2025-06-17T14:47:40-04:00,,won,,$500.00,,,"",Universe Duct Cleaning
+1204,1,Jack Reese,David Best,Awaiting approval,2025-06-17T16:21:26-04:00,,open,$1273.00,,,,Pipeline Automation,Universe Duct Cleaning
+1206,1,Francina Francois,David Best,Awaiting approval,2025-06-18T14:32:19-04:00,,open,$1826.00,,,,Pipeline Automation,Universe Duct Cleaning
+1207,1,Allen Arker,David Best,Awaiting approval,2025-06-19T10:44:28-04:00,,open,$3840.80,,,,"",Universe Duct Cleaning
+1208,1,Crazy Buffet C/o Wei Liu,David Best,Awaiting approval,2025-06-19T16:15:09-04:00,,open,$5800.00,,,,Pipeline Automation,Universe Duct Cleaning
+1209,1,Wilda Michaud,David Best,Pro approved,2025-06-20T11:56:02-04:00,,won,,$1550.40,,,"",Universe Duct Cleaning
+1210,1,David Felipe Nivia,David Best,Pro approved,2025-06-22T13:25:32-04:00,,won,,$1100.00,,,"",Universe Duct Cleaning
+1211,1,Darleny Taveras,David Best,Pro approved,2025-06-22T14:16:49-04:00,,won,,$2097.00,,,Pipeline Automation,Universe Duct Cleaning
+1212,1,Monica Garcia,David Best,Awaiting approval,2025-06-22T18:37:37-04:00,,open,$2792.00,,,,Pipeline Automation,Universe Duct Cleaning
+1213,1,Monica Garcia,David Best,Awaiting approval,2025-06-22T18:39:09-04:00,,open,$2600.00,,,,Pipeline Automation,Universe Duct Cleaning
+1214,1,Ansy Pyronneau,David Best,Awaiting approval,2025-06-23T13:35:50-04:00,,open,$1118.00,,,,Pipeline Automation,Universe Duct Cleaning
+1215,1,Ansy Pyronneau,David Best,Awaiting approval,2025-06-23T13:36:53-04:00,,open,$1411.00,,,,Pipeline Automation,Universe Duct Cleaning
+1216,1,Savannah Smith,David Best,Awaiting approval,2025-06-24T07:52:00-04:00,,open,$659.00,,,,Pipeline Automation,Universe Duct Cleaning
+1217,1,Anthony,David Best,Awaiting approval,2025-06-24T18:43:35-04:00,,open,$1000.00,,,,Pipeline Automation,Universe Duct Cleaning
+1218,1,David Felipe Nivia,David Best,Approved,2025-06-25T17:24:54-04:00,,won,,$8500.00,,,Pipeline Automation,Universe Duct Cleaning
+1219,1,David Felipe Nivia,David Best,Created on job,2025-06-25T17:49:45-04:00,,open,$11797.60,,,,"",Universe Duct Cleaning
+1220,1,David Felipe Nivia,David Best,Awaiting approval,2025-06-25T19:00:29-04:00,,open,$3000.00,,,,Pipeline Automation,Universe Duct Cleaning
+1221,1,Aimee Kaufman,David Best,Approved,2025-06-25T20:01:54-04:00,,won,,$499.00,,,Pipeline Automation,Universe Duct Cleaning
+1222,1,Ed Kellett,David Best,Approved,2025-06-26T10:28:06-04:00,,won,,$1148.00,,,Pipeline Automation,Universe Duct Cleaning
+1223,1,Melissa Young,David Best,Awaiting approval,2025-06-26T16:42:42-04:00,,open,$10789.15,,,,Pipeline Automation,Universe Duct Cleaning
+1224,1,Garrett Lawrence,David Best,Awaiting approval,2025-06-26T17:50:51-04:00,,open,$1166.00,,,,Pipeline Automation,Universe Duct Cleaning
+1225,1,Garrett Lawrence,David Best,Awaiting approval,2025-06-26T17:53:48-04:00,,open,$1700.00,,,,Pipeline Automation,Universe Duct Cleaning
+1226,1,Erica Swain,David Best,Declined,2025-06-27T12:29:56-04:00,,lost,,,$1000.00,,"",Universe Duct Cleaning
+1227,1,Angelica,David Best,Awaiting approval,2025-06-27T12:44:20-04:00,,open,$2844.00,,,,Pipeline Automation,Universe Duct Cleaning
+1228,1,Yessi Valzquez,David Best,Pro approved,2025-06-29T15:47:04-04:00,,won,,$1587.60,,,"",Universe Duct Cleaning
+1229,1,Aaron McPherson,David Best,Awaiting approval,2025-06-30T14:49:10-04:00,,open,$8700.00,,,,Pipeline Automation,Universe Duct Cleaning
+1230,1,Seida Wood,David Best,Pro declined,2025-06-30T17:16:24-04:00,,lost,,,$4200.00,,Pipeline Automation,Universe Duct Cleaning
+1231,1,Bonnie Ajamain,David Best,Awaiting approval,2025-06-30T20:47:43-04:00,,open,$2219.00,,,,Pipeline Automation,Universe Duct Cleaning
+1232,1,Tiffany Beres,David Best,Approved,2025-07-01T11:13:55-04:00,,won,,$1000.00,,,Pipeline Automation,Universe Duct Cleaning
+1233,1,Jennifer Turner,David Best,Pro approved,2025-07-01T16:20:16-04:00,,won,,$4200.00,,,"",Universe Duct Cleaning
+1234,1,Robert Jimenez,David Best,Pro approved,2025-07-02T13:26:08-04:00,,won,,$1448.00,,,"",Universe Duct Cleaning
+1235,1,Courtney G,David Best,Pro approved,2025-07-02T16:29:31-04:00,,won,,$1299.00,,,"",Universe Duct Cleaning
+1236,1,Tom Griffin,David Best,Pro approved,2025-07-02T17:10:46-04:00,,won,,$2663.00,,,Pipeline Automation,Universe Duct Cleaning
+1237,1,Santiago Lopez,David Best,Awaiting approval,2025-07-02T17:15:32-04:00,,open,$1480.00,,,,Pipeline Automation,Universe Duct Cleaning
+1238,1,Mike Eaton,David Best,Awaiting approval,2025-07-02T17:26:06-04:00,,open,$1863.00,,,,Pipeline Automation,Universe Duct Cleaning
+1239,1,Olivia Pierce,David Best,Pro approved,2025-07-03T10:47:22-04:00,,won,,$1441.00,,,Pipeline Automation,Universe Duct Cleaning
+1240,1,Olivia Pierce,David Best,Awaiting approval,2025-07-03T10:49:06-04:00,,open,$698.00,,,,Pipeline Automation,Universe Duct Cleaning
+1241,1,Errol,David Best,Awaiting approval,2025-07-03T15:56:38-04:00,,open,$1239.00,,,,Pipeline Automation,Universe Duct Cleaning
+1242,1,Vanessa Matamoros,David Best,Awaiting approval,2025-07-03T18:36:30-04:00,,open,$1097.00,,,,Pipeline Automation,Universe Duct Cleaning
+1243,1,Tommy Lewis,David Best,Approved,2025-07-06T11:42:01-04:00,,won,,$950.00,,,"",Universe Duct Cleaning
+1244,1,Elaine Ambrosino,David Best,Awaiting approval,2025-07-07T11:09:20-04:00,,open,$557.00,,,,Pipeline Automation,Universe Duct Cleaning
+1245,1,Sandy Hackmeier,David Best,Pro approved,2025-07-07T11:43:15-04:00,,won,,$1421.60,,,Pipeline Automation,Universe Duct Cleaning
+1246,1,Jose Vigo,David Best,Pro approved,2025-07-07T12:04:17-04:00,,won,,$998.00,,,Pipeline Automation,Universe Duct Cleaning
+1247,1,Cody Wescott,David Best,Awaiting approval,2025-07-07T12:56:14-04:00,,open,$1750.00,,,,Pipeline Automation,Universe Duct Cleaning
+1248,1,Bella Nguyen,David Best,Awaiting approval,2025-07-07T13:36:11-04:00,,open,$1946.00,,,,Pipeline Automation,Universe Duct Cleaning
+1249,1,Brittany Dragon,David Best,Awaiting approval,2025-07-08T10:38:49-04:00,,open,$500.00,,,,Pipeline Automation,Universe Duct Cleaning
+1250,1,Val Vaz,David Best,Awaiting approval,2025-07-10T10:52:29-04:00,,open,$2315.00,,,,Pipeline Automation,Universe Duct Cleaning
+1251,1,Howard Zuckerman,David Best,Awaiting approval,2025-07-10T12:30:08-04:00,,open,$1789.00,,,,Pipeline Automation,Universe Duct Cleaning
+1252,1,Howard Zuckerman,David Best,Awaiting approval,2025-07-10T12:31:36-04:00,,open,$647.00,,,,Pipeline Automation,Universe Duct Cleaning
+1253,1,Christian Daniel,David Best,Approved,2025-07-11T10:49:22-04:00,,won,,$1839.00,,,"Pipeline Automation, Technician: BRIAN",Universe Duct Cleaning
+1254,1,Fred Tarantino,David Best,Awaiting approval,2025-07-11T12:32:07-04:00,,open,$1640.10,,,,Pipeline Automation,Universe Duct Cleaning
+1255,1,Joycelyn Elis,David Best,Declined,2025-07-11T13:25:49-04:00,,lost,,,$1000.00,,Pipeline Automation,Universe Duct Cleaning
+1256,1,Ron Ford,David Best,Approved,2025-07-11T14:45:01-04:00,,won,,$1300.00,,,Pipeline Automation,Universe Duct Cleaning
+1257,1,Luz,David Best,Awaiting approval,2025-07-11T18:48:59-04:00,,open,$2523.60,,,,Pipeline Automation,Universe Duct Cleaning
+1258,1,Lindsey Gerlock,David Best,Pro approved,2025-07-13T11:30:42-04:00,,won,,$2189.00,,,Pipeline Automation,Universe Duct Cleaning
+1259,1,Kevin Powell,David Best,Pro approved,2025-07-13T12:15:40-04:00,,won,,$2700.00,,,Pipeline Automation,Universe Duct Cleaning
+1260,1,Ayumi Rodriguez,David Best,Pro approved,2025-07-14T13:33:26-04:00,,won,,$1200.00,,,"",Universe Duct Cleaning
+1261,1,Diana Vazquez,David Best,Awaiting approval,2025-07-15T13:34:46-04:00,,open,$1499.00,,,,Pipeline Automation,Universe Duct Cleaning
+1262,1,Reinard Cox,David Best,Approved,2025-07-15T13:37:01-04:00,,won,,$1800.00,,,"",Universe Duct Cleaning
+1263,1,Rajaganesh Kamlanathan,David Best,Awaiting approval,2025-07-15T18:12:35-04:00,,open,$2564.00,,,,Pipeline Automation,Universe Duct Cleaning
+1264,1,Bob Slodowitz,David Best,Awaiting approval,2025-07-16T10:34:49-04:00,,open,$1999.00,,,,Pipeline Automation,Universe Duct Cleaning
+1265,1,Talkin Tacos,David Best,Awaiting approval,2025-07-16T14:41:12-04:00,,open,$1999.00,,,,Pipeline Automation,Universe Duct Cleaning
+1266,1,Murat Sener,David Best,Pro approved,2025-07-16T15:28:20-04:00,,won,,$2200.00,,,Pipeline Automation,Universe Duct Cleaning
+1267,1,Pride Grinn,David Best,Awaiting approval,2025-07-16T16:52:59-04:00,,open,$993.00,,,,Pipeline Automation,Universe Duct Cleaning
+1268,1,Omar Perez,David Best,Approved,2025-07-17T11:45:18-04:00,,won,,$1988.00,,,Pipeline Automation,Universe Duct Cleaning
+1269,1,Tim Michaels,David Best,Awaiting approval,2025-07-17T11:46:38-04:00,,open,$2399.00,,,,Pipeline Automation,Universe Duct Cleaning
+1270,1,John Britt,David Best,Pro approved,2025-07-17T13:21:59-04:00,,won,,$538.00,,,Pipeline Automation,Universe Duct Cleaning
+1271,1,Dominick Castorena,David Best,Awaiting approval,2025-07-17T14:27:31-04:00,,open,$2000.00,,,,Pipeline Automation,Universe Duct Cleaning
+1272,1,Max Gr,David Best,Awaiting approval,2025-07-18T14:00:46-04:00,,open,$1000.00,,,,Pipeline Automation,Universe Duct Cleaning
+1273,1,Venkata Tatiparthi,David Best,Awaiting approval,2025-07-20T19:18:19-04:00,,open,$1540.00,,,,Pipeline Automation,Universe Duct Cleaning
+1274,1,Tom,David Best,Pro approved,2025-07-21T11:34:44-04:00,,won,,$796.00,,,"",Universe Duct Cleaning
+1275,1,Anita Hunt,David Best,Approved,2025-07-21T15:34:51-04:00,,won,,$200.00,,,"",Universe Duct Cleaning
+1276,1,Blue Coast Multi Family ,David Best,Awaiting approval,2025-07-22T10:32:23-04:00,,open,$953.00,,,,Pipeline Automation,Universe Duct Cleaning
+1277,1,Emilee Alcantara,David Best,Pro approved,2025-07-22T11:44:33-04:00,,won,,$1863.00,,,"",Universe Duct Cleaning
+1278,1,Elliot Alacantra,David Best,Awaiting approval,2025-07-22T12:37:46-04:00,,open,$2363.00,,,,Pipeline Automation,Universe Duct Cleaning
+1279,1,Andre M,David Best,Awaiting approval,2025-07-22T14:07:12-04:00,,open,$1664.00,,,,Pipeline Automation,Universe Duct Cleaning
+1280,1,Samal Shepherd,David Best,Awaiting approval,2025-07-22T14:09:47-04:00,,open,$3411.00,,,,Pipeline Automation,Universe Duct Cleaning
+1281,1,Kay Mathura,David Best,Awaiting approval,2025-07-22T15:04:27-04:00,,open,$2452.00,,,,Pipeline Automation,Universe Duct Cleaning
+1282,1,Robert Jordan,David Best,Pro approved,2025-07-23T10:52:16-04:00,,won,,$1200.00,,,"",Universe Duct Cleaning
+1283,1,Aleksi T,David Best,Approved,2025-07-23T12:16:13-04:00,,won,,$1699.00,,,Pipeline Automation,Universe Duct Cleaning
+1284,1,Dear Journeys,David Best,Declined,2025-07-23T15:25:02-04:00,,lost,,,$1955.00,,Pipeline Automation,Universe Duct Cleaning
+1285,1,Kimberly Jackson,David Best,Pro approved,2025-07-24T11:49:24-04:00,2025-07-25T11:00:00-04:00,won,,$229.00,,,Pipeline Automation,Universe Duct Cleaning
+1287,1,Edwin Espinal,David Best,Awaiting approval,2025-07-24T12:29:06-04:00,,open,$5700.00,,,,Pipeline Automation,Universe Duct Cleaning
+1288,1,Murat Sener,David Best,Pro approved,2025-07-24T15:12:19-04:00,,won,,$2968.00,,,Pipeline Automation,Universe Duct Cleaning
+1289,1,Quimara Romain,David Best,Pro approved,2025-07-24T22:52:52-04:00,,won,,$1649.00,,,Pipeline Automation,Universe Duct Cleaning
+1290,1,Patrick Ma,David Best,Awaiting approval,2025-07-25T10:14:55-04:00,,open,$1437.00,,,,Pipeline Automation,Universe Duct Cleaning
+1291,1,Richard Riche,David Best,Awaiting approval,2025-07-27T11:03:12-04:00,,open,$754.00,,,,Pipeline Automation,Universe Duct Cleaning
+1292,1,Sonya Gopalani,David Best,Awaiting approval,2025-07-27T11:45:38-04:00,,open,$778.50,,,,Pipeline Automation,Universe Duct Cleaning
+1293,1,David Best,David Best,Awaiting approval,2025-07-27T16:49:25-04:00,,open,$2640.00,,,,Pipeline Automation,Universe Duct Cleaning
+1294,1,Josue Nord,David Best,Awaiting approval,2025-07-27T18:14:13-04:00,,open,$500.00,,,,Pipeline Automation,Universe Duct Cleaning
+1295,1,Claudine Dormeus,David Best,Awaiting approval,2025-07-28T10:56:10-04:00,,open,$399.00,,,,Pipeline Automation,Universe Duct Cleaning
+1296,1,Jannesha Morrison,David Best,Awaiting approval,2025-07-28T12:22:55-04:00,,open,$500.00,,,,Pipeline Automation,Universe Duct Cleaning
+1297,1,Chrissy Pappas,David Best,Awaiting approval,2025-07-29T11:55:13-04:00,2025-07-30T11:00:00-04:00,open,$5250.00,,,,Pipeline Automation,Universe Duct Cleaning
+1298,1,Blue Coast Multi Family ,David Best,Awaiting approval,2025-07-29T13:07:49-04:00,,open,$819.00,,,,Pipeline Automation,Universe Duct Cleaning
+1299,1,Erin St. James,David Best,Awaiting approval,2025-07-29T14:58:15-04:00,,open,$2289.00,,,,Pipeline Automation,Universe Duct Cleaning
+1300,1,Nelson Paula,David Best,Awaiting approval,2025-07-29T17:19:40-04:00,,open,$849.00,,,,Pipeline Automation,Universe Duct Cleaning
+1301,1,Lee Rosenthal,David Best,Awaiting approval,2025-07-29T17:22:10-04:00,,open,$1599.00,,,,Pipeline Automation,Universe Duct Cleaning
+1302,1,Daniel Crotty,David Best,Awaiting approval,2025-07-29T17:28:01-04:00,,open,$1249.00,,,,Pipeline Automation,Universe Duct Cleaning
+1303,2,Olen McLean,David Best,Awaiting approval,2025-07-29T17:46:31-04:00,,open,$1890.00,,,,Pipeline Automation,Universe Duct Cleaning
+1304,1,Ana Kapustina,David Best,Pro approved,2025-07-29T17:50:00-04:00,,won,,$1869.00,,,Pipeline Automation,Universe Duct Cleaning
+1305,1,Laurie McClelland,David Best,Awaiting approval,2025-07-30T12:33:46-04:00,,open,$6999.00,,,,Pipeline Automation,Universe Duct Cleaning
+1306,2,Pedro (Beatriz) Chaves,David Best,Awaiting approval,2025-07-30T12:43:56-04:00,,open,$6500.00,,,,Pipeline Automation,Universe Duct Cleaning
+1307,1,Angela Kuebler,David Best,Awaiting approval,2025-07-30T13:10:07-04:00,,open,$12915.00,,,,"",Universe Duct Cleaning
+1308,1,Youri Fatianoff,David Best,Awaiting approval,2025-07-30T13:46:26-04:00,,open,$2161.00,,,,Pipeline Automation,Universe Duct Cleaning
+1310,1,Christian Salga,David Best,Awaiting approval,2025-07-30T18:16:58-04:00,,open,$599.00,,,,Pipeline Automation,Universe Duct Cleaning
+1311,1,Brianna Marie,David Best,Approved,2025-07-31T13:24:46-04:00,,won,,$598.00,,,Pipeline Automation,Universe Duct Cleaning
+1312,1,Mel Velez,David Best,Pro approved,2025-07-31T13:32:25-04:00,,won,,$2661.35,,,"",Universe Duct Cleaning
+1313,1,Sam Hot Bins,David Best,Awaiting approval,2025-07-31T14:45:00-04:00,,open,$14000.00,,,,Pipeline Automation,Universe Duct Cleaning
+1315,1,Jason Mor,David Best,Declined,2025-07-31T17:24:27-04:00,,lost,,,$975.80,,Pipeline Automation,Universe Duct Cleaning
+1316,1,Donald Karp,David Best,Expired,2025-08-01T15:58:31-04:00,,lost,,,$13098.00,,Pipeline Automation,Universe Duct Cleaning
+1317,1,Gloria Marin,David Best,Awaiting approval,2025-08-03T14:31:38-04:00,,open,$2500.00,,,,Pipeline Automation,Universe Duct Cleaning
+1318,2,Brian Ambrose,David Best,Pro approved,2025-08-04T13:16:24-04:00,2025-08-06T13:00:00-04:00,won,,$4254.00,,,Pipeline Automation,Universe Duct Cleaning
+1319,1,Ali Garrido,David Best,Awaiting approval,2025-08-04T16:40:56-04:00,,open,$965.00,,,,Pipeline Automation,Universe Duct Cleaning
+1320,1,Alan Nance,David Best,Pro approved,2025-08-05T10:56:44-04:00,,won,,$2140.00,,,"",Universe Duct Cleaning
+1321,1,Joy Carrasco,David Best,Pro approved,2025-08-05T11:12:30-04:00,,won,,$919.00,,,Pipeline Automation,Universe Duct Cleaning
+1322,1,Mary Jo Almaguer,David Best,Awaiting approval,2025-08-05T12:39:01-04:00,,open,$1836.00,,,,Pipeline Automation,Universe Duct Cleaning
+1323,1,Bruce Richard,David Best,Awaiting approval,2025-08-05T14:25:35-04:00,,open,$2220.00,,,,Pipeline Automation,Universe Duct Cleaning
+1324,1,Kevin Downer,David Best,Awaiting approval,2025-08-06T10:13:41-04:00,,open,$1156.00,,,,Pipeline Automation,Universe Duct Cleaning
+1325,1,Abisha John,David Best,Awaiting approval,2025-08-06T11:42:39-04:00,,open,$1994.00,,,,Pipeline Automation,Universe Duct Cleaning
+1326,1,Abisha John,David Best,Awaiting approval,2025-08-06T11:44:53-04:00,,open,$1297.00,,,,Pipeline Automation,Universe Duct Cleaning
+1327,1,Pedro Garcia,David Best,Awaiting approval,2025-08-06T11:53:59-04:00,,open,$3000.00,,,Facebook,Pipeline Automation,Universe Duct Cleaning
+1328,1,Connyr Mumford,David Best,Pro approved,2025-08-07T12:37:53-04:00,,won,,$2236.00,,,"",Universe Duct Cleaning
+1329,1,John Milner,David Best,Awaiting approval,2025-08-07T16:05:31-04:00,,open,$3330.00,,,,Pipeline Automation,Universe Duct Cleaning
+1330,1,Michael Ganley,David Best,Approved,2025-08-08T11:48:47-04:00,,won,,$1591.00,,,Pipeline Automation,Universe Duct Cleaning
+1331,1,Larry Stephenson,David Best,Awaiting approval,2025-08-08T13:10:50-04:00,,open,$299.00,,,,Pipeline Automation,Universe Duct Cleaning
+1332,1,Matthew Harris,David Best,Awaiting approval,2025-08-08T15:14:14-04:00,,open,$1244.00,,,,Pipeline Automation,Universe Duct Cleaning
+1333,1,Mike Moskol,David Best,Awaiting approval,2025-08-08T15:30:08-04:00,,open,$1671.00,,,,Pipeline Automation,Universe Duct Cleaning
+1334,1,Sharon,David Best,Approved,2025-08-08T17:46:03-04:00,,won,,$2226.00,,,Pipeline Automation,Universe Duct Cleaning
+1335,1,Fae Charles,David Best,Awaiting approval,2025-08-10T15:05:52-04:00,,open,$1846.00,,,,Pipeline Automation,Universe Duct Cleaning
+1336,1,Lezliann Abreu,David Best,Declined,2025-08-11T09:58:58-04:00,,lost,,,$900.00,,Pipeline Automation,Universe Duct Cleaning
+1337,1,Brad Borkowski,David Best,Awaiting approval,2025-08-11T10:19:37-04:00,,open,$1659.65,,,,Pipeline Automation,Universe Duct Cleaning
+1338,1,Jerry Lohse,David Best,Approved,2025-08-11T10:59:25-04:00,,won,,$387.00,,,Pipeline Automation,Universe Duct Cleaning
+1339,1,Frank Moore,David Best,Awaiting approval,2025-08-11T12:44:16-04:00,,open,$1993.00,,,,Pipeline Automation,Universe Duct Cleaning
+1340,1,Nick Quintal,David Best,Pro approved,2025-08-11T13:42:39-04:00,,won,,$1300.00,,,"",Universe Duct Cleaning
+1341,1,Diane Carr,David Best,Awaiting approval,2025-08-11T13:52:16-04:00,,open,$1884.00,,,,Pipeline Automation,Universe Duct Cleaning
+1343,1,Katelyn Atcavage,David Best,Approved,2025-08-12T12:45:06-04:00,,won,,$0.00,,,"",Universe Duct Cleaning
+1344,1,Jerry Marenga,David Best,Awaiting approval,2025-08-12T12:56:47-04:00,,open,$994.00,,,,Pipeline Automation,Universe Duct Cleaning
+1346,1,Murat Sener,David Best,Awaiting approval,2025-08-12T16:19:00-04:00,,open,$4914.00,,,,Pipeline Automation,Universe Duct Cleaning
+1347,1,Samantha Collins,David Best,Awaiting approval,2025-08-12T16:26:01-04:00,,open,$1899.00,,,,Pipeline Automation,Universe Duct Cleaning
+1348,1,Alejandro Rodriguez,David Best,Awaiting approval,2025-08-12T17:17:59-04:00,,open,$782.00,,,,Pipeline Automation,Universe Duct Cleaning
+1349,1,Lavinia Draper,David Best,Awaiting approval,2025-08-12T17:20:31-04:00,,open,$1650.00,,,,Pipeline Automation,Universe Duct Cleaning
+1350,1,Jerry Del Dino,David Best,Awaiting approval,2025-08-13T15:08:05-04:00,,open,$1776.00,,,,Pipeline Automation,Universe Duct Cleaning
+1351,1,Shawn Tian,David Best,Awaiting approval,2025-08-13T15:31:29-04:00,,open,$2114.00,,,,Pipeline Automation,Universe Duct Cleaning
+1352,1,Edwardo Losado,David Best,Awaiting approval,2025-08-14T18:07:02-04:00,,open,$765.00,,,,Pipeline Automation,Universe Duct Cleaning
+1353,1,Seth Ullian,"",Unscheduled,2025-08-16T09:44:27-04:00,,open,$199.00,,,,"",Universe Duct Cleaning
+1354,1,Shari Ashe,David Best,Awaiting approval,2025-08-18T10:28:05-04:00,,open,$720.00,,,,Pipeline Automation,Universe Duct Cleaning
+1356,1,Sondra Arthur,David Best,Approved,2025-08-18T16:47:25-04:00,,won,,$1367.00,,,Pipeline Automation,Universe Duct Cleaning
+1357,1,Yelenis Batista,David Best,Awaiting approval,2025-08-18T18:06:31-04:00,,open,$1803.00,,,,Pipeline Automation,Universe Duct Cleaning
+1358,1,Bishal Sujan,"",Unscheduled,2025-08-19T09:49:15-04:00,,open,$199.00,,,,"",Universe Duct Cleaning
+1359,1,Keyona Miller,David Best,Awaiting approval,2025-08-19T13:39:00-04:00,,open,$1375.00,,,,Pipeline Automation,Universe Duct Cleaning
+1360,1,Karen Anderson,David Best,Awaiting approval,2025-08-19T16:18:01-04:00,,open,$16380.00,,,,Pipeline Automation,Universe Duct Cleaning
+1361,1,Angela Kuebler,David Best,Approved,2025-08-20T12:09:31-04:00,,won,,$2400.00,,,Pipeline Automation,Universe Duct Cleaning
+1362,1,Andrew Vincent,David Best,Created on job,2025-08-20T13:55:33-04:00,,open,$750.00,,,,"",Universe Duct Cleaning
+1363,2,Eva Porras,David Best,Awaiting approval,2025-08-20T14:03:11-04:00,,open,$900.00,,,,Pipeline Automation,Universe Duct Cleaning
+1364,1,Dan Stanimirovic,David Best,Awaiting approval,2025-08-20T19:03:50-04:00,,open,$979.00,,,,Pipeline Automation,Universe Duct Cleaning
+1365,1,Trevor Skelly,David Best,Awaiting approval,2025-08-20T21:13:12-04:00,,open,$1109.70,,,,Pipeline Automation,Universe Duct Cleaning
+1366,1,Joshua Honore,David Best,Awaiting approval,2025-08-21T10:52:00-04:00,,open,$1855.00,,,,Pipeline Automation,Universe Duct Cleaning
+1367,1,Karelia Austin,David Best,Pro approved,2025-08-21T11:53:47-04:00,,won,,$1098.00,,,"",Universe Duct Cleaning
+1368,1,Jose Perez,David Best,Awaiting approval,2025-08-22T14:38:27-04:00,,open,$2526.00,,,,Pipeline Automation,Universe Duct Cleaning
+1369,1,Angela G,David Best,Awaiting approval,2025-08-22T15:32:57-04:00,,open,$1400.00,,,,Pipeline Automation,Universe Duct Cleaning
+1370,1,Ronald Sanchez,David Best,Awaiting approval,2025-08-22T15:34:46-04:00,,open,$1378.00,,,,Pipeline Automation,Universe Duct Cleaning
+1372,1,Juan Colon,David Best,Awaiting approval,2025-08-25T12:11:30-04:00,,open,$2793.60,,,,Pipeline Automation,Universe Duct Cleaning
+1373,1,Juan Colon,David Best,Awaiting approval,2025-08-25T13:05:57-04:00,,open,$2164.50,,,,Pipeline Automation,Universe Duct Cleaning
+1374,1,Sarah Harris,David Best,Awaiting approval,2025-08-25T13:07:13-04:00,,open,$719.00,,,,Pipeline Automation,Universe Duct Cleaning
+1375,1,Keith A Barres,David Best,Created on job,2025-08-25T18:30:50-04:00,,open,$699.00,,,,"",Universe Duct Cleaning
+1376,1,Camilo,David Best,Awaiting approval,2025-08-26T11:20:20-04:00,,open,$5479.00,,,,Pipeline Automation,Universe Duct Cleaning
+1377,1,Fred Siegel,David Best,Pro approved,2025-08-27T13:11:10-04:00,,won,,$1050.00,,,"",Universe Duct Cleaning
+1378,1,Irina Saumet,David Best,Awaiting approval,2025-08-27T15:36:59-04:00,,open,$2285.00,,,,Pipeline Automation,Universe Duct Cleaning
+1379,1,Kimberly Briskey,David Best,Awaiting approval,2025-08-27T15:57:19-04:00,,open,$2694.00,,,,Pipeline Automation,Universe Duct Cleaning
+1380,1,Rogelio Flores,David Best,Awaiting approval,2025-08-27T16:31:26-04:00,,open,$3206.00,,,,Pipeline Automation,Universe Duct Cleaning
+1381,1,Destiny Taylor,David Best,Pro approved,2025-08-27T16:40:11-04:00,,won,,$2520.00,,,Pipeline Automation,Universe Duct Cleaning
+1382,1,"Sharfi Holdings, Inc.",David Best,Awaiting approval,2025-08-28T12:51:09-04:00,,open,$8180.00,,,,Pipeline Automation,Universe Duct Cleaning
+1383,1,"Sharfi Holdings, Inc.",David Best,Awaiting approval,2025-08-28T13:46:01-04:00,,open,$449.00,,,,Pipeline Automation,Universe Duct Cleaning
+1384,1,"Sharfi Holdings, Inc.",David Best,Awaiting approval,2025-08-28T13:49:58-04:00,,open,$2999.00,,,,Pipeline Automation,Universe Duct Cleaning
+1385,1,Midahurys Migliori,David Best,Awaiting approval,2025-08-28T14:51:52-04:00,,open,$2852.00,,,,Pipeline Automation,Universe Duct Cleaning
+1386,1,Melissa Mena,David Best,Awaiting approval,2025-08-29T12:03:30-04:00,,open,$1265.00,,,,Pipeline Automation,Universe Duct Cleaning
+1388,1,Frank C,David Best,Awaiting approval,2025-08-29T12:46:19-04:00,,open,$3842.00,,,,Pipeline Automation,Universe Duct Cleaning
+1389,1,Amilkar Mira,David Best,Pro approved,2025-08-29T18:50:22-04:00,2025-09-01T12:00:00-04:00,won,,$339.00,,,Pipeline Automation,Universe Duct Cleaning
+1390,1,Noorali Wah,David Best,Awaiting approval,2025-09-02T08:48:59-04:00,,open,$2034.00,,,,Pipeline Automation,Universe Duct Cleaning
+1391,1,Billy Bauer,David Best,Approved,2025-09-02T11:11:50-04:00,,won,,$2100.00,,,Pipeline Automation,Universe Duct Cleaning
+1392,1,Christy Lazzaro,David Best,Awaiting approval,2025-09-03T10:24:13-04:00,,open,$2281.00,,,,Pipeline Automation,Universe Duct Cleaning
+1393,1,Vamsi Masti,David Best,Awaiting approval,2025-09-03T17:01:01-04:00,,open,$2463.00,,,,Pipeline Automation,Universe Duct Cleaning
+1394,1,Jessy Massad,David Best,Pro declined,2025-09-03T17:17:16-04:00,,lost,,,$2523.00,,Pipeline Automation,Universe Duct Cleaning
+1395,1,Carolina Williams,David Best,Awaiting approval,2025-09-03T17:20:59-04:00,,open,$1899.00,,,,Pipeline Automation,Universe Duct Cleaning
+1396,1,Donez Tavilla,David Best,Pro declined,2025-09-04T10:24:18-04:00,,lost,,,$4500.00,,Pipeline Automation,Universe Duct Cleaning
+1397,1,Jaylaan Llewellyn,David Best,Pro approved,2025-09-04T12:20:53-04:00,2025-09-05T13:30:00-04:00,won,,$129.00,,,Pipeline Automation,Universe Duct Cleaning
+1399,1,Oleg,David Best,Pro declined,2025-09-04T14:06:51-04:00,,lost,,,$1060.00,,Pipeline Automation,Universe Duct Cleaning
+1400,1,Jennifer,David Best,Awaiting approval,2025-09-04T19:17:42-04:00,,open,$619.00,,,,"Pipeline Automation, 2nd Follow up - No response (Kyra)",Universe Duct Cleaning
+1401,1,Sharon Mandley,David Best,Awaiting approval,2025-09-07T11:26:40-04:00,,open,$2636.00,,,,Pipeline Automation,Universe Duct Cleaning
+1402,1,Sharon Mandley,David Best,Awaiting approval,2025-09-07T11:27:57-04:00,,open,$1422.00,,,,Pipeline Automation,Universe Duct Cleaning
+1403,1,Karl Nyberg,David Best,Pro approved,2025-09-08T11:03:29-04:00,,won,,$2000.00,,,Pipeline Automation,Universe Duct Cleaning
+1404,1,Nima,David Best,Awaiting approval,2025-09-08T15:43:06-04:00,,open,$1949.00,,,,Pipeline Automation,Universe Duct Cleaning
+1405,1,Nima,David Best,Awaiting approval,2025-09-08T15:47:45-04:00,,open,$2274.00,,,,Pipeline Automation,Universe Duct Cleaning
+1406,1,Puja A,David Best,Awaiting approval,2025-09-08T16:36:55-04:00,,open,$1839.00,,,,Pipeline Automation,Universe Duct Cleaning
+1407,1,Taha 2 LLC.,David Best,Declined,2025-09-09T14:09:32-04:00,,lost,,,$13866.00,,Pipeline Automation,Universe Duct Cleaning
+1408,1,Ronald Grogan,David Best,Approved,2025-09-09T19:22:34-04:00,,won,,$1100.00,,,"",Universe Duct Cleaning
+1409,1,Howard Butcher,David Best,Approved,2025-09-10T14:15:25-04:00,,won,,$965.00,,,"",Universe Duct Cleaning
+1410,1,Gilvan Carneiro,David Best,Pro approved,2025-09-10T17:25:10-04:00,,won,,$1250.00,,,"",Universe Duct Cleaning
+1411,1,Ruth Coo,David Best,Pro approved,2025-09-11T10:26:42-04:00,,won,,$516.00,,,Pipeline Automation,Universe Duct Cleaning
+1412,1,Ruth Coo,David Best,Awaiting approval,2025-09-11T10:28:04-04:00,,open,$839.00,,,,"",Universe Duct Cleaning
+1413,1,Leslie,David Best,Pro approved,2025-09-11T14:10:06-04:00,,won,,$1500.00,,,"",Universe Duct Cleaning
+1416,1,Cynthia Morales,David Best,Declined,2025-09-11T16:39:44-04:00,,lost,,,$360.00,,Pipeline Automation,Universe Duct Cleaning
+1417,1,Sant Ambroeus,David Best,Approved,2025-09-12T16:41:41-04:00,,won,,$5132.00,,,Pipeline Automation,Universe Duct Cleaning
+1418,1,Marco,David Best,Pro approved,2025-09-12T16:45:50-04:00,,won,,$1448.00,,,Pipeline Automation,Universe Duct Cleaning
+1419,1,Emilee Alcantara,David Best,Expired,2025-09-13T13:03:18-04:00,2025-09-14T11:00:00-04:00,lost,,,$1710.00,,Pipeline Automation,Universe Duct Cleaning
+1420,1,Jose Rodriguez,David Best,Expired,2025-09-15T11:37:21-04:00,,lost,,,$454.50,,Pipeline Automation,Universe Duct Cleaning
+1421,1,David Best,"",Unscheduled,2025-09-15T12:04:13-04:00,,open,$65.00,,,,"",Universe Duct Cleaning
+1423,1,David Best,"",Approved,2025-09-15T12:18:49-04:00,,won,,$58.50,,,Pipeline Automation,Universe Duct Cleaning
+1424,1,Nancy Maccomb,David Best,Expired,2025-09-15T17:22:45-04:00,,lost,,,$15120.00,,Pipeline Automation,Universe Duct Cleaning
+1425,1,Oleg Kositsyn,David Best,Expired,2025-09-15T21:27:20-04:00,,lost,,,$1718.10,,Pipeline Automation,Universe Duct Cleaning
+1426,1,Alexander Carpovich,David Best,Expired,2025-09-16T12:41:16-04:00,,lost,,,$1116.90,,Pipeline Automation,Universe Duct Cleaning
+1427,1,Jose Rodriguez,"",Unscheduled,2025-09-18T12:31:32-04:00,,open,$0.00,,,,"",Universe Duct Cleaning
+1428,1,Bahar Nik,David Best,Expired,2025-09-18T12:53:32-04:00,,lost,,,$1626.30,,Pipeline Automation,Universe Duct Cleaning
+1429,1,Michelle Hines,David Best,Awaiting approval,2025-09-18T13:50:12-04:00,,open,$1359.00,,,,Pipeline Automation,Universe Duct Cleaning
+1430,1,Balagopal Menon,David Best,Awaiting approval,2025-09-19T14:07:31-04:00,,open,$1777.00,,,,Pipeline Automation,Universe Duct Cleaning
+1431,1,Balagopal Menon,"",Awaiting approval,2025-09-19T14:09:27-04:00,,open,$3373.00,,,,Pipeline Automation,Universe Duct Cleaning
+1432,1,Vijay Rajiv,David Best,Pro approved,2025-09-21T12:11:07-04:00,,won,,$2000.00,,,Pipeline Automation,Universe Duct Cleaning
+1433,1,Vanya Banjac,David Best,Awaiting approval,2025-09-21T12:15:45-04:00,,open,$2412.00,,,,Pipeline Automation,Universe Duct Cleaning
+1434,1,Vanya Banjac,David Best,Expired,2025-09-21T12:16:32-04:00,,lost,,,$1312.20,,Pipeline Automation,Universe Duct Cleaning
+1435,1,Luis Adarve,David Best,Awaiting approval,2025-09-21T14:18:30-04:00,,open,$3390.00,,,,"",Universe Duct Cleaning
+1436,1,Yusimi Opazo,David Best,Awaiting approval,2025-09-21T18:15:31-04:00,2025-09-22T13:00:00-04:00,open,$1500.00,,,,Pipeline Automation,Universe Duct Cleaning
+1437,1,Chris Kotarba,David Best,Expired,2025-09-22T11:26:08-04:00,,lost,,,$1668.55,,Pipeline Automation,Universe Duct Cleaning
+1438,1,Luciana Torres,David Best,Declined,2025-09-22T11:42:05-04:00,,lost,,,$1400.00,,Pipeline Automation,Universe Duct Cleaning
+1439,1,Jhenelle Gregory,David Best,Declined,2025-09-22T18:50:06-04:00,,lost,,,$9239.67,,Pipeline Automation,Universe Duct Cleaning
+1440,1,Wayne Boudrie,David Best,Pro approved,2025-09-24T10:31:17-04:00,,won,,$1928.00,,,Pipeline Automation,Universe Duct Cleaning
+1441,1,Fiona Ben,David Best,Declined,2025-09-25T11:36:01-04:00,,lost,,,$1800.00,,Pipeline Automation,Universe Duct Cleaning
+1442,1,Gigi Jean,David Best,Declined,2025-09-26T11:33:17-04:00,,lost,,,$2081.70,,Pipeline Automation,Universe Duct Cleaning
+1443,1,Crumbl Cookies,David Best,Declined,2025-09-26T12:31:59-04:00,,lost,,,$3955.00,,Pipeline Automation,Universe Duct Cleaning
+1444,1,Jessica Mylonas,David Best,Declined,2025-09-26T12:37:11-04:00,,lost,,,$1547.10,,Pipeline Automation,Universe Duct Cleaning
+1445,1,Maisie M Henry,David Best,Awaiting approval,2025-09-26T15:10:13-04:00,,open,$1702.00,,,,"",Universe Duct Cleaning
+1446,1,Jatin Solanki,David Best,Pro approved,2025-09-28T11:13:57-04:00,,won,,$1000.00,,,Pipeline Automation,Universe Duct Cleaning
+1447,1,Jatin Solanki,"",Awaiting approval,2025-09-28T12:01:10-04:00,,open,$730.80,,,,Pipeline Automation,Universe Duct Cleaning
+1448,1,Tareq Salahi,David Best,Expired,2025-09-28T12:05:17-04:00,,lost,,,$1030.50,,Pipeline Automation,Universe Duct Cleaning
+1449,1,Denis Quezada,David Best,Awaiting approval,2025-09-28T15:06:08-04:00,,open,$1365.00,,,,Pipeline Automation,Universe Duct Cleaning
+1450,1,Alfred Decesare,David Best,Pro approved,2025-09-29T10:45:28-04:00,,won,,$2193.00,,,"",Universe Duct Cleaning
+1451,1,Gasper Lamonica,David Best,Declined,2025-09-30T14:05:20-04:00,,lost,,,$600.00,,Pipeline Automation,Universe Duct Cleaning
+1452,1,Diana Arrieta,David Best,Declined,2025-09-30T14:23:55-04:00,,lost,,,$1117.00,,Pipeline Automation,Universe Duct Cleaning
+1453,1,Kyle Sanders,David Best,Awaiting approval,2025-10-01T09:34:57-04:00,,open,$1398.00,,,,Pipeline Automation,Universe Duct Cleaning
+1454,1,Gary Pang,David Best,Awaiting approval,2025-10-01T12:43:14-04:00,,open,$540.00,,,,Pipeline Automation,Universe Duct Cleaning
+1455,1,Daniel Yunda,David Best,Awaiting approval,2025-10-01T12:59:36-04:00,,open,$979.00,,,,Pipeline Automation,Universe Duct Cleaning
+1457,1,Blue Coast Multi Family ,"",Awaiting approval,2025-10-03T11:33:05-04:00,,open,$819.00,,,,Pipeline Automation,Universe Duct Cleaning
+1458,1,Dash Rothberg,David Best,Pro approved,2025-10-03T13:49:29-04:00,,won,,$1900.00,,,Pipeline Automation,Universe Duct Cleaning
+1459,1,Dana Liberman,David Best,Pro approved,2025-10-03T14:43:18-04:00,,won,,$1682.00,,,Pipeline Automation,Universe Duct Cleaning
+1460,1,Sophia Weng,David Best,Awaiting approval,2025-10-05T13:30:21-04:00,,open,$2000.00,,,,"",Universe Duct Cleaning
+1461,1,Trish Likkey,David Best,Awaiting approval,2025-10-05T16:06:43-04:00,,open,$1149.00,,,,Pipeline Automation,Universe Duct Cleaning
+1462,1,Maricel Harris,David Best,Declined,2025-10-08T10:34:42-04:00,,lost,,,$1782.00,,Pipeline Automation,Universe Duct Cleaning
+1463,1,Maricel Harris,David Best,Declined,2025-10-08T10:35:33-04:00,,lost,,,$1258.20,,Pipeline Automation,Universe Duct Cleaning
+1464,1,Tiffany Chaplin,"",Awaiting approval,2025-10-09T12:13:28-04:00,,open,$1767.00,,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1465,1,Herbert Le,David Best,Pro approved,2025-10-09T14:20:20-04:00,,won,,$1800.00,,,Pipeline Automation,Universe Duct Cleaning
+1466,1,Bill Buie,David Best,Awaiting approval,2025-10-10T09:05:07-04:00,,open,$1000.00,,,,Pipeline Automation,Universe Duct Cleaning
+1467,1,Denisha Reneau,David Best,Pro approved,2025-10-10T11:34:39-04:00,,won,,$1464.00,,,Pipeline Automation,Universe Duct Cleaning
+1468,1,Rufus Anderson,David Best,Approved,2025-10-12T11:40:03-04:00,,won,,$1214.50,,,"",Universe Duct Cleaning
+1469,1,Shadan,David Best,Pro approved,2025-10-13T11:22:23-04:00,,won,,$1000.00,,,Pipeline Automation,Universe Duct Cleaning
+1470,1,Larry Knight,David Best,Pro approved,2025-10-13T15:19:37-04:00,,won,,$900.00,,,"",Universe Duct Cleaning
+1471,1,Andrea Thomas,David Best,Awaiting approval,2025-10-13T17:54:26-04:00,,open,$600.00,,,,Pipeline Automation,Universe Duct Cleaning
+1472,1,Mariann Madnick,David Best,Pro approved,2025-10-15T12:13:54-04:00,,won,,$1333.32,,,Pipeline Automation,Universe Duct Cleaning
+1473,1,Darius Bryant,David Best,Awaiting approval,2025-10-16T11:41:31-04:00,,open,$1821.00,,,,Pipeline Automation,Universe Duct Cleaning
+1474,1,Karen,"",Pro approved,2025-10-17T17:40:00-04:00,,won,,$3992.00,,,"",Universe Duct Cleaning
+1475,1,Jaclyn Lavery,David Best,Awaiting approval,2025-10-19T11:18:13-04:00,,open,$1500.00,,,,"",Universe Duct Cleaning
+1476,1,Laura Vail,David Best,Awaiting approval,2025-10-19T14:22:40-04:00,,open,$2931.00,,,,Pipeline Automation,Universe Duct Cleaning
+1477,1,Lori Cottone,David Best,Approved,2025-10-20T14:44:03-04:00,,won,,$2947.50,,,Pipeline Automation,Universe Duct Cleaning
+1478,2,Ali Butt,David Best,Expired,2025-10-20T16:26:07-04:00,,lost,,,$2521.00,,Pipeline Automation,Universe Duct Cleaning
+1479,1,Karen,David Best,Awaiting approval,2025-10-20T16:59:02-04:00,,open,$1398.00,,,,Pipeline Automation,Universe Duct Cleaning
+1480,1,Melissa Crowe,David Best,Pro approved,2025-10-21T15:08:13-04:00,,won,,$4603.60,,,Pipeline Automation,Universe Duct Cleaning
+1481,1,Jacqueline Vasquez,David Best,Awaiting approval,2025-10-21T18:14:29-04:00,,open,$1398.00,,,,Pipeline Automation,Universe Duct Cleaning
+1482,1,Troy Nishizaki,"",Expired,2025-10-23T10:16:27-04:00,,lost,,,$0.00,,Pipeline Automation,Universe Duct Cleaning
+1483,1,Troy Nishizaki,David Best,Expired,2025-10-23T10:19:12-04:00,,lost,,,$2280.00,,Pipeline Automation,Universe Duct Cleaning
+1484,1,Monique Barbour,David Best,Declined,2025-10-23T14:03:10-04:00,,lost,,,$4011.00,,Pipeline Automation,Universe Duct Cleaning
+1485,1,Monique Barbour,David Best,Expired,2025-10-23T14:42:56-04:00,,lost,,,$1751.40,,Pipeline Automation,Universe Duct Cleaning
+1486,1,Justin,"",Pro approved,2025-10-23T16:32:50-04:00,,won,,$1332.00,,,Pipeline Automation,Universe Duct Cleaning
+1487,1,Michael Becker,David Best,Expired,2025-10-24T11:28:50-04:00,,lost,,,$1659.00,,Pipeline Automation,Universe Duct Cleaning
+1488,1,Bruce Ketcham,David Best,Pro approved,2025-10-24T12:14:22-04:00,,won,,$1200.00,,,Pipeline Automation,Universe Duct Cleaning
+1489,1,Fernanda Sosa,David Best,Pro approved,2025-10-25T13:37:13-04:00,2025-10-26T13:00:00-04:00,won,,$199.00,,,Pipeline Automation,Universe Duct Cleaning
+1490,1,Donna Johnson,David Best,Expired,2025-10-26T13:22:30-04:00,,lost,,,$1500.00,,Pipeline Automation,Universe Duct Cleaning
+1491,1,Samantha Albrecht,David Best,Expired,2025-10-26T21:24:19-04:00,,lost,,,$1293.00,,Pipeline Automation,Universe Duct Cleaning
+1492,1,Duane Small,David Best,Expired,2025-10-28T10:57:05-04:00,,lost,,,$2260.00,,"Technician: Shachar, Pipeline Automation",Universe Duct Cleaning
+1493,2,Marc Justina,David Best,Expired,2025-10-28T12:13:47-04:00,,lost,,,$1134.00,,Pipeline Automation,Universe Duct Cleaning
+1494,1,Syed Asif Ali,David Best,Expired,2025-10-28T14:43:47-04:00,,lost,,,$1150.00,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1495,1,Fernanda Quintanilla,"",Expired,2025-10-28T14:58:19-04:00,,lost,,,$1914.00,,Pipeline Automation,Universe Duct Cleaning
+1496,1,Jean Ferris,David Best,Pro approved,2025-10-29T11:45:29-04:00,,won,,$585.00,,,"",Universe Duct Cleaning
+1497,1,Dianela Medina Vega,David Best,Pro approved,2025-10-29T18:46:47-04:00,,won,,$2321.00,,,"Technician: ROY, Pipeline Automation",Universe Duct Cleaning
+1498,1,Jennifer Ruby,David Best,Expired,2025-10-30T12:27:44-04:00,,lost,,,$1221.00,,Pipeline Automation,Universe Duct Cleaning
+1499,1,Millie Feliciano,David Best,Approved,2025-10-30T13:05:30-04:00,,won,,$1435.00,,,Pipeline Automation,Universe Duct Cleaning
+1500,1,Savy Mathew,David Best,Pro declined,2025-10-31T12:33:17-04:00,,lost,,,$3383.00,,Pipeline Automation,Universe Duct Cleaning
+1501,1,Christine Bazos,David Best,Pro approved,2025-10-31T13:46:12-04:00,2025-11-17T10:00:12-05:00,won,,$1650.00,,,Pipeline Automation,Universe Duct Cleaning
+1503,1,Charles Crisci,David Best,Expired,2025-11-03T13:11:16-05:00,,lost,,,$1040.00,,Pipeline Automation,Universe Duct Cleaning
+1504,1,Ken Lulu,David Best,Expired,2025-11-05T11:08:25-05:00,,lost,,,$2346.00,,Pipeline Automation,Universe Duct Cleaning
+1505,1,Steve Snyder,David Best,Approved,2025-11-06T11:44:11-05:00,,won,,$1300.00,,,Pipeline Automation,Universe Duct Cleaning
+1506,1,Christopher Horne,David Best,Declined,2025-11-06T11:57:34-05:00,,lost,,,$2431.00,,Pipeline Automation,Universe Duct Cleaning
+1507,1,Renee Rosenthal,David Best,Pro approved,2025-11-06T13:29:09-05:00,,won,,$2111.00,,,Pipeline Automation,Universe Duct Cleaning
+1508,1,Samantha Licata,David Best,Approved,2025-11-07T10:24:48-05:00,,won,,$3950.00,,,Pipeline Automation,Universe Duct Cleaning
+1509,1,Madsen Barr Corp.,David Best,Approved,2025-11-07T10:41:46-05:00,,won,,$11080.00,,,Pipeline Automation,Universe Duct Cleaning
+1510,1,David Kalina,David Best,Expired,2025-11-07T12:18:01-05:00,,lost,,,$1200.00,,Pipeline Automation,Universe Duct Cleaning
+1511,1,Danielle O’Reily,David Best,Expired,2025-11-07T12:44:59-05:00,,lost,,,$950.00,,Pipeline Automation,Universe Duct Cleaning
+1512,1,Kevin Still,David Best,Expired,2025-11-07T12:53:10-05:00,,lost,,,$10000.00,,Pipeline Automation,Universe Duct Cleaning
+1513,1,Judy Joffe,David Best,Pro approved,2025-11-08T13:55:41-05:00,2025-11-11T14:00:00-05:00,won,,$700.00,,,"",Universe Duct Cleaning
+1514,1,Jenn Jacoby,David Best,Pro approved,2025-11-09T10:13:26-05:00,,won,,$600.00,,,Pipeline Automation,Universe Duct Cleaning
+1516,1,Tamar Brunache,David Best,Approved,2025-11-10T15:53:35-05:00,,won,,$1000.00,,,"",Universe Duct Cleaning
+1517,1,Kokila Suresh,David Best,Expired,2025-11-11T11:24:03-05:00,,lost,,,$1498.00,,Pipeline Automation,Universe Duct Cleaning
+1518,1,Revens Joseph,David Best,Expired,2025-11-11T17:37:03-05:00,,lost,,,$8053.00,,Pipeline Automation,Universe Duct Cleaning
+1519,1,Maria Sol,David Best,Expired,2025-11-12T12:03:59-05:00,,lost,,,$767.00,,Pipeline Automation,Universe Duct Cleaning
+1520,1,Ruben Perez,David Best,Approved,2025-11-12T13:06:57-05:00,,won,,$3479.00,,,Pipeline Automation,Universe Duct Cleaning
+1521,1,Kevin Frye,David Best,Pro approved,2025-11-13T09:51:04-05:00,,won,,$1798.00,,,Pipeline Automation,Universe Duct Cleaning
+1524,1,Malena,David Best,Expired,2025-11-14T17:32:08-05:00,,lost,,,$698.00,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1525,1,Malcolm Berry,David Best,Expired,2025-11-16T12:12:34-05:00,,lost,,,$2700.00,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1526,1,Ryan Baccino,David Best,Awaiting approval,2025-11-17T14:26:54-05:00,,open,$1771.00,,,,Pipeline Automation,Universe Duct Cleaning
+1527,1,Iesa Lopez Ceparo,David Best,Approved,2025-11-17T15:06:11-05:00,,won,,$2428.00,,,Pipeline Automation,Universe Duct Cleaning
+1528,1,Luis Marques,David Best,Expired,2025-11-18T13:48:09-05:00,,lost,,,$3000.00,,"Technician: Benel (Benjamin), Pipeline Automation",Universe Duct Cleaning
+1529,1,Debbi Palazzo,David Best,Expired,2025-11-18T19:12:42-05:00,,lost,,,$781.00,,Pipeline Automation,Universe Duct Cleaning
+1530,1,Debbi Palazzo,David Best,Expired,2025-11-18T19:13:48-05:00,,lost,,,$1293.00,,Pipeline Automation,Universe Duct Cleaning
+1531,1,Yaiza,David Best,Pro approved,2025-11-18T19:14:13-05:00,,won,,$4658.00,,,"",Universe Duct Cleaning
+1532,1,Matthew,David Best,Expired,2025-11-20T11:33:28-05:00,,lost,,,$870.00,,Pipeline Automation,Universe Duct Cleaning
+1534,1,Jayan Devassy,David Best,Expired,2025-11-21T11:09:48-05:00,,lost,,,$3099.00,,Pipeline Automation,Universe Duct Cleaning
+1535,1,Jacqueline Yafa,David Best,Expired,2025-11-21T14:09:27-05:00,,lost,,,$4099.55,,Pipeline Automation,Universe Duct Cleaning
+1536,1,Danette Florian,David Best,Expired,2025-11-23T11:55:16-05:00,,lost,,,$793.00,,Pipeline Automation,Universe Duct Cleaning
+1537,1,Mariela V,David Best,Expired,2025-11-23T12:31:27-05:00,,lost,,,$699.00,,Pipeline Automation,Universe Duct Cleaning
+1538,1,Gisnel Commodore,David Best,Approved,2025-11-23T12:33:27-05:00,,won,,$1467.00,,,Pipeline Automation,Universe Duct Cleaning
+1539,1,Andrea,David Best,Expired,2025-11-23T12:49:04-05:00,,lost,,,$1412.00,,Pipeline Automation,Universe Duct Cleaning
+1540,1,Landys Martinez,David Best,Expired,2025-11-23T12:57:10-05:00,,lost,,,$2556.00,,Pipeline Automation,Universe Duct Cleaning
+1541,1,Jessica Deaunovich,David Best,Pro approved,2025-11-24T09:18:05-05:00,2025-11-25T08:00:00-05:00,won,,$1589.00,,,Pipeline Automation,Universe Duct Cleaning
+1542,1,Nilli,David Best,Approved,2025-11-24T12:19:32-05:00,,won,,$1500.00,,,Pipeline Automation,Universe Duct Cleaning
+1543,1,Leonard Palassio,David Best,Expired,2025-11-24T18:01:45-05:00,,lost,,,$590.00,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1544,1,Tapan Banker,David Best,Expired,2025-11-24T18:03:18-05:00,,lost,,,$598.00,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1545,1,Prince Sweeting,David Best,Expired,2025-11-25T15:11:42-05:00,,lost,,,$897.00,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1546,1,Alexander Batista,David Best,Pro approved,2025-11-25T15:59:20-05:00,,won,,$1710.00,,,"Technician: BRIAN, Free Estimate, Pipeline Automation",Universe Duct Cleaning
+1547,1,Ryan Gunn,David Best,Expired,2025-11-26T14:39:05-05:00,,lost,,,$400.00,,Pipeline Automation,Universe Duct Cleaning
+1549,1,Nandie Wilmot,David Best,Expired,2025-11-28T12:49:27-05:00,,lost,,,$1410.00,,Pipeline Automation,Universe Duct Cleaning
+1550,1,Alex Bendel,David Best,Pro approved,2025-11-28T16:42:55-05:00,2025-12-05T11:00:00-05:00,won,,$1200.00,,,"",Universe Duct Cleaning
+1551,1,Chinedu Igbokwe,David Best,Expired,2025-11-30T17:34:21-05:00,,lost,,,$894.00,,Pipeline Automation,Universe Duct Cleaning
+1552,1,Mani Bora,David Best,Pro approved,2025-11-30T20:36:15-05:00,,won,,$1521.90,,,Pipeline Automation,Universe Duct Cleaning
+1553,1,Mani Bora,David Best,Expired,2025-11-30T20:37:54-05:00,,lost,,,$2167.20,,Pipeline Automation,Universe Duct Cleaning
+1554,1,Joi Henry,David Best,Pro approved,2025-12-01T08:20:09-05:00,2025-12-02T08:00:00-05:00,won,,$129.00,,,Pipeline Automation,Universe Duct Cleaning
+1555,1,Patricia Schillerff,David Best,Pro declined,2025-12-02T10:59:47-05:00,,lost,,,$1214.00,,Pipeline Automation,Universe Duct Cleaning
+1556,1,Lorna Husson,David Best,Expired,2025-12-02T12:40:27-05:00,,lost,,,$1500.00,,Pipeline Automation,Universe Duct Cleaning
+1557,1,Russell Budden,David Best,Expired,2025-12-03T12:10:26-05:00,,lost,,,$499.00,,Pipeline Automation,Universe Duct Cleaning
+1558,1,Hatfield Properties ,David Best,Pro declined,2025-12-03T12:19:55-05:00,,lost,,,$3271.50,,Pipeline Automation,Universe Duct Cleaning
+1559,1,Scott Riopelle,David Best,Pro declined,2025-12-03T12:35:24-05:00,,lost,,,$1456.00,,Pipeline Automation,Universe Duct Cleaning
+1560,1,Nandie Wilmot,David Best,Approved,2025-12-04T15:20:16-05:00,,won,,$401.00,,,Pipeline Automation,Universe Duct Cleaning
+1561,1,Kai Hsu,David Best,Pro declined,2025-12-05T14:59:33-05:00,,lost,,,$2756.00,,Pipeline Automation,Universe Duct Cleaning
+1565,3,Hobe Sound National Wildlife Refuge ,David Best,Pro approved,2025-12-08T11:19:44-05:00,,won,,$3180.00,,,Pipeline Automation,Universe Duct Cleaning
+1566,1,Sebastian Perkun,David Best,Expired,2025-12-08T11:21:38-05:00,,lost,,,$600.00,,"",Universe Duct Cleaning
+1567,1,Romerio Rodriguez,David Best,Expired,2025-12-08T11:39:35-05:00,,lost,,,$2162.00,,Pipeline Automation,Universe Duct Cleaning
+1568,1,Sara Hilaner,David Best,Pro approved,2025-12-08T14:13:43-05:00,2025-12-10T09:00:00-05:00,won,,$178.00,,,Pipeline Automation,Universe Duct Cleaning
+1570,2,Anbu Rajen,David Best,Pro declined,2025-12-08T16:52:52-05:00,,lost,,,$1521.00,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1571,1,Rami Alqaq,David Best,Expired,2025-12-08T17:45:34-05:00,,lost,,,$2317.00,,Pipeline Automation,Universe Duct Cleaning
+1572,1,Rami Alqaq,David Best,Pro declined,2025-12-08T17:46:13-05:00,,lost,,,$699.00,,Pipeline Automation,Universe Duct Cleaning
+1573,1,David Martinez,David Best,Pro approved,2025-12-09T11:35:29-05:00,,won,,$2604.00,,,Pipeline Automation,Universe Duct Cleaning
+1574,1,Ross Saur,David Best,Approved,2025-12-09T13:40:54-05:00,,won,,$249.00,,,Pipeline Automation,Universe Duct Cleaning
+1575,2,Jonathan Giraldo,David Best,Declined,2025-12-10T11:53:34-05:00,,lost,,,$1731.00,,Pipeline Automation,Universe Duct Cleaning
+1576,1,Blue Coast Multi Family ,"",Pro approved,2025-12-10T12:22:34-05:00,,won,,$895.00,,,"",Universe Duct Cleaning
+1577,1,Nerica Mcleod,David Best,Expired,2025-12-10T12:38:36-05:00,,lost,,,$1697.00,,Pipeline Automation,Universe Duct Cleaning
+1578,1,Tomas Magalhaes,David Best,Expired,2025-12-11T12:00:03-05:00,,lost,,,$5500.00,,Pipeline Automation,Universe Duct Cleaning
+1579,2,Marlene Santos,David Best,Expired,2025-12-11T15:52:32-05:00,,lost,,,$1206.00,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1580,1,Chris Correa,David Best,Expired,2025-12-12T13:26:27-05:00,,lost,,,$3284.00,,Pipeline Automation,Universe Duct Cleaning
+1581,3,Allan Abe,David Best,Pro declined,2025-12-12T15:11:29-05:00,,lost,,,$3096.00,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1582,1,Ryan Germann,David Best,Approved,2025-12-14T12:07:12-05:00,,won,,$2917.60,,,Pipeline Automation,Universe Duct Cleaning
+1583,2,Nickole Krupa c/o Wednesday’s Child LLC,David Best,Declined,2025-12-14T14:12:35-05:00,,won,,$740.00,,,Pipeline Automation,Universe Duct Cleaning
+1584,1,Anne Dolce,David Best,Awaiting approval,2025-12-15T18:51:42-05:00,,open,$1578.60,,,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1586,1,Bruno Grillo,"",Pro declined,2025-12-16T10:28:58-05:00,,lost,,,$750.00,,Pipeline Automation,Universe Duct Cleaning
+1587,1,Bonnie Kraigsley,David Best,Awaiting approval,2025-12-16T11:23:07-05:00,,open,$1300.00,,,,Pipeline Automation,Universe Duct Cleaning
+1588,2,Nadesha Williams,David Best,Awaiting approval,2025-12-16T19:00:16-05:00,,open,$1564.00,,,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1589,1,Andrea Berumen,David Best,Awaiting approval,2025-12-17T09:28:47-05:00,,open,$1350.00,,,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1590,1,Mauricio Studart,David Best,Awaiting approval,2025-12-18T11:19:11-05:00,,open,$1769.00,,,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1591,1,Iven Dupera,David Best,Awaiting approval,2025-12-18T15:51:08-05:00,,open,$2593.00,,,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1592,1,Angie Espinoza,David Best,Pro approved,2025-12-19T09:29:45-05:00,,won,,$379.00,,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1593,1,Vijay Behl,David Best,Pro approved,2025-12-19T13:05:39-05:00,,won,,$1500.00,,,Pipeline Automation,Universe Duct Cleaning
+1594,1,Scott,David Best,Pro approved,2025-12-21T14:06:28-05:00,,won,,$1100.00,,,"",Universe Duct Cleaning
+1595,1,Stealth Construction,David Best,Pro declined,2025-12-22T11:23:24-05:00,,lost,,,$3140.00,,Pipeline Automation,Universe Duct Cleaning
+1596,1,Wesly Blanc,David Best,Awaiting approval,2025-12-22T15:59:45-05:00,,open,$1406.75,,,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1597,1,jorge colina,David Best,Declined,2025-12-23T12:38:30-05:00,,lost,,,$367.00,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1598,2,Dylan Yolles ,David Best,Pro declined,2025-12-23T13:34:34-05:00,,lost,,,$4181.00,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1599,1,Sophia Deben,David Best,Pro approved,2025-12-24T12:09:57-05:00,,won,,$643.00,,Thumbtack,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1600,1,Nancy Jack,David Best,Pro approved,2025-12-26T10:14:49-05:00,,won,,$189.00,,Thumbtack,"Technician: VIVO&DAVID, Pipeline Automation",Universe Duct Cleaning
+1601,1,Don Burde,David Best,Approved,2025-12-26T11:49:37-05:00,,won,,$1752.75,,,"",Universe Duct Cleaning
+1602,1,Edna M,David Best,Awaiting approval,2025-12-26T12:24:53-05:00,,open,$1654.00,,,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1603,1,Joseph E Lyons,David Best,Awaiting approval,2025-12-26T15:04:07-05:00,,open,$1788.00,,,Thumbtack,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1604,1,Don Burde,David Best,Awaiting approval,2025-12-28T14:37:39-05:00,,open,$3840.00,,,,Pipeline Automation,Universe Duct Cleaning
+1605,2,Enut Buzoianu,David Best,Awaiting approval,2025-12-29T12:27:59-05:00,,open,$1231.00,,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1606,1,Alan Segal,David Best,Pro declined,2025-12-30T14:11:34-05:00,,lost,,,$624.00,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1607,1,Carlos Almeida,David Best,Declined,2025-12-30T14:34:55-05:00,,lost,,,$1199.00,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1608,1,Charles Guillaume,David Best,Awaiting approval,2025-12-30T16:53:42-05:00,,open,$2577.20,,,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1610,2,John De Gasperis,David Best,Pro approved,2025-12-31T16:06:07-05:00,,won,,$1331.20,,,Pipeline Automation,Universe Duct Cleaning
+1611,1,Shannon King,David Best,Pro declined,2026-01-02T10:52:14-05:00,,lost,,,$2000.00,,Pipeline Automation,Universe Duct Cleaning
+1612,1,Chelah Marcellus,David Best,Approved,2026-01-02T12:07:22-05:00,,won,,$2900.00,,,Pipeline Automation,Universe Duct Cleaning
+1613,1,Calvin Marks,David Best,Approved,2026-01-02T12:28:52-05:00,,won,,$850.00,,,Pipeline Automation,Universe Duct Cleaning
+1614,1,Elizabeth,David Best,Approved,2026-01-04T10:31:19-05:00,,won,,$1621.65,,,"",Universe Duct Cleaning
+1615,1,Mary Lee,David Best,Awaiting approval,2026-01-04T13:16:56-05:00,,open,$1000.00,,,,Pipeline Automation,Universe Duct Cleaning
+1616,1,Marina Livis,David Best,Pro approved,2026-01-04T14:55:38-05:00,,won,,$700.00,,,Pipeline Automation,Universe Duct Cleaning
+1617,1,Elizabeth,David Best,Awaiting approval,2026-01-04T15:42:22-05:00,,open,$2657.60,,,,Pipeline Automation,Universe Duct Cleaning
+1618,1,Zivah Ring,David Best,Declined,2026-01-04T17:14:52-05:00,,lost,,,$1610.00,,Pipeline Automation,Universe Duct Cleaning
+1619,2,Alban Hado,David Best,Declined,2026-01-05T11:09:18-05:00,,won,,$900.00,,,Pipeline Automation,Universe Duct Cleaning
+1620,1,Nick Haughton,David Best,Pro approved,2026-01-05T11:22:12-05:00,,won,,$1253.00,,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1621,1,Cody Wescott,David Best,Approved,2026-01-05T12:32:54-05:00,,won,,$2135.00,,,"",Universe Duct Cleaning
+1622,1,Chris Dasko,David Best,Approved,2026-01-05T14:56:10-05:00,,won,,$898.00,,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1623,1,Justin Vallesteros,David Best,Pro declined,2026-01-05T16:46:50-05:00,,lost,,,$3218.00,,Pipeline Automation,Universe Duct Cleaning
+1624,1,Ana Clausell,David Best,Pro approved,2026-01-05T22:24:09-05:00,,won,,$878.00,,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1625,1,Brian Smith,David Best,Approved,2026-01-06T15:34:50-05:00,,won,,$1590.00,,Thumbtack,"",Universe Duct Cleaning
+1626,1,Mark & Stacey Gendal,David Best,Approved,2026-01-07T10:15:23-05:00,,won,,$2136.00,,,"",Universe Duct Cleaning
+1627,1,Mitchell Miller,David Best,Approved,2026-01-08T10:35:24-05:00,,won,,$1730.00,,,"",Universe Duct Cleaning
+1628,1,Fernando Solórzano,David Best,Approved,2026-01-08T13:43:18-05:00,,won,,$1859.00,,,Technician: MICHAEL,Universe Duct Cleaning
+1629,1,Michelle T,David Best,Pro declined,2026-01-08T16:02:20-05:00,,lost,,,$2150.00,,Pipeline Automation,Universe Duct Cleaning
+1630,1,Ketchina dieujuste,David Best,Pro declined,2026-01-08T18:38:45-05:00,,lost,,,$1519.00,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1631,1,Allan Satim,David Best,Awaiting approval,2026-01-08T18:43:44-05:00,,open,$3576.00,,,Thumbtack,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1632,1,Natalie Cobb,David Best,Pro approved,2026-01-09T09:37:53-05:00,,won,,$837.00,,,Pipeline Automation,Universe Duct Cleaning
+1633,1,Jacqueline Franklin,David Best,Approved,2026-01-09T10:18:41-05:00,,won,,$1425.00,,,Pipeline Automation,Universe Duct Cleaning
+1634,2,Jag Reddy,David Best,Awaiting approval,2026-01-09T11:38:39-05:00,,won,,$525.00,,,"Technician : VIVO, Pipeline Automation",Universe Duct Cleaning
+1635,2,Josh Tieso,David Best,Awaiting approval,2026-01-09T18:20:36-05:00,,open,$2875.00,,,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1636,1,Brian Woodley,David Best,Approved,2026-01-11T14:10:19-05:00,,won,,$2000.00,,,Pipeline Automation,Universe Duct Cleaning
+1637,1,Neil King,David Best,Pro declined,2026-01-11T19:43:40-05:00,,lost,,,$1620.00,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1638,3,heather lieux,David Best,Awaiting approval,2026-01-11T20:28:59-05:00,,open,$7300.00,,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1640,2,Galina Smoot-Russell,David Best,Awaiting approval,2026-01-12T10:29:27-05:00,,open,$1803.00,,,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1641,1,John Massenzio,David Best,Approved,2026-01-12T11:27:23-05:00,,won,,$1385.00,,,Pipeline Automation,Universe Duct Cleaning
+1642,1,TJ Reynolds,David Best,Awaiting approval,2026-01-12T11:58:47-05:00,,open,$918.00,,,Google Guarantee ,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1643,1,carl carlton,David Best,Awaiting approval,2026-01-12T15:10:52-05:00,,open,$1600.00,,,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1644,1,Kris Andonian,David Best,Awaiting approval,2026-01-12T18:08:11-05:00,,open,$2228.00,,,,Pipeline Automation,Universe Duct Cleaning
+1645,1,Amy Goldman,David Best,Awaiting approval,2026-01-13T13:19:19-05:00,,open,$379.00,,,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1646,1,Maxine Samuels,David Best,Approved,2026-01-13T13:59:31-05:00,,won,,$2300.00,,,Pipeline Automation,Universe Duct Cleaning
+1647,1,Alana Delapuente,David Best,Awaiting approval,2026-01-14T12:14:34-05:00,,open,$1605.60,,,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1648,1,Luis Armando Flores,David Best,Approved,2026-01-15T10:13:22-05:00,,won,,$1493.40,,,"",Universe Duct Cleaning
+1649,1,"Sharfi Holdings, Inc.",David Best,Pro approved,2026-01-15T12:50:59-05:00,,won,,$2988.00,,,"",Universe Duct Cleaning
+1650,1,Maria Larrea,David Best,Pro declined,2026-01-15T14:46:16-05:00,,lost,,,$3064.00,referral,Pipeline Automation,Universe Duct Cleaning
+1651,1,Christopher Florio,David Best,Awaiting approval,2026-01-15T18:23:02-05:00,,open,$1200.00,,,,Pipeline Automation,Universe Duct Cleaning
+1652,1,Alice Lee,David Best,Pro declined,2026-01-16T12:44:51-05:00,,lost,,,$1303.05,,Pipeline Automation,Universe Duct Cleaning
+1653,1,Eugene Fernandez,David Best,Awaiting approval,2026-01-16T13:56:03-05:00,,open,$2713.00,,,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1654,1,Jason Frank,David Best,Awaiting approval,2026-01-17T12:43:23-05:00,,open,$1933.15,,,,Pipeline Automation,Universe Duct Cleaning
+1655,1,Aura Altamiranda,David Best,Awaiting approval,2026-01-18T09:57:26-05:00,,open,$650.00,,,Thumbtack,"Technician : AD PRO MASTER, Pipeline Automation",Universe Duct Cleaning
+1656,2,Mary,David Best,Awaiting approval,2026-01-18T12:16:18-05:00,,open,$1543.00,,,,Pipeline Automation,Universe Duct Cleaning
+1657,1,Varsha,David Best,Pro declined,2026-01-18T12:33:43-05:00,,lost,,,$979.00,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1658,1,Marlene Gassette,David Best,Approved,2026-01-18T15:00:28-05:00,,won,,$1275.85,,,Pipeline Automation,Universe Duct Cleaning
+1659,2,Geoffrey Williams,David Best,Awaiting approval,2026-01-18T17:47:15-05:00,,open,$3063.40,,,,Pipeline Automation,Universe Duct Cleaning
+1660,1,Mitchell Ettinger,David Best,Declined,2026-01-19T09:25:37-05:00,,lost,,,$564.00,,"Technician : AD PRO MASTER, Pipeline Automation",Universe Duct Cleaning
+1661,1,Maribel Diaz,David Best,Pro declined,2026-01-19T09:41:13-05:00,,lost,,,$744.30,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1662,1,Shawn Michael,David Best,Approved,2026-01-19T09:53:57-05:00,,won,,$948.00,,,Pipeline Automation,Universe Duct Cleaning
+1663,1,Lynn Klein,David Best,Pro approved,2026-01-19T12:36:45-05:00,,won,,$1200.00,,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1664,1,Marina Golubeva,David Best,Awaiting approval,2026-01-19T13:53:35-05:00,,open,$1240.20,,,,Pipeline Automation,Universe Duct Cleaning
+1665,1,Litag Lama,David Best,Declined,2026-01-19T16:49:02-05:00,,lost,,,$249.00,,Pipeline Automation,Universe Duct Cleaning
+1666,1,Warren Charles,David Best,Approved,2026-01-20T12:14:56-05:00,,won,,$2338.00,,,Pipeline Automation,Universe Duct Cleaning
+1667,1,Geoffrey Williams,David Best,Created on job,2026-01-20T13:08:08-05:00,,open,$0.00,,,,"",Universe Duct Cleaning
+1668,1,Judy Cohen,David Best,Pro declined,2026-01-20T13:48:13-05:00,,lost,,,$1763.00,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1669,2,Carlos Pla,David Best,Awaiting approval,2026-01-20T14:13:08-05:00,,open,$650.00,,,,Pipeline Automation,Universe Duct Cleaning
+1670,1,Lynn Klein,David Best,Pro approved,2026-01-20T17:56:12-05:00,,won,,$600.00,,,Pipeline Automation,Universe Duct Cleaning
+1671,1,Jake Rodriguez,David Best,Awaiting approval,2026-01-21T15:30:46-05:00,,open,$6737.00,,,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1672,1,Alex Majesty,David Best,Awaiting approval,2026-01-21T19:10:55-05:00,,open,$1978.00,,,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1673,1,Nadina Tackore,David Best,Approved,2026-01-22T11:03:27-05:00,,won,,$946.20,,,"",Universe Duct Cleaning
+1674,2,Alysia Streeter,David Best,Approved,2026-01-22T12:41:27-05:00,,won,,$1280.00,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1675,1,Alexandria Wilson,David Best,Approved,2026-01-22T13:58:24-05:00,,won,,$874.00,,,Pipeline Automation,Universe Duct Cleaning
+1676,1,Alexandria Wilson,David Best,Awaiting approval,2026-01-22T14:00:13-05:00,,open,$1459.00,,,,Pipeline Automation,Universe Duct Cleaning
+1677,1,Maria Echoveria,David Best,Pro approved,2026-01-22T19:20:55-05:00,,won,,$600.00,,,"Technician : AD PRO MASTER, Pipeline Automation",Universe Duct Cleaning
+1678,1,Ani Ruci,David Best,Approved,2026-01-23T10:22:12-05:00,,won,,$1700.00,,,"Technician : DAVID, Pipeline Automation",Universe Duct Cleaning
+1679,1,Ali Valanai,David Best,Pro approved,2026-01-23T10:58:35-05:00,,won,,$1091.70,,,"",Universe Duct Cleaning
+1680,3,Vanessa Fioravante,David Best,Awaiting approval,2026-01-23T11:29:33-05:00,,open,$1805.00,,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1681,1,Vejay,David Best,Pro declined,2026-01-23T15:19:03-05:00,,lost,,,$3574.00,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1682,1,Oded Yeoshoua,David Best,Pro declined,2026-01-23T17:04:18-05:00,,lost,,,$1347.00,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1683,1,Anthony Lauria,David Best,Awaiting approval,2026-01-25T09:33:21-05:00,,open,$798.00,,,,Technician : TONY,Universe Duct Cleaning
+1684,1,Meagan Martin,David Best,Awaiting approval,2026-01-25T11:05:36-05:00,,open,$1179.00,,,Thumbtack,Technician : MATTHEW,Universe Duct Cleaning
+1685,1,Shakeica Benjamin,David Best,Awaiting approval,2026-01-25T15:31:48-05:00,,open,$9000.00,,,,Technician: BRIAN,Universe Duct Cleaning
+1686,1,Joey,David Best,Approved,2026-01-25T16:07:21-05:00,,won,,$919.00,,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1687,1,Alpa Shah,David Best,Declined,2026-01-26T07:28:18-05:00,,lost,,,$750.00,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1688,1,Mariann Madnick,David Best,Awaiting approval,2026-01-26T11:12:20-05:00,,open,$2168.51,,,,"",Universe Duct Cleaning
+1689,1,Luanne Daucanski,David Best,Approved,2026-01-26T12:27:36-05:00,,won,,$1700.00,,,Pipeline Automation,Universe Duct Cleaning
+1690,1,Doug Northover,David Best,Awaiting approval,2026-01-26T12:47:14-05:00,,open,$2996.00,,,,"Technician : VIVO, Technician : TONY",Universe Duct Cleaning
+1691,2,Jay Grossman,David Best,Pro declined,2026-01-26T13:12:32-05:00,,lost,,,$2250.00,,"Technician: JIBRIL, Pipeline Automation",Universe Duct Cleaning
+1692,1,Mark Snyder,David Best,Pro declined,2026-01-26T15:09:13-05:00,,lost,,,$1273.00,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1693,2,Michael Giuliano,David Best,Created on job,2026-01-26T15:28:26-05:00,,open,$500.00,,,,"",Universe Duct Cleaning
+1694,1,Lavender sheshe,David Best,Pro approved,2026-01-26T17:52:58-05:00,,won,,$700.00,,Thumbtack,Pipeline Automation,Universe Duct Cleaning
+1695,1,Lizzie Suarez,David Best,Pro declined,2026-01-26T18:44:35-05:00,,lost,,,$2452.00,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1696,1,Ekaete Ekwere,David Best,Approved,2026-01-27T09:09:10-05:00,,won,,$1553.00,,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1697,1,Lewis Allan,David Best,Awaiting approval,2026-01-27T10:02:14-05:00,,open,$600.00,,,,"Technician : DAVID, Pipeline Automation",Universe Duct Cleaning
+1698,1,Ali Valanai,David Best,Approved,2026-01-27T11:15:12-05:00,,won,,$1259.00,,,"Technician : TONY, Technician : VIVO",Universe Duct Cleaning
+1699,1,Vincent Buchan,David Best,Pro approved,2026-01-27T12:57:57-05:00,,won,,$628.20,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1700,1,Mark OBradley,David Best,Pro approved,2026-01-27T13:11:03-05:00,,won,,$560.00,,,Pipeline Automation,Universe Duct Cleaning
+1701,1,Howard Bowen,David Best,Pro approved,2026-01-27T15:29:13-05:00,,won,,$1663.00,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1702,1,Claudio,David Best,Pro declined,2026-01-27T15:44:13-05:00,,lost,,,$920.00,,"Technician : TONY, Technician : VIVO, Pipeline Automation",Universe Duct Cleaning
+1703,1,Moshe Denburg,David Best,Awaiting approval,2026-01-27T16:54:47-05:00,,open,$4038.00,,,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1704,1,Najaly Bode,David Best,Awaiting approval,2026-01-28T10:05:11-05:00,,open,$1397.00,,,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1705,1,Greg Karen,David Best,Pro approved,2026-01-28T10:12:37-05:00,,won,,$1250.00,,,Pipeline Automation,Universe Duct Cleaning
+1706,1,David reiter ,David Best,Approved,2026-01-28T12:49:53-05:00,,won,,$5637.20,,,"",Universe Duct Cleaning
+1707,1,Leora Rubin,David Best,Pro approved,2026-01-28T12:50:08-05:00,,won,,$2400.00,,,"",Universe Duct Cleaning
+1709,1,Brenda Kang,David Best,Pro approved,2026-01-28T15:07:46-05:00,,won,,$4996.80,,,Pipeline Automation,Universe Duct Cleaning
+1710,1,Francis Akarabaty,David Best,Pro declined,2026-01-29T13:07:31-05:00,,lost,,,$3757.25,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1711,1,Enrique Colominas,David Best,Pro declined,2026-01-29T13:44:24-05:00,,lost,,,$1150.00,,"Technician : AD PRO MASTER, Pipeline Automation",Universe Duct Cleaning
+1712,1,Aner Ferit,David Best,Awaiting approval,2026-01-29T13:45:23-05:00,,open,$1750.00,,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1713,1,Patricia Lara-Silva,David Best,Awaiting approval,2026-01-29T16:21:44-05:00,,open,$3019.00,,,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1714,1,Mark Holden,David Best,Awaiting approval,2026-01-29T17:31:51-05:00,,open,$4304.00,,,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1715,1,Leana Torres,David Best,Pro approved,2026-01-30T12:23:33-05:00,,won,,$1835.00,,,"",Universe Duct Cleaning
+1716,1,Tiran Fundaminsky,David Best,Approved,2026-01-30T13:05:33-05:00,,won,,$1000.00,,,"",Universe Duct Cleaning
+1717,1,Valmut LLC,David Best,Pro declined,2026-02-01T17:46:34-05:00,,lost,,,$2500.00,,"Technician: Benel (Benjamin), Pipeline Automation",Universe Duct Cleaning
+1718,1,George,"",Awaiting approval,2026-02-01T20:39:48-05:00,,open,$1300.00,,,,"Technician : AD PRO MASTER, Pipeline Automation",Universe Duct Cleaning
+1719,1,Christian Rodriguez,David Best,Awaiting approval,2026-02-02T10:12:28-05:00,,open,$1592.00,,,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1720,1,Daniel Morales,David Best,Pro declined,2026-02-02T14:30:55-05:00,,lost,,,$697.00,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1721,1,Kishore Begur,David Best,Declined,2026-02-02T17:02:20-05:00,,lost,,,$1507.00,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1722,1,Tiran Fundaminsky,David Best,Awaiting approval,2026-02-03T13:14:22-05:00,,open,$1880.10,,,,Technician : TONY,Universe Duct Cleaning
+1723,1,Santiago Gonzalez,David Best,Pro declined,2026-02-03T13:23:16-05:00,,lost,,,$1718.55,,"Technician: VIVO&DAVID, Pipeline Automation",Universe Duct Cleaning
+1724,1,Lee Schloss,David Best,Approved,2026-02-03T17:20:13-05:00,,won,,$4650.00,,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1725,1,Brandon Yu,David Best,Pro declined,2026-02-03T17:40:20-05:00,,lost,,,$2500.00,,Technician: BRIAN,Universe Duct Cleaning
+1726,1,Susan Steinberg,David Best,Pro declined,2026-02-04T10:40:08-05:00,,lost,,,$15500.00,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1727,1,Mark Zubatov,David Best,Pro approved,2026-02-04T14:36:14-05:00,,won,,$1200.00,,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1728,1,Naved Bhuiyan,David Best,Pro declined,2026-02-04T14:43:13-05:00,,lost,,,$1543.00,,"Technician: VIVO&DAVID, Pipeline Automation",Universe Duct Cleaning
+1729,1,Laura owens,David Best,Pro approved,2026-02-04T18:07:59-05:00,,won,,$1014.00,,,"Technician : MATTHEW, Technician: JIBRIL, Pipeline Automation",Universe Duct Cleaning
+1730,1,Eric Sajkis,David Best,Pro approved,2026-02-04T18:43:09-05:00,,won,,$675.90,,,Technician : TONY,Universe Duct Cleaning
+1731,1,Lisa Lombardi,David Best,Declined,2026-02-05T07:48:40-05:00,,lost,,,$1573.00,,"Technician : MATTHEW, Technician: JIBRIL",Universe Duct Cleaning
+1732,1,Judy Chien,David Best,Approved,2026-02-05T11:50:29-05:00,,won,,$3924.60,,,"Technician : AD PRO MASTER, Pipeline Automation",Universe Duct Cleaning
+1733,1,Patrick Soares,David Best,Approved,2026-02-05T12:42:33-05:00,,won,,$1000.00,,,Technician : TONY,Universe Duct Cleaning
+1734,1,Darren,David Best,Awaiting approval,2026-02-05T14:26:04-05:00,,open,$2304.90,,,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1735,1,Simon Garcia,David Best,Approved,2026-02-05T14:32:30-05:00,,won,,$1650.00,,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1736,1,Alison Hawes,David Best,Pro approved,2026-02-05T15:47:54-05:00,,won,,$4874.00,,,"",Universe Duct Cleaning
+1737,1,Daniella Moore,David Best,Pro approved,2026-02-05T19:27:56-05:00,,won,,$2638.00,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1738,1,Patrick Soares,David Best,Approved,2026-02-05T20:45:53-05:00,,won,,$600.00,,,"",Universe Duct Cleaning
+1739,1,Julie Varsamis,David Best,Awaiting approval,2026-02-06T10:01:13-05:00,,open,$548.00,,,,"Technician: JIBRIL, Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1740,1,Alice O'Rourke,David Best,Pro approved,2026-02-06T11:59:38-05:00,,won,,$523.00,,,Pipeline Automation,Universe Duct Cleaning
+1741,1,Anna Maria De La Fe,"",Pro approved,2026-02-06T14:13:00-05:00,,won,,$3051.00,,,Technician : VIVO,Universe Duct Cleaning
+1742,1,Kelley Orr,David Best,Awaiting approval,2026-02-06T15:43:58-05:00,,open,$1834.00,,,,"Technician : MATTHEW, Technician: JIBRIL, Pipeline Automation",Universe Duct Cleaning
+1743,1,Janet Dillemuth,David Best,Pro declined,2026-02-06T15:46:56-05:00,,lost,,,$1179.00,,"Technician: JIBRIL, Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1744,1,Carlos,David Best,Created on job,2026-02-08T06:48:53-05:00,,open,$5810.00,,,,Technician : VIVO,Universe Duct Cleaning
+1745,1,Kelly McArdle,David Best,Created on job,2026-02-08T15:46:17-05:00,,open,$499.00,,,,Technician : RAYMOND (Or),Universe Duct Cleaning
+1746,1,Kodra Ncube,David Best,Approved,2026-02-09T05:45:19-05:00,,won,,$2700.00,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1747,1,Cynthia Paz,David Best,Approved,2026-02-09T12:44:08-05:00,,won,,$1560.00,,,"",Universe Duct Cleaning
+1748,1,Greg Osinoff,David Best,Pro declined,2026-02-09T16:03:29-05:00,,lost,,,$4213.00,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1749,1,José Rodriguez,David Best,Created on job,2026-02-09T16:16:02-05:00,,open,$2318.00,,,,"",Universe Duct Cleaning
+1750,1,Stacy-Ann Donald,"",Pro declined,2026-02-10T09:02:02-05:00,,lost,,,$985.00,,Technician : TONY,Universe Duct Cleaning
+1751,1,Mauro,David Best,Awaiting approval,2026-02-10T12:05:46-05:00,,open,$1093.50,,,,"Technician : DAVID, Pipeline Automation",Universe Duct Cleaning
+1752,1,Rochelle Mathew,David Best,Approved,2026-02-10T12:14:23-05:00,,won,,$1298.00,,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1754,1,Susan Morris,David Best,Pro declined,2026-02-10T17:09:22-05:00,,lost,,,$2157.00,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1755,1,Josie Bayona,David Best,Approved,2026-02-10T18:05:15-05:00,,won,,$1151.10,,,"Technician : MATTHEW, Technician: JIBRIL, Pipeline Automation",Universe Duct Cleaning
+1756,1,Nicole O’Brien,David Best,Approved,2026-02-11T11:10:59-05:00,,won,,$3000.00,,,Technician : TONY,Universe Duct Cleaning
+1757,1,Christopher Villano,David Best,Awaiting approval,2026-02-11T13:38:19-05:00,,open,$500.00,,,,Technician : VIVO,Universe Duct Cleaning
+1758,1,Tom Scabinski,David Best,Declined,2026-02-11T14:10:58-05:00,,lost,,,$1089.00,,"Technician : VIVO, Pipeline Automation",Universe Duct Cleaning
+1759,1,James Muscarnera,David Best,Pro approved,2026-02-11T14:59:49-05:00,,won,,$3768.80,,,Pipeline Automation,Universe Duct Cleaning
+1760,1,Grace Perez,David Best,Pro declined,2026-02-11T15:10:49-05:00,,lost,,,$5518.00,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1761,1,Teresa Perez,David Best,Pro declined,2026-02-11T18:04:05-05:00,,lost,,,$810.00,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1762,1,Thien Vo,David Best,Approved,2026-02-12T11:46:46-05:00,,won,,$499.00,,,Technician : TONY,Universe Duct Cleaning
+1763,1,Greg Karen,David Best,Awaiting approval,2026-02-12T11:53:53-05:00,,open,$1000.00,,,,"Technician: VIVO&DAVID, Pipeline Automation",Universe Duct Cleaning
+1764,1,Alyssa Tirador,David Best,Approved,2026-02-12T14:28:55-05:00,,won,,$1275.00,,,Technician : TONY,Universe Duct Cleaning
+1766,1,Ira Bromborg,David Best,Pro declined,2026-02-13T17:08:13-05:00,,lost,,,$1122.30,,Pipeline Automation,Universe Duct Cleaning
+1767,1,Charles Lanigan,David Best,Awaiting approval,2026-02-13T17:12:30-05:00,,open,$1572.30,,,,Pipeline Automation,Universe Duct Cleaning
+1768,1,Zakaria Z,David Best,Pro declined,2026-02-13T17:14:22-05:00,,lost,,,$859.00,,Pipeline Automation,Universe Duct Cleaning
+1769,1,Ian Nadjari,David Best,Pro approved,2026-02-16T10:34:09-05:00,,won,,$1703.00,,,Technician: BRIAN,Universe Duct Cleaning
+1770,1,Jennifer Hernandez,David Best,Approved,2026-02-16T11:09:34-05:00,,won,,$1600.00,,,"",Universe Duct Cleaning
+1771,1,Jeff Elman,David Best,Pro declined,2026-02-16T12:29:08-05:00,,lost,,,$450.00,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1772,1,Christie Smith,David Best,Pro approved,2026-02-16T12:58:46-05:00,,won,,$1382.00,,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1774,1,Sherrie Szoke,David Best,Awaiting approval,2026-02-16T17:10:52-05:00,,open,$2150.00,,,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1775,1,David Mitchell,David Best,Approved,2026-02-16T17:28:00-05:00,,won,,$498.00,,,Pipeline Automation,Universe Duct Cleaning
+1776,1,Arbens Bernard,David Best,Awaiting approval,2026-02-17T11:48:41-05:00,,open,$375.00,,,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1777,2,Ryan Marshall,David Best,Awaiting approval,2026-02-17T13:17:37-05:00,,open,$4758.00,,,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1778,1,Cheryl Anastasi,David Best,Pro declined,2026-02-17T14:43:45-05:00,,lost,,,$829.00,,Technician : MATTHEW,Universe Duct Cleaning
+1779,2,Ariel Virgin,David Best,Approved,2026-02-17T18:58:19-05:00,,won,,$1915.00,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1780,1,Jes romain,David Best,Pro approved,2026-02-18T09:22:34-05:00,,won,,$991.00,,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1781,1,Camilla Ferreira,David Best,Pro declined,2026-02-18T10:08:21-05:00,,lost,,,$1416.60,,"Technician : VIVO, Pipeline Automation",Universe Duct Cleaning
+1782,1,Alison Hawes,David Best,Awaiting approval,2026-02-18T12:54:00-05:00,,open,$1700.00,,,,Pipeline Automation,Universe Duct Cleaning
+1783,1,Sandra Marchant,David Best,Awaiting approval,2026-02-18T14:48:56-05:00,,open,$990.00,,,,"Technician : VIVO, Pipeline Automation",Universe Duct Cleaning
+1784,1,Repro Tech,David Best,Declined,2026-02-18T15:11:44-05:00,,lost,,,$32000.00,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1785,1,Kim Wenig,David Best,Approved,2026-02-19T11:33:50-05:00,,won,,$1700.00,,,Pipeline Automation,Universe Duct Cleaning
+1786,1,paul saran,David Best,Approved,2026-02-19T14:05:47-05:00,,won,,$2880.00,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1787,1,Honey Pleva,David Best,Awaiting approval,2026-02-19T15:19:14-05:00,,open,$1600.00,,,,"Technician : AD PRO MASTER, Pipeline Automation",Universe Duct Cleaning
+1788,1,Hannah Seltzer,David Best,Awaiting approval,2026-02-19T17:39:09-05:00,,open,$5992.00,,,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1789,1,Marta Giammarino,David Best,Awaiting approval,2026-02-20T11:43:11-05:00,,open,$700.00,,,,"Technician : AD PRO MASTER, Pipeline Automation",Universe Duct Cleaning
+1790,1,Karin Crenshaw,David Best,Awaiting approval,2026-02-20T14:19:44-05:00,,open,$1632.60,,,,"Technician : VIVO, Pipeline Automation",Universe Duct Cleaning
+1791,1,Noelio Flores,David Best,Approved,2026-02-20T14:36:04-05:00,,won,,$1608.00,,,Technician: BRIAN,Universe Duct Cleaning
+1792,1,Nayira Leon,David Best,Approved,2026-02-20T15:51:14-05:00,,won,,$1500.00,,,Pipeline Automation,Universe Duct Cleaning
+1793,1,Michael Pipitone,David Best,Approved,2026-02-22T10:23:19-05:00,,won,,$1812.00,,,Technician : TONY,Universe Duct Cleaning
+1794,1,Ron Gabriel,David Best,Pro approved,2026-02-22T11:16:42-05:00,,won,,$1048.00,,,Technician : MATTHEW,Universe Duct Cleaning
+1795,1,Michael Fernandez,David Best,Awaiting approval,2026-02-22T15:33:05-05:00,,open,$1312.20,,,,"Technician : AD PRO MASTER, Pipeline Automation",Universe Duct Cleaning
+1796,1,Shirley Jones,David Best,Pro approved,2026-02-22T16:16:50-05:00,,won,,$400.00,,,"Technician : AD PRO MASTER, Pipeline Automation",Universe Duct Cleaning
+1797,2,Jennifer Zuniga,David Best,Awaiting approval,2026-02-22T19:38:50-05:00,,open,$1548.00,,,,Technician: MICHAEL,Universe Duct Cleaning
+1798,1,Park Pointe,David Best,Pro approved,2026-02-23T10:56:27-05:00,,won,,$1200.00,,,"Technician : VIVO, Pipeline Automation",Universe Duct Cleaning
+1799,1,Jerry Spielman,David Best,Pro declined,2026-02-23T11:48:24-05:00,,lost,,,$746.00,,Technician : TONY,Universe Duct Cleaning
+1800,1,Maureen Williams,David Best,Approved,2026-02-23T12:03:38-05:00,,won,,$3529.40,,,"",Universe Duct Cleaning
+1801,1,Elaine Duran,David Best,Pro approved,2026-02-23T12:27:06-05:00,2026-03-01T12:00:00-05:00,won,,$3107.00,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1802,1,Elizabeth Perez,David Best,Approved,2026-02-23T14:22:46-05:00,,won,,$1520.00,,,"",Universe Duct Cleaning
+1803,1,Kiwmoni Pendley,David Best,Approved,2026-02-23T14:30:25-05:00,,won,,$1290.30,,,"",Universe Duct Cleaning
+1804,1,Amy Cohen,David Best,Awaiting approval,2026-02-23T15:09:49-05:00,,open,$2075.70,,,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1805,1,Lauren Stuhmer,David Best,Awaiting approval,2026-02-23T15:20:37-05:00,,open,$3733.00,,,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1806,1,William Lamson,David Best,Approved,2026-02-23T15:35:34-05:00,,won,,$5500.00,,,"Technician : VIVO, Pipeline Automation",Universe Duct Cleaning
+1807,1,Jarred Paurowski,David Best,Pro approved,2026-02-23T18:21:03-05:00,,won,,$650.00,,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1809,1,Joseph Saintfort,David Best,Approved,2026-02-24T09:46:37-05:00,2026-02-25T10:00:00-05:00,won,,$1396.80,,,Pipeline Automation,Universe Duct Cleaning
+1810,1,The Yacht Club,David Best,Awaiting approval,2026-02-24T10:32:09-05:00,,open,$25100.00,,,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1811,1,Jimmy Frett ,David Best,Scheduled,2026-02-24T10:48:07-05:00,2026-02-25T12:00:00-05:00,open,$99.00,,,,"",Universe Duct Cleaning
+1812,1,Kelley Dilworth,David Best,Done,2026-02-24T11:00:40-05:00,2026-02-26T11:00:00-05:00,open,$0.00,,,,"",Universe Duct Cleaning
+1813,1,Adriana De la Fuente,"",Awaiting approval,2026-02-24T11:09:07-05:00,,open,$1773.00,,,,Pipeline Automation,Universe Duct Cleaning
+1814,1,JR VanWassenhove,David Best,Pro approved,2026-02-24T11:38:30-05:00,2026-02-25T09:00:00-05:00,won,,$450.00,,,Pipeline Automation,Universe Duct Cleaning
+1815,1,Tanya Ludlow,David Best,Pro approved,2026-02-24T11:48:02-05:00,2026-03-05T10:00:00-05:00,won,,$249.00,,,Pipeline Automation,Universe Duct Cleaning
+1816,1,Gloria Kramer,David Best,Pro approved,2026-02-24T12:58:59-05:00,2026-03-08T13:00:00-04:00,won,,$2500.00,,,"",Universe Duct Cleaning
+1817,1,Mariah Janbou,David Best,Awaiting approval,2026-02-24T13:46:27-05:00,,open,$2000.00,,,,Technician : MATTHEW,Universe Duct Cleaning
+1818,1,Karol Zikas,David Best,Pro declined,2026-02-24T15:19:03-05:00,2026-03-02T08:00:00-05:00,lost,,,$2463.00,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1819,1,Latifah Carty,David Best,Awaiting approval,2026-02-24T17:43:47-05:00,,open,$1696.50,,,,Technician: BRIAN,Universe Duct Cleaning
+1820,1,Donald Ten,David Best,Pro approved,2026-02-24T18:15:36-05:00,2026-02-25T13:30:00-05:00,won,,$537.00,,,Pipeline Automation,Universe Duct Cleaning
+1821,1,Myra Salazar,David Best,Awaiting approval,2026-02-24T18:49:13-05:00,,open,$1962.00,,,,Technician : TONY,Universe Duct Cleaning
+1822,1,Ocean Magic Surf Shop,David Best,Awaiting approval,2026-02-24T18:54:11-05:00,,open,$2119.90,,,,Technician : MATTHEW,Universe Duct Cleaning
+1823,1,Ocean Magic Surf Shop,David Best,Awaiting approval,2026-02-24T18:56:16-05:00,,open,$2254.20,,,,Technician : MATTHEW,Universe Duct Cleaning
+1824,1,Michael Rivera,David Best,Awaiting approval,2026-02-24T19:10:28-05:00,2026-02-25T15:00:00-05:00,open,$4263.00,,,,"",Universe Duct Cleaning
+1825,1,Jessica Most,David Best,Approved,2026-02-25T10:29:13-05:00,2026-02-26T16:00:00-05:00,won,,$1980.00,,,Technician: BRIAN,Universe Duct Cleaning
+1826,1,Paul Michael,David Best,Awaiting approval,2026-02-25T15:54:58-05:00,2026-02-26T11:00:00-05:00,open,$5076.00,,,,Pipeline Automation,Universe Duct Cleaning
+1827,1,Myrlande Luctama,David Best,Awaiting approval,2026-02-25T17:19:44-05:00,2026-03-01T09:00:00-05:00,open,$5850.00,,,,Pipeline Automation,Universe Duct Cleaning
+1828,1,Nobel Adili,David Best,Done,2026-02-25T20:06:34-05:00,2026-02-26T14:00:00-05:00,open,$0.00,,,,"",Universe Duct Cleaning
+1829,1,Michael Bernstein,David Best,Awaiting approval,2026-02-26T11:23:45-05:00,,open,$1194.00,,,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1830,1,Corey Carrick,David Best,Scheduled,2026-02-26T11:41:20-05:00,2026-02-27T13:00:00-05:00,open,$0.00,,,,"",Universe Duct Cleaning
+1831,2,Julia N,David Best,Awaiting approval,2026-02-26T12:17:43-05:00,,open,$6042.00,,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1832,1,Glen Davis,David Best,Pro approved,2026-02-27T10:10:31-05:00,,won,,$1000.00,,,Technician: BRIAN,Universe Duct Cleaning
+1833,1,George Altman,David Best,Pro declined,2026-02-27T17:32:40-05:00,,lost,,,$1198.00,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1834,1,Magaly Mota Martini,David Best,Pro approved,2026-02-28T13:25:11-05:00,2026-03-04T11:00:00-05:00,won,,$599.00,,,Pipeline Automation,Universe Duct Cleaning
+1835,1,Kasey Cornish,"",Unscheduled,2026-02-28T14:13:01-05:00,,open,$0.00,,,Thumbtack,"",Universe Duct Cleaning
+1836,1,Kasey Cornish,David Best,Awaiting approval,2026-02-28T14:15:50-05:00,2026-03-01T12:00:00-05:00,open,$1511.30,,,,Technician : VIVO,Universe Duct Cleaning
+1837,1,Michelle Pineros,David Best,Approved,2026-03-01T10:38:47-05:00,,won,,$1479.00,,,"Technician : VIVO, Pipeline Automation",Universe Duct Cleaning
+1838,1,Betty Gensman,David Best,Awaiting approval,2026-03-01T12:40:26-05:00,,open,$1195.00,,,,"Technician : VIVO, Pipeline Automation",Universe Duct Cleaning
+1839,1,Betty Gensman,David Best,Awaiting approval,2026-03-01T12:42:09-05:00,,open,$3105.00,,,,"Technician : VIVO, Pipeline Automation",Universe Duct Cleaning
+1840,1,Shanelle Marsh,David Best,Pro declined,2026-03-01T18:03:19-05:00,,lost,,,$1948.00,,Technician : AD PRO MASTER,Universe Duct Cleaning
+1841,1,Elaine Duran,David Best,Awaiting approval,2026-03-01T19:12:03-05:00,,open,$1548.00,,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1842,1,Rosinah Mpye,David Best,Pro declined,2026-03-01T20:35:16-05:00,,lost,,,$1469.00,,Technician : TONY,Universe Duct Cleaning
+1843,2,Jaylene Jeanpierre,David Best,Pro declined,2026-03-02T09:31:19-05:00,,lost,,,$2786.00,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1844,2,Christina Garcia,David Best,Awaiting approval,2026-03-02T09:39:44-05:00,2026-03-03T11:00:00-05:00,open,$2548.00,,,,Pipeline Automation,Universe Duct Cleaning
+1845,1,Emile Brown,David Best,Done,2026-03-02T10:33:40-05:00,2026-03-08T11:00:00-04:00,open,$199.00,,,,"",Universe Duct Cleaning
+1846,1,Anitta Ray,David Best,Pro declined,2026-03-02T13:30:52-05:00,,lost,,,$9012.00,,Technician : VIVO,Universe Duct Cleaning
+1847,1,Fred Miller,David Best,Awaiting approval,2026-03-02T17:23:30-05:00,,open,$5015.05,,,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1848,1,Falex Dorcent,David Best,Approved,2026-03-03T18:06:33-05:00,,won,,$445.50,,,Technician : MATTHEW,Universe Duct Cleaning
+1849,1,Steven Pisman,David Best,Approved,2026-03-04T10:09:27-05:00,,won,,$2509.00,,,Technician : TONY,Universe Duct Cleaning
+1850,1,Dennis Faubert,David Best,Awaiting approval,2026-03-04T12:54:20-05:00,,open,$699.00,,,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1851,1,Sylvia Jordan,David Best,Approved,2026-03-04T16:21:43-05:00,,won,,$1027.00,,,Technician: BRIAN,Universe Duct Cleaning
+1852,1,Peter Mulroy,David Best,Pro approved,2026-03-04T16:29:39-05:00,,won,,$1906.20,,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1853,1,Hayzel Criollo,David Best,Awaiting approval,2026-03-04T16:52:53-05:00,,open,$1663.20,,,,"Technician : VIVO, Pipeline Automation",Universe Duct Cleaning
+1854,1,Katarina Zagin,David Best,Pro approved,2026-03-04T16:57:54-05:00,,won,,$500.00,,,Pipeline Automation,Universe Duct Cleaning
+1855,1,Holly Schneider,David Best,Declined,2026-03-04T17:22:10-05:00,,lost,,,$1158.00,,Technician: BRIAN,Universe Duct Cleaning
+1856,1,Sheri L,"",Awaiting approval,2026-03-04T19:37:48-05:00,,open,$7299.00,,,,Pipeline Automation,Universe Duct Cleaning
+1857,1,Saish Bhende,David Best,Approved,2026-03-05T10:42:48-05:00,2026-03-08T09:00:00-04:00,won,,$997.00,,,"",Universe Duct Cleaning
+1858,1,Claire Olivier,David Best,Approved,2026-03-05T11:08:12-05:00,,won,,$700.00,,,Technician: BRIAN,Universe Duct Cleaning
+1859,1,Jennifer Dedona,David Best,Approved,2026-03-05T11:18:26-05:00,,won,,$1811.00,,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1860,1,Sayee Gadamsetty,David Best,Pro approved,2026-03-05T14:16:15-05:00,,won,,$2360.00,,,Pipeline Automation,Universe Duct Cleaning
+1861,1,Howard Wynne,David Best,Awaiting approval,2026-03-06T09:12:59-05:00,2026-03-11T08:00:00-04:00,open,$1493.40,,,,"",Universe Duct Cleaning
+1862,1,Claudia Chalecki,David Best,Pro approved,2026-03-06T10:05:45-05:00,,won,,$799.00,,,Pipeline Automation,Universe Duct Cleaning
+1863,1,Amber Haik,David Best,Created on job,2026-03-06T16:04:40-05:00,,open,$0.00,,,,Technician : MATTHEW,Universe Duct Cleaning
+1864,1,Pedro Moix,"",Awaiting approval,2026-03-06T17:13:20-05:00,,open,$2500.00,,,,"Technician: Benel (Benjamin), Pipeline Automation",Universe Duct Cleaning
+1865,1,Sonny Leon,David Best,Awaiting approval,2026-03-06T17:17:14-05:00,,open,$977.00,,,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1866,1,Sonny Leon,David Best,Awaiting approval,2026-03-06T17:19:52-05:00,,open,$1990.00,,,,"Technician : MATTHEW, Pipeline Automation",Universe Duct Cleaning
+1867,1,An Ku,"",Unscheduled,2026-03-06T18:43:20-05:00,,open,$0.00,,,Thumbtack,"",Universe Duct Cleaning
+1868,1,An Ku,David Best,Pro approved,2026-03-06T18:43:57-05:00,2026-03-08T08:00:57-04:00,won,,$250.00,,,"",Universe Duct Cleaning
+1869,1,Victoria,"",Awaiting approval,2026-03-08T12:54:25-04:00,,open,$1251.00,,,,Pipeline Automation,Universe Duct Cleaning
+1870,1,An Ku,David Best,Awaiting approval,2026-03-08T13:30:54-04:00,,open,$1507.50,,,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1871,1,Hugo Lopez,David Best,Approved,2026-03-08T15:20:35-04:00,,won,,$4453.20,,,Technician : VIVO,Universe Duct Cleaning
+1872,1,Eric Stewart,David Best,Awaiting approval,2026-03-08T19:35:50-04:00,,open,$4572.90,,,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1873,1,Anita Faulk,David Best,Awaiting approval,2026-03-08T19:40:15-04:00,,open,$1800.00,,,,"Technician : AD PRO MASTER, Pipeline Automation",Universe Duct Cleaning
+1874,1,Quemuel Guridi,David Best,Awaiting approval,2026-03-09T10:00:07-04:00,,open,$7148.50,,,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1875,1,Marcel Villa,David Best,Awaiting approval,2026-03-09T11:02:42-04:00,,open,$1870.64,,,,Pipeline Automation,Universe Duct Cleaning
+1876,1,Alexey Ratnikov,David Best,Awaiting approval,2026-03-09T12:36:21-04:00,,open,$2007.70,,,,"Technician : DAVID, Pipeline Automation",Universe Duct Cleaning
+1877,1,Desiree Sneed,David Best,Awaiting approval,2026-03-09T16:27:01-04:00,,open,$1939.50,,,,"Technician: JIBRIL, Pipeline Automation",Universe Duct Cleaning
+1878,1,Giovanni Perez ,David Best,Awaiting approval,2026-03-09T16:31:45-04:00,,open,$1344.60,,,,"Technician : AD PRO MASTER, Pipeline Automation",Universe Duct Cleaning
+1879,1,Sylvia Rodriguez,David Best,Pro declined,2026-03-09T17:41:44-04:00,,lost,,,$1586.70,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1880,1,Darius Mahallati,David Best,Pro declined,2026-03-10T10:12:32-04:00,,lost,,,$1846.00,,"Technician : TONY, Pipeline Automation",Universe Duct Cleaning
+1881,1,Shawn Kelly,David Best,Awaiting approval,2026-03-10T15:21:46-04:00,,open,$5510.70,,,,"Technician: BRIAN, Pipeline Automation",Universe Duct Cleaning
+1882,1,Maria,"",Awaiting approval,2026-03-10T17:01:02-04:00,,open,$649.00,,,,Pipeline Automation,Universe Duct Cleaning
+1883,1,Delia Schroeder,David Best,Created on job,2026-03-10T20:45:20-04:00,,open,$550.00,,,,Technician: BRIAN,Universe Duct Cleaning
+1884,1,Keith Siilats,David Best,Awaiting approval,2026-03-11T15:22:20-04:00,,open,$1212.00,,,,Technician: MICHAEL,Universe Duct Cleaning
+1885,1,Keith Siilats,David Best,Awaiting approval,2026-03-11T15:23:27-04:00,,open,$3250.00,,,,Technician: MICHAEL,Universe Duct Cleaning
+1886,3,Marty DeLuga,David Best,Awaiting approval,2026-03-11T15:40:35-04:00,,open,$1663.45,,,,"Technician: MICHAEL, Pipeline Automation",Universe Duct Cleaning
+1887,1,Sade Russell,David Best,Awaiting approval,2026-03-11T16:21:45-04:00,,open,$2285.00,,,,Technician : TONY,Universe Duct Cleaning
+1888,1,Robert Levins,David Best,Approved,2026-03-11T16:32:00-04:00,,won,,$1586.00,,,Technician : TONY,Universe Duct Cleaning
+1889,1,Alena Worley,David Best,Approved,2026-03-11T16:34:49-04:00,,won,,$1628.00,,,Technician: BRIAN,Universe Duct Cleaning
+1890,1,Christian P,David Best,Awaiting approval,2026-03-12T10:33:45-04:00,,open,$2515.00,,,,Technician : TONY,Universe Duct Cleaning
+1891,1,Jessica Cash,"",Awaiting approval,2026-03-12T11:06:56-04:00,,open,$3971.00,,,,"",Universe Duct Cleaning
+1892,1,Karl Engel,David Best,Scheduled,2026-03-12T13:38:32-04:00,2026-03-17T11:00:00-04:00,open,$199.00,,,,"",Universe Duct Cleaning
+1893,1,Judi Vero,David Best,Created on job,2026-03-12T15:36:20-04:00,,open,$873.00,,,,"",Universe Duct Cleaning
+1894,1,Hank Drummond,David Best,Approved,2026-03-13T10:01:22-04:00,,won,,$2020.00,,,Technician : TONY,Universe Duct Cleaning
+1895,1,Ashira Almani,David Best,Awaiting approval,2026-03-13T11:36:38-04:00,,open,$2000.00,,,,Technician: Benel (Benjamin),Universe Duct Cleaning
+1896,1,Joel W,David Best,Awaiting approval,2026-03-13T17:10:13-04:00,,open,$5379.30,,,,Technician : MATTHEW,Universe Duct Cleaning

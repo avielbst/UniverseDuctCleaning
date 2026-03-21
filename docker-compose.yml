@@ -1,0 +1,22 @@
+services:
+  db:
+    image: postgres:16
+    container_name: ductai_postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-ductai}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-ductai}
+      POSTGRES_DB: ${POSTGRES_DB:-ductai_db}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./db/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql
+      - ./db/views.sql:/docker-entrypoint-initdb.d/02_views.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-ductai} -d ${POSTGRES_DB:-ductai_db}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
