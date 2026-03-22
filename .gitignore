@@ -1,5 +1,8 @@
 # Raw data files
 data/
 
+# log files
+.log
+
 # Environment variables (e.g. database credentials)
 .env

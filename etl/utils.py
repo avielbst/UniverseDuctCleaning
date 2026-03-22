@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 import psycopg2
 import re
 import glob
+from sqlalchemy import create_engine
 
 logger = logging.getLogger(__name__)
 
@@ -29,6 +30,19 @@ def setup_logging(level=logging.INFO):
             logging.StreamHandler()
         ]
     )
+
+
+def get_engine():
+    """Return a SQLAlchemy engine for use with pandas read_sql."""
+    url = (
+        f"postgresql+psycopg2://"
+        f"{os.getenv('DB_USER', 'ductai')}:"
+        f"{os.getenv('DB_PASSWORD', 'ductai')}@"
+        f"{os.getenv('DB_HOST', 'localhost')}:"
+        f"{os.getenv('DB_PORT', '5432')}/"
+        f"{os.getenv('DB_NAME', 'ductai_db')}"
+    )
+    return create_engine(url)
 
 def find_file(data_dir: str, keyword: str) -> str:
     candidates = [
