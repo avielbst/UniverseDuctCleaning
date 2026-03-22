@@ -110,12 +110,9 @@ CREATE TABLE IF NOT EXISTS line_items (
 CREATE TABLE IF NOT EXISTS estimates (
     id           TEXT PRIMARY KEY,
     customer_id  TEXT REFERENCES customers(id),
-    employee_id  INTEGER REFERENCES employees(id),
     status       TEXT,
-    outcome      TEXT,              -- 'won' | 'lost' | 'open'
-    won_value    NUMERIC(10,2),
-    open_value   NUMERIC(10,2),
-    lost_value   NUMERIC(10,2),
+    outcome      TEXT,       -- 'won' | 'lost' | 'open'
+    value        NUMERIC(10,2),  -- the relevant value for this outcome
     lead_source  TEXT,
     created_at   TIMESTAMPTZ,
     scheduled_at TIMESTAMPTZ

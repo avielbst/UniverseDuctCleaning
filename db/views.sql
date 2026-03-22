@@ -2,8 +2,28 @@
 -- DuctAI Copilot — Analytical Views
 -- Run against a live database: psql $DATABASE_URL -f db/views.sql
 -- Safe to re-run: uses CREATE OR REPLACE VIEW
+--
+-- View index:
+--   Business analytics (1-9):
+--     1.  v_service_mix
+--     2.  v_revenue_summary
+--     3.  v_employee_performance
+--     4.  v_new_customers_per_month
+--     5.  v_region_summary
+--     6.  v_lead_source_roi
+--     7.  v_estimate_pipeline
+--     8.  v_customer_retention
+--     9.  v_service_cooccurrence
+--   ML support (10-12):
+--     10. v_customer_identity    — deduplicates returning customers by phone
+--     11. v_customer_history     — per-person job history using canonical ID
+--     12. v_city_price_index     — median job value per city for pricing model
 -- ============================================================
 
+
+-- ============================================================
+-- BUSINESS ANALYTICS VIEWS
+-- ============================================================
 
 -- ------------------------------------------------------------
 -- 1. Service mix
@@ -53,8 +73,7 @@ ORDER BY month;
 -- 3. Employee performance
 -- Q: Which employee completed the most jobs / highest revenue?
 -- Owners always show 0 commission regardless of job amount.
--- Hourly/salary employees show NULL commission (not calculable
--- from job data alone — hours not tracked in CRM).
+-- Hourly/salary employees show NULL commission (hours not tracked).
 -- ------------------------------------------------------------
 CREATE OR REPLACE VIEW v_employee_performance AS
 SELECT
@@ -104,6 +123,8 @@ ORDER BY total_revenue DESC;
 -- ------------------------------------------------------------
 -- 4. New customers per month
 -- Q: How many new customers this month vs previous month?
+-- Note: counts customer records not unique people.
+-- See v_customer_identity for true person deduplication.
 -- ------------------------------------------------------------
 CREATE OR REPLACE VIEW v_new_customers_per_month AS
 SELECT
@@ -167,26 +188,37 @@ ORDER BY total_revenue DESC NULLS LAST;
 -- ------------------------------------------------------------
 -- 7. Estimate pipeline
 -- Q: What is the open revenue pipeline and conversion rate?
+-- Uses consolidated `value` column (won/lost/open merged in ETL).
+-- Two conversion rates — see data_notes.md for explanation.
 -- ------------------------------------------------------------
 CREATE OR REPLACE VIEW v_estimate_pipeline AS
 SELECT
-    COUNT(*)                                                        AS total_estimates,
-    COUNT(*) FILTER (WHERE outcome = 'won')                         AS won_count,
-    COUNT(*) FILTER (WHERE outcome = 'lost')                        AS lost_count,
-    COUNT(*) FILTER (WHERE outcome = 'open')                        AS open_count,
+    COUNT(*)                                                AS total_estimates,
+    COUNT(*) FILTER (WHERE outcome = 'won')                 AS won_count,
+    COUNT(*) FILTER (WHERE outcome = 'lost')                AS lost_count,
+    COUNT(*) FILTER (WHERE outcome = 'open')                AS open_count,
+    -- Decision conversion: won / (won + lost) — excludes still-open
     ROUND(
         COUNT(*) FILTER (WHERE outcome = 'won') * 100.0 /
         NULLIF(COUNT(*) FILTER (WHERE outcome IN ('won','lost')), 0)
-    , 1)                                                            AS conversion_rate_pct,
-    ROUND(SUM(won_value), 2)                                        AS total_won_value,
-    ROUND(SUM(open_value), 2)                                       AS total_open_pipeline,
-    ROUND(AVG(won_value) FILTER (WHERE outcome = 'won'), 2)         AS avg_won_value
+    , 1)                                                    AS decision_conversion_pct,
+    -- Overall conversion: won / all estimates including open
+    ROUND(
+        COUNT(*) FILTER (WHERE outcome = 'won') * 100.0 /
+        NULLIF(COUNT(*), 0)
+    , 1)                                                    AS overall_conversion_pct,
+    ROUND(SUM(value) FILTER (WHERE outcome = 'won'), 2)     AS total_won_value,
+    ROUND(SUM(value) FILTER (WHERE outcome = 'open'), 2)    AS total_open_pipeline,
+    ROUND(AVG(value) FILTER (WHERE outcome = 'won'), 2)     AS avg_won_value,
+    ROUND(AVG(value) FILTER (WHERE outcome = 'lost'), 2)    AS avg_lost_value
 FROM estimates;
 
 
 -- ------------------------------------------------------------
 -- 8. Customer retention segments
 -- Q: What share of revenue comes from repeat customers?
+-- Note: uses customer_id directly — may undercount true returning
+-- customers due to Jobber duplicate records. See v_customer_identity.
 -- ------------------------------------------------------------
 CREATE OR REPLACE VIEW v_customer_retention AS
 SELECT
@@ -217,6 +249,7 @@ ORDER BY customer_count DESC;
 -- ------------------------------------------------------------
 -- 9. Service co-occurrence (ML foundation)
 -- Q: Which services are purchased together in the same job?
+-- Directly feeds the upsell model in Phase 1.
 -- ------------------------------------------------------------
 CREATE OR REPLACE VIEW v_service_cooccurrence AS
 SELECT
@@ -233,3 +266,116 @@ JOIN line_items b
     AND a.service_key < b.service_key
 GROUP BY a.service_key, b.service_key
 ORDER BY co_count DESC;
+
+
+-- ============================================================
+-- ML SUPPORT VIEWS
+-- ============================================================
+
+-- ------------------------------------------------------------
+-- 10. Customer identity deduplication
+-- Problem: Jobber creates a new customer_id for returning
+-- customers booked via pipeline automation or Thumbtack imports.
+-- 81 phone numbers are linked to 2+ customer IDs.
+-- 47 are confirmed returning customers with new records.
+-- 21 are double-entry errors (created within minutes of each other).
+--
+-- Solution: canonical_id = earliest ID sharing the same phone.
+-- This is the true person identifier for all ML features.
+--
+-- Usage: always JOIN through this view before aggregating
+-- job history for ML feature building.
+-- ------------------------------------------------------------
+CREATE OR REPLACE VIEW v_customer_identity AS
+SELECT
+    c.id                                        AS customer_id,
+    CASE
+        WHEN c.phone IS NOT NULL THEN
+            FIRST_VALUE(c.id) OVER (
+                PARTITION BY c.phone
+                ORDER BY c.created_at ASC
+                ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING
+            )
+        ELSE c.id
+    END                                         AS canonical_id,
+    c.phone,
+    c.name                                      AS display_name,
+    c.lead_source,
+    c.city,
+    c.state,
+    c.zip,
+    c.created_at
+FROM customers c
+WHERE c.name NOT ILIKE '%express job%'
+  AND c.name NOT ILIKE '%external job%'
+  AND c.name NOT ILIKE '%reminder%';
+
+
+-- ------------------------------------------------------------
+-- 11. Customer history (deduplication-aware)
+-- Aggregates all jobs per canonical person, not per record ID.
+-- Correctly counts job history for returning customers who
+-- were re-created in Jobber with a new customer ID.
+--
+-- ML features:
+--   prior_job_count       — total completed jobs as a person
+--   prior_avg_job_value   — average spend across all their jobs
+--   prior_max_job_value   — highest single job (upsell ceiling)
+--   is_returning_customer — has at least one prior completed job
+--   last_job_date         — recency signal
+--   lead_source           — fills the 97% null gap in estimates
+-- ------------------------------------------------------------
+CREATE OR REPLACE VIEW v_customer_history AS
+SELECT
+    ci.canonical_id,
+    MAX(ci.lead_source)                         AS lead_source,
+    COUNT(j.id)                                 AS prior_job_count,
+    ROUND(AVG(j.job_amount), 2)                 AS prior_avg_job_value,
+    ROUND(MAX(j.job_amount), 2)                 AS prior_max_job_value,
+    MAX(j.completed_at)                         AS last_job_date,
+    CASE
+        WHEN COUNT(j.id) > 0 THEN TRUE
+        ELSE FALSE
+    END                                         AS is_returning_customer
+FROM v_customer_identity ci
+LEFT JOIN jobs j ON j.customer_id = ci.customer_id
+    AND j.status = 'Completed'
+    AND j.job_amount > 0
+GROUP BY ci.canonical_id;
+
+
+-- ------------------------------------------------------------
+-- 12. City price index
+-- Pre-computes median and percentile job values per city.
+-- Used by the pricing model as a market price signal.
+-- Cities with fewer than 3 completed jobs are excluded —
+-- insufficient data for a reliable median.
+-- In the ML pipeline, low-sample cities fall back to state median.
+--
+-- ML features:
+--   median_job_value — central price for this market
+--   p25_job_value    — lower bound of typical range
+--   p75_job_value    — upper bound of typical range
+-- ------------------------------------------------------------
+CREATE OR REPLACE VIEW v_city_price_index AS
+SELECT
+    city,
+    state,
+    COUNT(id)                                   AS job_count,
+    ROUND(
+        PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY job_amount)
+    , 2)                                        AS median_job_value,
+    ROUND(AVG(job_amount), 2)                   AS avg_job_value,
+    ROUND(
+        PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY job_amount)
+    , 2)                                        AS p25_job_value,
+    ROUND(
+        PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY job_amount)
+    , 2)                                        AS p75_job_value
+FROM jobs
+WHERE status = 'Completed'
+  AND job_amount > 0
+  AND city IS NOT NULL
+GROUP BY city, state
+HAVING COUNT(id) >= 3
+ORDER BY median_job_value DESC;

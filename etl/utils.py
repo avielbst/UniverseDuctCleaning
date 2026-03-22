@@ -4,6 +4,9 @@ import logging
 from dotenv import load_dotenv
 import psycopg2
 import re
+import glob
+
+logger = logging.getLogger(__name__)
 
 load_dotenv()
 
@@ -26,6 +29,19 @@ def setup_logging(level=logging.INFO):
             logging.StreamHandler()
         ]
     )
+
+def find_file(data_dir: str, keyword: str) -> str:
+    candidates = [
+        f for f in glob.glob(os.path.join(data_dir, "*.csv"))
+        if keyword.lower() in os.path.basename(f).lower().split("__failures")[0]
+    ]
+    if not candidates:
+        raise FileNotFoundError(
+            f"No CSV with '{keyword}' in name found in '{data_dir}'"
+        )
+    if len(candidates) > 1:
+        logger.warning("Multiple files for '%s', using: %s", keyword, candidates[0])
+    return candidates[0]
 
 def clean_money(value):
     """Convert money string to float, e.g. '$1,234.56' -> 1234.56"""

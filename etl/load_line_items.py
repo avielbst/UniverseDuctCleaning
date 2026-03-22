@@ -1,6 +1,4 @@
 """
-etl/load_line_items.py
-
 Parses the Line Items text column from service_requests CSV into
 individual rows in the line_items table.
 
@@ -21,7 +19,7 @@ import re
 import pandas as pd
 from psycopg2.extras import execute_values
 
-from utils import get_connection, normalize_service_name, setup_logging
+from utils import get_connection, normalize_service_name, setup_logging, find_file
 
 logger = logging.getLogger(__name__)
 
@@ -32,21 +30,6 @@ LINE_PATTERN = re.compile(r'^(.+?)\s*-\s*\$([\d,]+\.?\d*)$')
 
 # Lines to skip entirely
 SKIP_LINES = {'services', 'materials'}
-
-
-def _find_file(data_dir: str, keyword: str) -> str:
-    """Find a CSV in data_dir whose filename contains keyword (case-insensitive)."""
-    candidates = [
-        f for f in glob.glob(os.path.join(data_dir, "*.csv"))
-        if keyword.lower() in os.path.basename(f).lower()
-    ]
-    if not candidates:
-        raise FileNotFoundError(
-            f"No CSV with '{keyword}' in name found in '{data_dir}'"
-        )
-    if len(candidates) > 1:
-        logger.warning("Multiple files for '%s', using: %s", keyword, candidates[0])
-    return candidates[0]
 
 
 def _parse_line_items(job_id: str, raw_text: str) -> list[tuple]:
@@ -70,13 +53,13 @@ def _parse_line_items(job_id: str, raw_text: str) -> list[tuple]:
         if not line or line.lower() in SKIP_LINES:
             continue
 
-        # Skip bundle totals — these duplicate individual line item values
+        # Skip bundle totals - these duplicate individual line item values
         if 'bundle total' in line.lower() or 'package bundle' in line.lower():
             continue
 
         match = LINE_PATTERN.match(line)
         if not match:
-            # Line exists but has no price — skip silently
+            # Line exists but has no price - skip silently
             logger.debug("No price found, skipping line: '%s'", line)
             continue
 
@@ -96,25 +79,25 @@ def _parse_line_items(job_id: str, raw_text: str) -> list[tuple]:
     return records
 
 
-def load_line_items(data_dir: str = "data/raw") -> int:
+def load_line_items(path: str = "data/raw") -> int:
     """
     Parse and batch-insert all line items from service_requests CSV.
 
     Strategy: truncate then reload.
-    Line items have no natural PK from Jobber — they are derived rows.
-    Truncating is safe because line_items has no dependents.
+    Line items have no natural PK - they are derived rows.
 
     Args:
-        data_dir: Directory containing the raw Jobber CSV exports.
+        path: Either a specific CSV filepath (when called from run_all)
+              or a data directory (when called directly).
 
     Returns:
         Total number of rows inserted.
     """
-    sr_path = _find_file(data_dir, "service_request")
+    sr_path = path if path.endswith(".csv") else find_file(path, "service_request")
     sr = pd.read_csv(sr_path, low_memory=False)
     logger.info("Read %d service request rows from %s", len(sr), sr_path)
 
-    # Normalize job number — used as FK into jobs table
+    # Normalize job number - used as FK into jobs table
     sr['job_id'] = sr['Job #'].astype(str).str.extract(r'(\d+)')[0]
 
     # Only process rows that have line items
@@ -140,29 +123,27 @@ def load_line_items(data_dir: str = "data/raw") -> int:
 
     # --- Filter to only jobs that exist in the jobs table ---
     conn = get_connection()
-    with conn.cursor() as cur:
-        cur.execute("SELECT id FROM jobs")
-        valid_job_ids = {row[0] for row in cur.fetchall()}
-
-    before = len(all_records)
-    all_records = [r for r in all_records if r[0] in valid_job_ids]
-    filtered = before - len(all_records)
-    if filtered:
-        logger.warning(
-            "Dropped %d line items referencing %d job IDs not in jobs table "
-            "(likely timing gap between exports)",
-            filtered,
-            len(set(r[0] for r in all_records[:before]) - valid_job_ids)
-        )
-
-    if not all_records:
-        logger.warning("No line items to insert — check source data")
-        return 0
-
-    # --- Truncate and reload ---
-    # line_items has no dependents so truncate is safe and ensures clean state
-    conn = get_connection()
     with conn:
+        with conn.cursor() as cur:
+            cur.execute("SELECT id FROM jobs")
+            valid_job_ids = {row[0] for row in cur.fetchall()}
+
+        before = len(all_records)
+        all_records = [r for r in all_records if r[0] in valid_job_ids]
+        filtered = before - len(all_records)
+        if filtered:
+            logger.warning(
+                "Dropped %d line items referencing job IDs not in jobs table "
+                "(likely timing gap between exports)",
+                filtered,
+            )
+
+        if not all_records:
+            logger.warning("No line items to insert - check source data")
+            conn.close()
+            return 0
+
+        # --- Truncate and reload ---
         with conn.cursor() as cur:
             cur.execute("TRUNCATE line_items RESTART IDENTITY")
             execute_values(

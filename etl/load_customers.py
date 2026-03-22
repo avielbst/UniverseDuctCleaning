@@ -1,23 +1,18 @@
 """
-etl/load_customers.py
-
 Loads customers CSV into the customers table.
 Idempotent: ON CONFLICT (id) DO NOTHING.
-Uses batch insert via execute_values — no row-by-row iteration.
+Uses batch insert.
 """
-import glob
 import logging
-import os
-
 import numpy as np
 import pandas as pd
 from psycopg2.extras import execute_values
 
-from utils import get_connection, setup_logging
+from utils import get_connection, setup_logging, find_file
 
 logger = logging.getLogger(__name__)
 
-# Columns we need — ignore the other 56 columns in the export
+# Relevant columns
 CUSTOMERS_COLS = [
     "ID",
     "Display Name",
@@ -31,44 +26,22 @@ CUSTOMERS_COLS = [
 ]
 
 
-def _find_file(data_dir: str) -> str:
-    """
-    Locate the customers CSV regardless of exact filename.
-    Searches data_dir for any CSV with 'customer' in the name (case-insensitive).
-    Raises FileNotFoundError if nothing found.
-    """
-    candidates = [
-        f for f in glob.glob(os.path.join(data_dir, "*.csv"))
-        if "customer" in os.path.basename(f).lower()
-    ]
-    if not candidates:
-        raise FileNotFoundError(
-            f"No customer CSV found in '{data_dir}'. "
-            "Expected a file with 'customer' in the filename."
-        )
-    if len(candidates) > 1:
-        logger.warning("Multiple customer files found, using first: %s", candidates[0])
-    return candidates[0]
-
-
 def _clean(df: pd.DataFrame) -> pd.DataFrame:
     """
     Clean and normalize the raw customers dataframe.
-    All transformations are vectorized — no row iteration.
-    Returns a dataframe with correct types and None for missing values.
     """
-    # Drop rows with no name at all — cannot identify the customer
+    # Drop rows with no name at all - likely invalid.
     df = df.dropna(subset=["Display Name"])
     logger.info("After dropping null names: %d rows", len(df))
     
-    # ID: strip float suffix (pandas may read as 97385658.0)
+    # ID: strip float suffix (x.0)
     df["ID"] = (
         df["ID"].astype(str)
         .str.replace(r"\.0$", "", regex=True)
         .str.strip()
     )
 
-    # Phone: exported as float (9412018793.0) → clean string
+    # Phone: convert to clean string
     df["Mobile Number"] = (
         df["Mobile Number"]
         .fillna("")
@@ -91,7 +64,7 @@ def _clean(df: pd.DataFrame) -> pd.DataFrame:
         df["Customer created at"], utc=True, errors="coerce"
     )
 
-    # Normalize all whitespace-only strings → NaN
+    # Normalize all whitespace-only strings to NaN
     str_cols = [
         "Display Name", "Mobile Number", "Email", "Lead Source",
         "Address_1 City", "Address_1 State", "Address_1 Postal Code",
@@ -103,9 +76,9 @@ def _clean(df: pd.DataFrame) -> pd.DataFrame:
 
 def _build_records(df: pd.DataFrame) -> list[tuple]:
     """
-    Convert cleaned dataframe into a list of tuples for execute_values.
+    Convert cleaned dataframe into a list of tuples for insertion.
     Uses vectorized numpy conversion to replace NaN/NaT with None.
-    psycopg2 requires Python None to insert SQL NULL — not numpy NaN.
+    psycopg2 requires Python None to insert SQL NULL - not numpy NaN.
     """
     # Select and rename columns in the exact insert order
     ordered = df[[
@@ -127,17 +100,19 @@ def _build_records(df: pd.DataFrame) -> list[tuple]:
     return list(arr.itertuples(index=False, name=None))
 
 
-def load_customers(data_dir: str = "data/raw") -> int:
+def load_customers(path: str = "data/raw") -> int:
     """
     Locate, clean and batch-insert customers into the customers table.
 
     Args:
-        data_dir: Directory containing the raw Jobber CSV exports.
+        path: Either a specific CSV filepath (when called from run_all)
+              or a data directory (when called directly).
 
     Returns:
         Number of rows inserted in this run.
     """
-    filepath = _find_file(data_dir)
+    filepath = path if path.endswith(".csv") else find_file(path, "customer")
+
     logger.info("Loading customers from: %s", filepath)
 
     df = pd.read_csv(filepath, usecols=CUSTOMERS_COLS, low_memory=False)
@@ -149,6 +124,9 @@ def load_customers(data_dir: str = "data/raw") -> int:
     conn = get_connection()
     with conn:
         with conn.cursor() as cur:
+            cur.execute("SELECT COUNT(*) FROM customers")
+            before = cur.fetchone()[0]
+
             execute_values(
                 cur,
                 """
@@ -158,12 +136,14 @@ def load_customers(data_dir: str = "data/raw") -> int:
                     lead_source, created_at
                 ) VALUES %s
                 ON CONFLICT (id) DO NOTHING
-                RETURNING id
                 """,
                 records,
                 page_size=500,
             )
-            inserted = len(cur.fetchall())
+
+            cur.execute("SELECT COUNT(*) FROM customers")
+            after = cur.fetchone()[0]
+            inserted = after - before
 
     conn.close()
     logger.info("Inserted %d / %d rows into customers", inserted, len(df))

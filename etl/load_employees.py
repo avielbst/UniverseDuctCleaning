@@ -32,17 +32,15 @@ EMPLOYEE_COLS = [
     "monthly_salary",
 ]
 
+# Employees CSV is manually maintained outside data/raw — committed to repo
+EMPLOYEES_CSV = "data/employees.csv"
+
 
 def _clean(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Clean and normalize the employees dataframe.
-    Ensures name_key is uppercase and all numeric columns are properly typed.
-    """
-    # name_key must be uppercase for matching against job tags
+    """Clean and normalize the employees dataframe."""
     df["name_key"] = df["name_key"].str.strip().str.upper()
     df["name"] = df["name"].str.strip()
 
-    # All numeric columns — coerce errors to NaN
     numeric_cols = [
         "commission_rate",
         "commission_tier1_rate",
@@ -55,34 +53,35 @@ def _clean(df: pd.DataFrame) -> pd.DataFrame:
     for col in numeric_cols:
         df[col] = pd.to_numeric(df[col], errors="coerce")
 
-    # Convert NaN → None for psycopg2
     df = df.astype(object).where(df.notna(), other=None)
-
     return df
 
 
-def load_employees(filepath: str = "data/employees.csv") -> int:
+def load_employees(data_dir: str = "data/raw") -> int:
     """
     Load employees from the manually maintained CSV into the employees table.
+    The data_dir argument is accepted for interface consistency with other
+    loaders but is not used — employees.csv lives at a fixed committed path.
 
     Args:
-        filepath: Path to the employees CSV file.
+        data_dir: Unused. Kept for consistent loader interface with run_all.
 
     Returns:
         Number of new rows inserted.
     """
-    df = pd.read_csv(filepath)
-    logger.info("Read %d employees from %s", len(df), filepath)
+    df = pd.read_csv(EMPLOYEES_CSV)
+    logger.info("Read %d employees from %s", len(df), EMPLOYEES_CSV)
 
     df = _clean(df)
-
-    records = list(
-        df[EMPLOYEE_COLS].itertuples(index=False, name=None)
-    )
+    records = list(df[EMPLOYEE_COLS].itertuples(index=False, name=None))
 
     conn = get_connection()
     with conn:
         with conn.cursor() as cur:
+            # Use before/after count — ON CONFLICT DO NOTHING makes rowcount unreliable
+            cur.execute("SELECT COUNT(*) FROM employees")
+            before = cur.fetchone()[0]
+
             execute_values(
                 cur,
                 """
@@ -94,13 +93,15 @@ def load_employees(filepath: str = "data/employees.csv") -> int:
                     hourly_rate, monthly_salary
                 ) VALUES %s
                 ON CONFLICT (name_key) DO NOTHING
-                RETURNING id
                 """,
                 records,
             )
-            inserted = len(cur.fetchall())
+
+            cur.execute("SELECT COUNT(*) FROM employees")
+            after = cur.fetchone()[0]
 
     conn.close()
+    inserted = after - before
     logger.info("Inserted %d / %d rows into employees", inserted, len(df))
     return inserted
 

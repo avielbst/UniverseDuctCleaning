@@ -1,14 +1,14 @@
 """
-etl/load_jobs.py
-
 Loads jobs into the jobs table by merging two source files:
-  - data/raw/*jobs*.csv            — job metadata, status, amounts
-  - data/raw/*service_request*.csv — subtotal, employee tags, finished date
+  - data/raw/*jobs*.csv            : job metadata, status, amounts
+  - data/raw/*service_request*.csv : subtotal, employee tags, finished date
 
 Subtotal handling (three distinct cases):
-  - NULL  → job has no matching service request (pre-March 2025 data)
-  - 0.0   → service request exists but $0 job (free estimate)
-  - > 0   → normal paid job
+  - NULL - job has no matching service request (pre-March 2025 data)
+  - 0.0  - service request exists but $0 job (free estimate)
+
+  `job_amount` is the amount charged to the customer, which may be discounted.
+  `subtotal` is the original amount before discount, from the service request.
 
 Idempotent: ON CONFLICT (id) DO NOTHING.
 """
@@ -21,28 +21,13 @@ import numpy as np
 import pandas as pd
 from psycopg2.extras import execute_values
 
-from utils import clean_money, get_connection, normalize_employee_name, setup_logging
+from utils import clean_money, get_connection, normalize_employee_name, setup_logging, find_file
 
 logger = logging.getLogger(__name__)
 
 
-def _find_file(data_dir: str, keyword: str) -> str:
-    """Find a CSV in data_dir whose filename contains keyword (case-insensitive)."""
-    candidates = [
-        f for f in glob.glob(os.path.join(data_dir, "*.csv"))
-        if keyword.lower() in os.path.basename(f).lower()
-    ]
-    if not candidates:
-        raise FileNotFoundError(
-            f"No CSV with '{keyword}' in name found in '{data_dir}'"
-        )
-    if len(candidates) > 1:
-        logger.warning("Multiple files for '%s', using: %s", keyword, candidates[0])
-    return candidates[0]
-
-
 def _build_customer_lookup(conn) -> dict:
-    """Return {display_name_lower: customer_id} from the customers table."""
+    """Return dict{display_name_lower: customer_id} from the customers table."""
     with conn.cursor() as cur:
         cur.execute("SELECT id, name FROM customers")
         return {
@@ -91,25 +76,30 @@ def _to_none(val):
     return val
 
 
-def load_jobs(data_dir: str = "data/raw") -> int:
+def load_jobs(path: str = "data/raw") -> int:
     """
     Merge jobs and service_requests, resolve foreign keys, and insert into jobs.
 
     Args:
-        data_dir: Directory containing the raw Jobber CSV exports.
+        path: Either a specific jobs CSV filepath (when called from run_all)
+              or a data directory (when called directly).
 
     Returns:
         Number of rows inserted.
     """
-    # --- Load ---
-    jobs_path = _find_file(data_dir, "jobs")
-    sr_path = _find_file(data_dir, "service_request")
+    if path.endswith(".csv"):
+        jobs_path = path
+        sr_path = find_file(os.path.dirname(path), "service_request")
+    else:
+        jobs_path = find_file(path, "jobs")
+        sr_path = find_file(path, "service_request")
 
     jobs = pd.read_csv(jobs_path, low_memory=False)
     sr = pd.read_csv(sr_path, low_memory=False)
     logger.info("Read %d jobs, %d service requests", len(jobs), len(sr))
 
     # --- Normalize join key ---
+
     jobs['job_num'] = jobs['Job #'].astype(str).str.extract(r'(\d+)')[0]
     sr['job_num'] = sr['Job #'].astype(str).str.extract(r'(\d+)')[0]
 
@@ -117,7 +107,6 @@ def load_jobs(data_dir: str = "data/raw") -> int:
     jobs['job_amount'] = jobs['Job amount'].apply(clean_money)
 
     # Subtotal: keep as float (0.0 is valid, means free estimate)
-    # Do NOT coerce 0 to None — only unmatched jobs get NULL subtotal
     sr['subtotal'] = sr['Subtotal'].apply(clean_money)
 
     # --- Clean dates ---
@@ -134,7 +123,7 @@ def load_jobs(data_dir: str = "data/raw") -> int:
     # --- Lowercase customer name for lookup ---
     jobs['customer_name_clean'] = jobs['Customer name'].str.strip().str.lower()
 
-    # --- Merge: jobs is the spine ---
+    # --- Merge: jobs is the spine - left join ---
     # Use indicator=True so we know which jobs had a matching service request
     merged = jobs.merge(
         sr[['job_num', 'subtotal', 'Job Tags', 'completed_at']],
@@ -179,13 +168,13 @@ def load_jobs(data_dir: str = "data/raw") -> int:
     # --- Build records ---
     records = []
     for _, row in merged.iterrows():
-        # Customer FK — exact lowercase match
+        # Customer FK - exact lowercase match
         cname = str(row.get('customer_name_clean') or '').strip()
         customer_id = customer_lookup.get(cname)
         if not customer_id and cname:
             unresolved_customers += 1
 
-        # Employee FK — extract from job tags
+        # Employee FK - extract from job tags
         tech_name = normalize_employee_name(row.get('Job Tags'))
         employee_id = employee_lookup.get(tech_name) if tech_name else None
         if tech_name and not employee_id:
@@ -214,6 +203,9 @@ def load_jobs(data_dir: str = "data/raw") -> int:
     # --- Batch insert ---
     with conn:
         with conn.cursor() as cur:
+            cur.execute("SELECT COUNT(*) FROM jobs")
+            before = cur.fetchone()[0]
+
             execute_values(
                 cur,
                 """
@@ -226,24 +218,26 @@ def load_jobs(data_dir: str = "data/raw") -> int:
                     notes
                 ) VALUES %s
                 ON CONFLICT (id) DO NOTHING
-                RETURNING id
                 """,
                 records,
                 page_size=500,
             )
-            inserted = len(cur.fetchall())
+
+            cur.execute("SELECT COUNT(*) FROM jobs")
+            after = cur.fetchone()[0]
+            inserted = after - before
 
     conn.close()
 
     logger.info("Inserted %d / %d rows into jobs", inserted, len(merged))
     if unresolved_customers:
         logger.warning(
-            "%d jobs with unresolved customer names — customer_id set to NULL",
+            "%d jobs with unresolved customer names - customer_id set to NULL",
             unresolved_customers,
         )
     if unresolved_employees:
         logger.warning(
-            "%d jobs with unresolved employee tags — employee_id set to NULL "
+            "%d jobs with unresolved employee tags - employee_id set to NULL "
             "(employee may have been removed from employees.csv)",
             unresolved_employees,
         )
