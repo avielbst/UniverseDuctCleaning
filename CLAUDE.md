@@ -16,7 +16,7 @@ Portfolio project + real deployed product for DS/AI/ML interviews.
 
 ## Current phase
 
-**Phase 1 — ML Models** (active)
+**Phase 2 — LLM Agent** (next)
 
 Two models to build:
 
@@ -26,11 +26,11 @@ Two models to build:
 | Pricing predictor | Quantile regression | Estimate value range for a given job profile | 419 won estimates |
 
 Done when:
-- [ ] Upsell model AUROC > 0.65 on 3+ service labels (time-based split)
-- [ ] Pricing model outputs `{range: [low, high], confidence: medium/low}`
-- [ ] Both models logged in MLflow with features, metrics, training date
-- [ ] `predict_upsell(job_profile)` and `predict_price(job_profile)` functions return valid JSON
-- [ ] Baseline comparison documented for both models
+- [x] Upsell model AUROC > 0.65 on 3+ service labels (time-based split) — 10/10 labels, mean 0.8685
+- [x] Pricing model outputs `{range: [low, high], confidence: medium/low}` — P25/P75 beat baseline; P50 weak (see ml/claude.md)
+- [x] Both models logged in MLflow with features, metrics, training date
+- [x] `predict_upsell(job_profile)` and `predict_price(job_profile)` functions return valid JSON
+- [x] Baseline comparison documented for both models
 
 ---
 
@@ -39,7 +39,7 @@ Done when:
 | Phase | Goal | Status |
 |-------|------|--------|
 | Phase 0 — Data foundation | All CRM data in PostgreSQL, 12 SQL views | ✅ Complete |
-| Phase 1 — ML models | Upsell classifier + pricing predictor | 🔄 Active |
+| Phase 1 — ML models | Upsell classifier + pricing predictor | ✅ Complete |
 | Phase 2 — LLM agent | Natural language Q&A, grounded in tool calls | ⬜ Pending |
 | Phase 3 — Deployment | Live on AWS, public URL | ⬜ Pending |
 | Phase 4 — Impact measurement | Adoption rate tracked, revenue delta quantified | ⬜ Pending |

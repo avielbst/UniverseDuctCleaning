@@ -1,5 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
 # Raw data files
 data/
+
+# Cached ML feature datasets
+ml/data/
+
+# ML model artifacts
+ml/artifacts/
 
 # log files
 .log

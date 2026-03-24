@@ -262,7 +262,7 @@ def build_pricing_features() -> pd.DataFrame:
         FROM estimates e
         WHERE e.outcome = 'won'
         AND e.value > 0
-        AND e.created_at IS NOT NULL
+        AND e.created_at IS NOT NULL    
         ORDER BY e.created_at
     """, engine)
  
@@ -380,8 +380,45 @@ def build_pricing_features() -> pd.DataFrame:
     return df.sort_values("estimate_date").reset_index(drop=True)
  
  
+DATA_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "data"))
+
+
+def load_upsell_features(refresh: bool = False) -> pd.DataFrame:
+    """Return upsell feature matrix, loading from parquet cache when available."""
+    path = os.path.join(DATA_DIR, "upsell_features.parquet")
+    if not refresh and os.path.exists(path):
+        logger.info("Loading upsell features from cache: %s", path)
+        df = pd.read_parquet(path)
+        for col in ["first_service", "lead_source", "season"]:
+            if col in df.columns:
+                df[col] = df[col].astype("category")
+        return df
+    df = build_upsell_features()
+    os.makedirs(DATA_DIR, exist_ok=True)
+    df.to_parquet(path, index=False)
+    logger.info("Upsell features cached to %s", path)
+    return df
+
+
+def load_pricing_features(refresh: bool = False) -> pd.DataFrame:
+    """Return pricing feature matrix, loading from parquet cache when available."""
+    path = os.path.join(DATA_DIR, "pricing_features.parquet")
+    if not refresh and os.path.exists(path):
+        logger.info("Loading pricing features from cache: %s", path)
+        df = pd.read_parquet(path)
+        for col in ["lead_source", "season"]:
+            if col in df.columns:
+                df[col] = df[col].astype("category")
+        return df
+    df = build_pricing_features()
+    os.makedirs(DATA_DIR, exist_ok=True)
+    df.to_parquet(path, index=False)
+    logger.info("Pricing features cached to %s", path)
+    return df
+
+
 # for debugging.
- 
+
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO,
                         format="%(asctime)s - %(levelname)s - %(message)s")

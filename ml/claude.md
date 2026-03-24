@@ -60,6 +60,23 @@ Log baseline AUROC before training LightGBM.
 - `predict_upsell(job_profile)` returns ranked list with probabilities
 - MLflow run logged with all features, metrics, training date
 
+**Phase 1 results (2026-03-24, cutoff 2025-12-01)**:
+
+| Label | AUROC | Baseline | Beats baseline | Predictor |
+|-------|-------|----------|----------------|-----------|
+| sanitation disinfectant | 0.8639 | 0.8433 | yes | lgbm |
+| dryer vent cleaning | 0.9032 | 0.8986 | yes | lgbm |
+| air duct deep cleaning | 0.9335 | 0.8865 | yes | lgbm |
+| uv light system and installation | 0.8788 | 0.7204 | yes | lgbm |
+| maintenance air duct cleaning | 0.8323 | 0.8323 | — | baseline |
+| dryer vent additional length | 0.8505 | 0.8476 | yes | lgbm |
+| duct encapsulation | 0.8559 | 0.8559 | — | baseline |
+| dryer vent cleaning roof unclog | 0.8227 | 0.8227 | — | baseline |
+| blower deep cleaning + coil | 0.8835 | 0.8771 | yes | lgbm |
+| blower cleaning | 0.8612 | 0.8252 | yes | lgbm |
+
+Mean AUROC: 0.8685 | All 10 labels > 0.65 | 7/10 beat baseline
+
 ---
 
 ### 2. Pricing predictor (`models/pricing/`)
@@ -106,7 +123,56 @@ Always surface confidence in output. Never return a range without it.
 - `predict_price(job_profile)` returns `{range, median, confidence, n_similar}`
 - MLflow run logged
 
+**Phase 1 results (2026-03-24, cutoff 2025-12-01)**:
+
+| Quantile | Pinball loss | Baseline | Improvement |
+|----------|-------------|----------|-------------|
+| P25 | 269.30 | 338.88 | +20.5% |
+| P50 | 394.95 | 395.08 | ~0% |
+| P75 | 387.42 | 451.27 | +14.1% |
+
+Coverage: 44.9% | Mean range width: $985 | Feature importance: month 54%, city_median 26%
+
+**Known limitations — do not use for customer-facing quotes yet**:
+
+- **P50 median is no better than the naive baseline.** The model cannot predict the center
+  of the price distribution. With 289 training rows and high price variance ($0–$11k),
+  the signal-to-noise ratio is too low for meaningful median prediction.
+- **Root cause is missing features, not model choice.** Price is driven by what services
+  are performed and job complexity — neither is available at estimate time because line
+  items don't exist yet. Month and city median are the only real signals available,
+  and the model has found them (54% + 26% importance). Customer history features are
+  essentially zero because they add noise, not signal, at this sample size.
+- **Current deployment posture**: internal rough band only. Owner can use the range as
+  a sanity check before quoting, not as a final quote. Never surface to customers.
+
+**Planned redesign (Phase 2+)**:
+
+Chain with the upsell model: given first_service + predicted upsell bundle → predict
+job_amount from completed jobs (not estimates). This uses line_items data which contains
+the real pricing drivers, and allows conditioning on service complexity. The upsell model
+output becomes a feature for the pricing model, which is the correct product flow anyway.
+
 ---
+
+## Model roles and usage
+
+The two models serve **different users at different moments** in the workflow.
+
+| Model | Primary user | Moment | Output |
+|-------|-------------|--------|--------|
+| Upsell classifier | Technician | Before arriving on site | Ranked service recommendations with probabilities |
+| Pricing predictor | Owner | During estimate / quoting | Price range with confidence tier |
+
+**Upsell classifier** — the technician opens the Streamlit UI on their phone before the appointment. The model surfaces ranked recommendations ("recommend Sanitation Disinfectant 78%, Blower Cleaning 61%"). The technician pitches these on site. Adoption is tracked in the dashboard.
+
+**Pricing predictor** — when a new lead comes in, the owner asks the agent: *"Thumbtack lead in Boca Raton wants duct cleaning — what should I quote?"* The agent calls `PRICING_TOOL`, returns `{range: [$900, $1,400], median: $1,150, confidence: "medium"}`. The `city_rejection_rate` feature encodes price sensitivity per market.
+
+Both are exposed as agent tools (`UPSELL_TOOL`, `PRICING_TOOL`) — the owner can invoke either via natural language. They are independent models that share features (lead source, customer history, city) but operate at different stages of the sales funnel.
+
+
+---
+
 
 ## Conventions
 
