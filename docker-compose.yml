@@ -18,5 +18,24 @@ services:
       timeout: 5s
       retries: 5
 
+  api:
+    build: .
+    container_name: ductai_api
+    command: uvicorn api.app:app --host 0.0.0.0 --port 8000 --reload
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: ${POSTGRES_DB:-ductai_db}
+      DB_USER: ${POSTGRES_USER:-ductai}
+      DB_PASSWORD: ${POSTGRES_PASSWORD:-ductai}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+    volumes:
+      - ./ml/artifacts:/app/ml/artifacts:ro
+
 volumes:
   postgres_data:
