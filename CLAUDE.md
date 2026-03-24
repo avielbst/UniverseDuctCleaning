@@ -16,7 +16,7 @@ Portfolio project + real deployed product for DS/AI/ML interviews.
 
 ## Current phase
 
-**Phase 2 — LLM Agent**
+**Phase 3 — Dashboard (Streamlit)**
 
 ---
 
@@ -26,9 +26,10 @@ Portfolio project + real deployed product for DS/AI/ML interviews.
 |-------|------|--------|
 | Phase 0 — Data foundation | All CRM data in PostgreSQL, 12 SQL views | ✅ Complete |
 | Phase 1 — ML models | Upsell classifier + pricing predictor | ✅ Complete |
-| Phase 2 — LLM agent | Natural language Q&A, grounded in tool calls | ⬜ Pending |
-| Phase 3 — Deployment | Live on AWS, public URL | ⬜ Pending |
-| Phase 4 — Impact measurement | Adoption rate tracked, revenue delta quantified | ⬜ Pending |
+| Phase 2 — LLM agent | Natural language Q&A, grounded in tool calls | ✅ Complete |
+| Phase 3 — Dashboard | Streamlit UI: upsell adoption rate + revenue impact | ⬜ Pending |
+| Phase 4 — Deployment | Live on AWS, public URL | ⬜ Pending |
+| Phase 5 — Impact measurement | Adoption rate tracked, revenue delta quantified | ⬜ Pending |
 
 ---
 
@@ -138,6 +139,90 @@ Note: 419 samples is small — show confidence intervals, never bare point estim
 
 ---
 
+## Phase 2 — LLM Agent (complete)
+
+### Architecture
+
+LangChain 1.2 + LangGraph `create_agent()` with `MemorySaver` for multi-turn conversation.
+Claude Sonnet 4.6 as the LLM backend via `langchain-anthropic`.
+
+| File | Purpose |
+|------|---------|
+| `agent/agent.py` | Builds the `CompiledStateGraph` — one call to `create_agent()` |
+| `agent/system_prompt.py` | Business context, view catalog, data rules, tool guidance |
+| `agent/tools/upsell.py` | `@tool` wrapping `predict_upsell()` — city lookup + service normalization |
+| `agent/tools/pricing.py` | `@tool` wrapping `predict_price()` — city stats + season derivation |
+| `agent/tools/sql.py` | `@tool` SELECT-only executor — first-token + substring injection guards |
+| `agent/cli.py` | Interactive REPL: `python -m agent.cli` |
+| `api/app.py` | FastAPI: `POST /chat`, `GET /health` |
+| `api/schemas.py` | `ChatRequest(message, session_id)`, `ChatResponse(response, session_id)` |
+
+### Invocation pattern
+
+```python
+from agent.agent import build_agent
+from langchain_core.messages import HumanMessage
+
+agent = build_agent()
+result = agent.invoke(
+    {"messages": [HumanMessage(content="What should I quote for Boca Raton?")]},
+    config={"configurable": {"thread_id": "owner-1"}},
+)
+reply = result["messages"][-1].content
+```
+
+### Key decisions
+
+- Memory via `thread_id` + `MemorySaver` — no manual history tracking
+- Tools return strings (LangChain requirement); business logic is in tool functions, not the prompt
+- `city_median_job_value` and `city_rejection_rate` are looked up inside tools — agent only needs city name
+- Pricing tool always appends limitation note (internal band only, not for customers)
+- SQL tool blocks DDL via first-token check + substring blocklist; caps results at 100 rows
+
+---
+
+## Phase 3 — Dashboard (next)
+
+### Goal
+
+Streamlit UI with two views:
+
+1. **Technician view** — before arriving on site, technician enters job details and gets ranked upsell recommendations from the upsell classifier. Displayed on mobile.
+
+2. **Owner/ops view** — business performance dashboard tracking:
+   - Upsell adoption rate (% of jobs where recommended services were actually sold)
+   - Revenue impact (incremental revenue attributable to upsell recommendations)
+   - Service mix trends, lead source ROI, regional performance
+
+### Data sources for dashboard
+
+All views already exist in `db/views.sql`:
+- `v_service_mix` — service popularity and revenue
+- `v_revenue_summary` — monthly revenue trend
+- `v_lead_source_roi` — conversion rates and revenue by lead channel
+- `v_region_summary` — revenue by city
+- `v_employee_performance` — jobs and revenue per technician
+- `v_service_cooccurrence` — upsell signal (what services are bought together)
+- `v_customer_retention` — repeat purchase rates
+
+### Upsell adoption tracking
+
+To measure adoption rate, we need to compare:
+- What `predict_upsell()` recommended for each job
+- What services were actually sold (from `line_items`)
+
+This requires logging predictions at inference time. Options:
+1. Add a `upsell_predictions` table to the DB and write there on each call
+2. Read MLflow logged artifacts per run
+
+Decision to make at Phase 3 start: how to close the recommendation→outcome loop.
+
+### Infrastructure note
+
+Streamlit runs on port 8501. Already reserved in local stack. Add to `docker-compose.yml` as a new service when Phase 3 begins.
+
+---
+
 ## Infrastructure (local)
 
 ```
@@ -145,15 +230,27 @@ Service     Port   Credentials
 ────────────────────────────────────────────────
 PostgreSQL  5432   ductai / ductai / ductai_db
 MLflow      5000   (Phase 1+, no auth locally)
-FastAPI     8000   (Phase 2+)
+FastAPI     8000   (Phase 2, active)
 Streamlit   8501   (Phase 3+)
 ```
 
 ```bash
-docker compose up -d           # start stack
+docker compose up -d           # start stack (db + api)
 docker compose down -v         # wipe DB and stop
 python -m etl.run_all          # run full ETL pipeline
 psql $DATABASE_URL             # connect to DB
+python -m agent.cli            # interactive agent REPL (needs ANTHROPIC_API_KEY)
+uvicorn api.app:app --port 8000 --reload  # run FastAPI locally
+```
+
+Environment variables required for Phase 2+:
+```
+ANTHROPIC_API_KEY=sk-ant-...   # required for agent
+DB_HOST=localhost               # default
+DB_PORT=5432                    # default
+DB_NAME=ductai_db               # default
+DB_USER=ductai                  # default
+DB_PASSWORD=ductai              # default
 ```
 
 ---
