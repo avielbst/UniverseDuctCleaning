@@ -1,0 +1,68 @@
+{
+  "feature_cols": [
+    "first_service",
+    "lead_source",
+    "is_returning_customer",
+    "prior_job_count",
+    "prior_avg_job_value",
+    "city_median_job_value",
+    "job_amount",
+    "month"
+  ],
+  "labels": [
+    "sanitation disinfectant",
+    "dryer vent cleaning",
+    "air duct deep cleaning",
+    "uv light system and installation",
+    "maintenance air duct cleaning",
+    "dryer vent additional length",
+    "duct encapsulation",
+    "dryer vent cleaning roof unclog",
+    "blower deep cleaning and coil maintenance",
+    "blower cleaning"
+  ],
+  "label_stats": {
+    "sanitation disinfectant": {
+      "n_train_pos": 129,
+      "scale_pos_weight": 1.11
+    },
+    "dryer vent cleaning": {
+      "n_train_pos": 111,
+      "scale_pos_weight": 1.45
+    },
+    "air duct deep cleaning": {
+      "n_train_pos": 65,
+      "scale_pos_weight": 3.18
+    },
+    "uv light system and installation": {
+      "n_train_pos": 64,
+      "scale_pos_weight": 3.25
+    },
+    "maintenance air duct cleaning": {
+      "n_train_pos": 30,
+      "scale_pos_weight": 8.07
+    },
+    "dryer vent additional length": {
+      "n_train_pos": 48,
+      "scale_pos_weight": 4.67
+    },
+    "duct encapsulation": {
+      "n_train_pos": 37,
+      "scale_pos_weight": 6.35
+    },
+    "dryer vent cleaning roof unclog": {
+      "n_train_pos": 44,
+      "scale_pos_weight": 5.18
+    },
+    "blower deep cleaning and coil maintenance": {
+      "n_train_pos": 21,
+      "scale_pos_weight": 11.95
+    },
+    "blower cleaning": {
+      "n_train_pos": 35,
+      "scale_pos_weight": 6.77
+    }
+  },
+  "train_cutoff": "2025-12-01",
+  "trained_at": "2026-03-24T15:26:46.300985+00:00"
+}

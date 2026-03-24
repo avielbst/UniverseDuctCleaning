@@ -1,0 +1,208 @@
+{
+  "train_cutoff": "2025-12-01",
+  "evaluated_at": "2026-03-24T15:29:15.981023+00:00",
+  "train_rows": 341,
+  "test_rows": 298,
+  "summary": {
+    "mean_auroc": 0.8335,
+    "labels_above_065": 10,
+    "labels_total": 10,
+    "beats_baseline": 5
+  },
+  "labels": [
+    {
+      "label": "sanitation disinfectant",
+      "n_test_pos": 122,
+      "prevalence": 40.9,
+      "n_train_pos": 129,
+      "confidence": "high",
+      "auroc": 0.8964,
+      "avg_precision": 0.8289,
+      "brier": 0.1567,
+      "baseline_auroc": 0.8433,
+      "beats_baseline": true,
+      "opt_threshold": 0.624,
+      "opt_precision": 0.72,
+      "opt_recall": 0.926,
+      "opt_f1": 0.81
+    },
+    {
+      "label": "dryer vent cleaning",
+      "n_test_pos": 134,
+      "prevalence": 45.0,
+      "n_train_pos": 111,
+      "confidence": "high",
+      "auroc": 0.918,
+      "avg_precision": 0.9355,
+      "brier": 0.0906,
+      "baseline_auroc": 0.9018,
+      "beats_baseline": true,
+      "opt_threshold": 0.865,
+      "opt_precision": 1.0,
+      "opt_recall": 0.813,
+      "opt_f1": 0.897
+    },
+    {
+      "label": "air duct deep cleaning",
+      "n_test_pos": 81,
+      "prevalence": 27.2,
+      "n_train_pos": 65,
+      "confidence": "medium",
+      "auroc": 0.8982,
+      "avg_precision": 0.8185,
+      "brier": 0.1243,
+      "baseline_auroc": 0.8865,
+      "beats_baseline": true,
+      "opt_threshold": 0.615,
+      "opt_precision": 0.844,
+      "opt_recall": 0.667,
+      "opt_f1": 0.745
+    },
+    {
+      "label": "uv light system and installation",
+      "n_test_pos": 57,
+      "prevalence": 19.1,
+      "n_train_pos": 64,
+      "confidence": "medium",
+      "auroc": 0.8617,
+      "avg_precision": 0.5191,
+      "brier": 0.1581,
+      "baseline_auroc": 0.7204,
+      "beats_baseline": true,
+      "opt_threshold": 0.468,
+      "opt_precision": 0.468,
+      "opt_recall": 0.895,
+      "opt_f1": 0.614
+    },
+    {
+      "label": "maintenance air duct cleaning",
+      "n_test_pos": 66,
+      "prevalence": 22.1,
+      "n_train_pos": 30,
+      "confidence": "low",
+      "auroc": 0.7914,
+      "avg_precision": 0.5502,
+      "brier": 0.1624,
+      "baseline_auroc": 0.8323,
+      "beats_baseline": false,
+      "opt_threshold": 0.189,
+      "opt_precision": 0.441,
+      "opt_recall": 0.682,
+      "opt_f1": 0.536
+    },
+    {
+      "label": "dryer vent additional length",
+      "n_test_pos": 58,
+      "prevalence": 19.5,
+      "n_train_pos": 48,
+      "confidence": "medium",
+      "auroc": 0.775,
+      "avg_precision": 0.4363,
+      "brier": 0.1413,
+      "baseline_auroc": 0.8476,
+      "beats_baseline": false,
+      "opt_threshold": 0.184,
+      "opt_precision": 0.375,
+      "opt_recall": 0.776,
+      "opt_f1": 0.506
+    },
+    {
+      "label": "duct encapsulation",
+      "n_test_pos": 55,
+      "prevalence": 18.5,
+      "n_train_pos": 37,
+      "confidence": "low",
+      "auroc": 0.8332,
+      "avg_precision": 0.5016,
+      "brier": 0.125,
+      "baseline_auroc": 0.8559,
+      "beats_baseline": false,
+      "opt_threshold": 0.283,
+      "opt_precision": 0.577,
+      "opt_recall": 0.545,
+      "opt_f1": 0.561
+    },
+    {
+      "label": "dryer vent cleaning roof unclog",
+      "n_test_pos": 58,
+      "prevalence": 19.5,
+      "n_train_pos": 44,
+      "confidence": "medium",
+      "auroc": 0.7311,
+      "avg_precision": 0.3678,
+      "brier": 0.1439,
+      "baseline_auroc": 0.8227,
+      "beats_baseline": false,
+      "opt_threshold": 0.304,
+      "opt_precision": 0.418,
+      "opt_recall": 0.655,
+      "opt_f1": 0.51
+    },
+    {
+      "label": "blower deep cleaning and coil maintenance",
+      "n_test_pos": 17,
+      "prevalence": 5.7,
+      "n_train_pos": 21,
+      "confidence": "low",
+      "auroc": 0.7703,
+      "avg_precision": 0.1326,
+      "brier": 0.0531,
+      "baseline_auroc": 0.8771,
+      "beats_baseline": false,
+      "opt_threshold": 0.1,
+      "opt_precision": 0.149,
+      "opt_recall": 0.588,
+      "opt_f1": 0.238
+    },
+    {
+      "label": "blower cleaning",
+      "n_test_pos": 67,
+      "prevalence": 22.5,
+      "n_train_pos": 35,
+      "confidence": "low",
+      "auroc": 0.8593,
+      "avg_precision": 0.6894,
+      "brier": 0.1348,
+      "baseline_auroc": 0.8252,
+      "beats_baseline": true,
+      "opt_threshold": 0.111,
+      "opt_precision": 0.678,
+      "opt_recall": 0.597,
+      "opt_f1": 0.635
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "prior_avg_job_value",
+      "importance_pct": 30.23
+    },
+    {
+      "feature": "city_median_job_value",
+      "importance_pct": 29.15
+    },
+    {
+      "feature": "job_amount",
+      "importance_pct": 24.46
+    },
+    {
+      "feature": "month",
+      "importance_pct": 11.33
+    },
+    {
+      "feature": "first_service",
+      "importance_pct": 2.37
+    },
+    {
+      "feature": "prior_job_count",
+      "importance_pct": 2.26
+    },
+    {
+      "feature": "lead_source",
+      "importance_pct": 0.2
+    },
+    {
+      "feature": "is_returning_customer",
+      "importance_pct": 0.0
+    }
+  ]
+}

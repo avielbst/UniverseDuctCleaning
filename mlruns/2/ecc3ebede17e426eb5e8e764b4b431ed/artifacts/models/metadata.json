@@ -1,0 +1,1210 @@
+{
+  "feature_cols": [
+    "lead_source",
+    "is_returning_customer",
+    "prior_avg_job_value",
+    "prior_job_count",
+    "city_median_job_value",
+    "city_rejection_rate",
+    "month",
+    "season"
+  ],
+  "quantiles": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "best_params": {
+    "num_leaves": 26,
+    "learning_rate": 0.010132269774728437,
+    "min_child_samples": 40,
+    "reg_alpha": 0.7660904191714918,
+    "reg_lambda": 0.46240995209235203,
+    "n_estimators": 283
+  },
+  "train_cutoff": "2025-12-01",
+  "trained_at": "2026-03-24T16:12:32.962833+00:00",
+  "train_median": 1359.0,
+  "train_value_stats": {
+    "min": 0.03,
+    "p25": 900.0,
+    "median": 1359.0,
+    "p75": 1988.0,
+    "max": 11080.0
+  },
+  "pinball_results": {
+    "p25": {
+      "pinball_loss": 269.2981,
+      "baseline_loss": 338.8847,
+      "pct_improvement": 20.53
+    },
+    "p50": {
+      "pinball_loss": 394.9466,
+      "baseline_loss": 395.0762,
+      "pct_improvement": 0.03
+    },
+    "p75": {
+      "pinball_loss": 387.4169,
+      "baseline_loss": 451.2676,
+      "pct_improvement": 14.15
+    }
+  },
+  "training_index": [
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 824.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 1354.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 478.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 800.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 478.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 1354.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 600.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 399.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 947.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 800.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 650.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 1013.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 650.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 705.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 765.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 435.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 734.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 595.5
+    },
+    {
+      "lead_source": "website",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 308.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 1098.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 348.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 308.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 650.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 1098.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 734.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 670.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 1013.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 734.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 1189.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 308.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 749.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 520.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 239.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 595.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 734.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 1524.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 239.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 399.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 478.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 765.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 478.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 600.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 749.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 749.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 749.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 765.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 749.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 800.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 765.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 800.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 239.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 1461.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 634.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 520.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 478.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 800.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 947.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 478.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 308.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 650.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 1300.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 600.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 1013.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 399.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 600.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 1300.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 650.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 520.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 749.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 600.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 1524.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 705.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 749.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 483.5
+    },
+    {
+      "lead_source": "social",
+      "city_median_job_value": 800.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 800.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 348.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 705.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 749.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 239.0
+    },
+    {
+      "lead_source": "referral",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 239.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 749.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 520.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 705.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 634.0
+    },
+    {
+      "lead_source": "referral",
+      "city_median_job_value": 640.33
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 734.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 400.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 239.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 478.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 483.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "referral",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 800.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 734.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 675.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 1461.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 749.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 520.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "social",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 705.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 1083.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 1083.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 749.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 435.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 749.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 1561.0
+    },
+    {
+      "lead_source": "website",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "website",
+      "city_median_job_value": 1524.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 1524.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 765.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 478.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 1561.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 650.0
+    },
+    {
+      "lead_source": "referral",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 400.0
+    },
+    {
+      "lead_source": "website",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 478.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 765.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 749.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 400.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 765.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 308.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 1461.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 705.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 734.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 705.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 1524.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 657.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 1300.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 650.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 1098.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 749.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 1189.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 1083.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 750.0
+    },
+    {
+      "lead_source": "website",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 947.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 483.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 657.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 1461.5
+    },
+    {
+      "lead_source": "website",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 1354.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 308.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 348.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 399.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 478.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 947.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 650.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 500.0
+    },
+    {
+      "lead_source": "social",
+      "city_median_job_value": 650.0
+    },
+    {
+      "lead_source": "referral",
+      "city_median_job_value": 1013.5
+    },
+    {
+      "lead_source": "social",
+      "city_median_job_value": 947.0
+    },
+    {
+      "lead_source": "website",
+      "city_median_job_value": 600.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 947.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 600.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 478.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 600.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 399.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 705.5
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 800.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 650.0
+    },
+    {
+      "lead_source": "referral",
+      "city_median_job_value": 483.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 650.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 600.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 675.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 600.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 499.5
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 600.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 546.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 478.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 600.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 657.0
+    },
+    {
+      "lead_source": "google",
+      "city_median_job_value": 523.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 648.0
+    },
+    {
+      "lead_source": "thumbtack",
+      "city_median_job_value": 734.0
+    },
+    {
+      "lead_source": "unknown",
+      "city_median_job_value": 705.5
+    }
+  ]
+}

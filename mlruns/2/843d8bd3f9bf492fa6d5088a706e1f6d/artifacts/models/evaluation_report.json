@@ -1,0 +1,76 @@
+{
+  "train_cutoff": "2025-12-01",
+  "evaluated_at": "2026-03-24T16:12:46.246280+00:00",
+  "train_rows": 289,
+  "test_rows": 127,
+  "train_median": 1359.0,
+  "quantile_results": [
+    {
+      "quantile": 0.25,
+      "label": "p25",
+      "pinball": 269.2981,
+      "baseline": 338.8847,
+      "pct_improvement": 20.53
+    },
+    {
+      "quantile": 0.5,
+      "label": "p50",
+      "pinball": 394.9466,
+      "baseline": 395.0762,
+      "pct_improvement": 0.03
+    },
+    {
+      "quantile": 0.75,
+      "label": "p75",
+      "pinball": 387.4169,
+      "baseline": 451.2676,
+      "pct_improvement": 14.15
+    }
+  ],
+  "p50_mae": 789.89,
+  "p50_mae_baseline": 790.15,
+  "coverage_pct": 44.88,
+  "mean_range_width": 985.41,
+  "feature_importance": [
+    {
+      "feature": "month",
+      "importance_pct": 54.48
+    },
+    {
+      "feature": "city_median_job_value",
+      "importance_pct": 26.21
+    },
+    {
+      "feature": "city_rejection_rate",
+      "importance_pct": 15.86
+    },
+    {
+      "feature": "lead_source",
+      "importance_pct": 3.45
+    },
+    {
+      "feature": "is_returning_customer",
+      "importance_pct": 0.0
+    },
+    {
+      "feature": "prior_avg_job_value",
+      "importance_pct": 0.0
+    },
+    {
+      "feature": "prior_job_count",
+      "importance_pct": 0.0
+    },
+    {
+      "feature": "season",
+      "importance_pct": 0.0
+    }
+  ],
+  "best_params": {
+    "num_leaves": 26,
+    "learning_rate": 0.010132269774728437,
+    "min_child_samples": 40,
+    "reg_alpha": 0.7660904191714918,
+    "reg_lambda": 0.46240995209235203,
+    "n_estimators": 283
+  }
+}

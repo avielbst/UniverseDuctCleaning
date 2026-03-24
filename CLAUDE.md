@@ -16,21 +16,7 @@ Portfolio project + real deployed product for DS/AI/ML interviews.
 
 ## Current phase
 
-**Phase 2 — LLM Agent** (next)
-
-Two models to build:
-
-| Model | Type | Target | Training data |
-|-------|------|--------|---------------|
-| Upsell classifier | Multi-label classification | Which services bought together in same job | 1,022 jobs with line items (Mar 2025–Mar 2026) |
-| Pricing predictor | Quantile regression | Estimate value range for a given job profile | 419 won estimates |
-
-Done when:
-- [x] Upsell model AUROC > 0.65 on 3+ service labels (time-based split) — 10/10 labels, mean 0.8685
-- [x] Pricing model outputs `{range: [low, high], confidence: medium/low}` — P25/P75 beat baseline; P50 weak (see ml/claude.md)
-- [x] Both models logged in MLflow with features, metrics, training date
-- [x] `predict_upsell(job_profile)` and `predict_price(job_profile)` functions return valid JSON
-- [x] Baseline comparison documented for both models
+**Phase 2 — LLM Agent**
 
 ---
 

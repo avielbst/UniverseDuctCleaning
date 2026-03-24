@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/Scripts/python.exe -m ml.models.pricing.evaluate)",
+      "Bash(.venv/Scripts/python.exe -m ml.models.pricing.predict)"
+    ]
+  }
+}

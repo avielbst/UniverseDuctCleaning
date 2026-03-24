@@ -1,0 +1,26 @@
+{
+  "feature_cols": [
+    "first_service",
+    "lead_source",
+    "is_returning_customer",
+    "prior_job_count",
+    "prior_avg_job_value",
+    "city_median_job_value",
+    "job_amount",
+    "month"
+  ],
+  "labels": [
+    "sanitation disinfectant",
+    "dryer vent cleaning",
+    "air duct deep cleaning",
+    "uv light system and installation",
+    "maintenance air duct cleaning",
+    "dryer vent additional length",
+    "duct encapsulation",
+    "dryer vent cleaning roof unclog",
+    "blower deep cleaning and coil maintenance",
+    "blower cleaning"
+  ],
+  "train_cutoff": "2025-12-01",
+  "trained_at": "2026-03-24T15:21:54.455293+00:00"
+}
